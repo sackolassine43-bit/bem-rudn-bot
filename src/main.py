@@ -11,7 +11,10 @@ from historique import enregistrer_message
 
 async def start(update, context):
     await update.message.reply_text(
-        "🇲🇱 BEM-RUDN 2026-2027\n\nBienvenue.\n\nCommandes :\n/bureau\n/dispo\n/parcours\n/urgence\n/historique"
+        "🇲🇱 BEM-RUDN 2026-2027\n\n"
+        "Bienvenue.\n\n"
+        "Commandes :\n"
+        "/bureau\n/dispo\n/parcours\n/urgence\n/historique"
     )
 
 
@@ -20,24 +23,32 @@ async def gerer_message(update, context):
     nom = update.effective_user.full_name or "Inconnu"
     message = update.message.text
     enregistrer_message(user_id, nom, message)
-    msg = message.lower()
+    msg = message.lower().strip()
     
+    # Vérifier urgences
     for mot in MOTS_URGENCE:
         if mot in msg:
             await reponse_urgence(update)
             return
     
+    # Chercher dans connaissances (fuzzy)
     reponse = trouver_question(msg, CONNAISSANCES)
     if reponse:
         await update.message.reply_text(reponse)
         return
     
+    # Chercher un contact par nom
     for m in MEMBRES:
         if m["nom"].lower() in msg:
-            await update.message.reply_text(f"👤 {m['nom']} — {m['poste']}\n📞 {m['telephone']}")
+            await update.message.reply_text(
+                f"👤 {m['nom']} — {m['poste']}\n📞 {m['telephone']}"
+            )
             return
     
-    await update.message.reply_text("Commande non reconnue. Tape /start.")
+    await update.message.reply_text(
+        "Commande non reconnue.\n"
+        "Tape /start pour voir les commandes."
+    )
 
 
 def main():
