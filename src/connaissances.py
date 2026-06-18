@@ -1002,3 +1002,120 @@ Les procédures sont similaires
 CONNAISSANCES["visa doctorant"] = """🎓 VISA DOCTORANT
 Contactez votre faculté
 et le service migration."""
+
+# ==================== MIGRATION (30 Q&R) ====================
+CONNAISSANCES["enregistrement migration definition"] = """🛂 ENREGISTREMENT MIGRATION
+Obligation de déclarer votre lieu
+de résidence aux autorités russes."""
+
+CONNAISSANCES["enregistrement obligatoire"] = """✅ ENREGISTREMENT OBLIGATOIRE
+Oui, pour tous les étudiants étrangers.
+Sous peine de sanctions."""
+
+CONNAISSANCES["enregistrement qui fait"] = """🏠 QUI FAIT L'ENREGISTREMENT
+Généralement le dortoir ou
+le service compétent de l'université."""
+
+CONNAISSANCES["arrivee moscou migration"] = """🛬 ARRIVÉ À MOSCOU
+Vérifiez rapidement votre situation migratoire.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["retour vacances migration"] = """✈️ RETOUR DE VACANCES
+Un nouvel enregistrement peut être nécessaire.
+Vérifiez auprès du service migration."""
+
+CONNAISSANCES["changement dortoir migration"] = """🏠 CHANGEMENT DORTOIR
+Signalez-le immédiatement
+au service migration."""
+
+CONNAISSANCES["changement adresse migration"] = """📍 CHANGEMENT ADRESSE
+Informez le service concerné
+dès que possible."""
+
+CONNAISSANCES["enregistrement perdu"] = """⚠️ ENREGISTREMENT PERDU
+Contactez BEM-RUDN
+et le service migration."""
+
+CONNAISSANCES["carte migratoire perdue"] = """⚠️ CARTE MIGRATOIRE PERDUE
+Contactez rapidement
+les autorités compétentes."""
+
+CONNAISSANCES["migration delai arrivée"] = """⏳ DÉLAI MIGRATION
+Les démarches doivent être effectuées
+rapidement après l'arrivée."""
+
+CONNAISSANCES["voyager sans enregistrement"] = """✈️ VOYAGER SANS ENREGISTREMENT
+Vérifiez votre situation
+avant tout déplacement."""
+
+CONNAISSANCES["police demande enregistrement"] = """👮 POLICE DEMANDE ENREGISTREMENT
+Présentez les documents disponibles.
+Restez calme."""
+
+CONNAISSANCES["documents garder ou"] = """📄 OÙ GARDER DOCUMENTS
+Originaux en sécurité,
+copies numériques sur téléphone."""
+
+CONNAISSANCES["retour mali documents"] = """🇲🇱 RETOUR AU MALI
+Vérifiez vos documents
+avant le départ."""
+
+CONNAISSANCES["retour mali migration"] = """🇲🇱 RETOUR DU MALI
+Vérifiez les obligations d'enregistrement
+à votre retour."""
+
+CONNAISSANCES["quitter moscou documents"] = """🚇 QUITTER MOSCOU
+Oui, mais gardez toujours
+vos documents avec vous."""
+
+CONNAISSANCES["enregistrement expire bientot"] = """⏰ ENREGISTREMENT EXPIRE
+Anticipez les démarches nécessaires.
+Contactez le service migration."""
+
+CONNAISSANCES["migration prepa"] = """📚 MIGRATION PRÉPA
+Les règles migratoires s'appliquent
+également aux étudiants en prépa."""
+
+CONNAISSANCES["migration licence"] = """🎓 MIGRATION LICENCE
+Respectez toujours
+les obligations migratoires."""
+
+CONNAISSANCES["migration master"] = """🎓 MIGRATION MASTER
+Gardez vos documents à jour
+en permanence."""
+
+CONNAISSANCES["migration doctorant"] = """🎓 MIGRATION DOCTORANT
+Vérifiez régulièrement
+votre dossier migratoire."""
+
+CONNAISSANCES["migration changement passeport"] = """🛂 CHANGEMENT PASSEPORT
+Informez le service migration
+de votre nouveau passeport."""
+
+CONNAISSANCES["migration changement visa"] = """🛂 CHANGEMENT VISA
+Vérifiez si des mises à jour
+sont nécessaires."""
+
+CONNAISSANCES["migration erreur document"] = """⚠️ ERREUR DOCUMENT
+Signalez-la immédiatement
+au service migration."""
+
+CONNAISSANCES["migration ne comprends pas"] = """❓ DÉMARCHES MIGRATION
+Demandez de l'aide à BEM-RUDN.
+Nous vous expliquerons."""
+
+CONNAISSANCES["migration avertissement"] = """⚠️ AVERTISSEMENT MIGRATION
+Contactez rapidement BEM-RUDN.
+Ne restez pas sans réponse."""
+
+CONNAISSANCES["migration sanction"] = """⚠️ SANCTION MIGRATION
+Oui, les obligations migratoires
+doivent être respectées."""
+
+CONNAISSANCES["migration quels documents"] = """📄 DOCUMENTS MIGRATION
+Passeport, visa, carte migratoire
+et enregistrement."""
+
+CONNAISSANCES["migration aide urgente"] = """🚨 AIDE URGENTE MIGRATION
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
