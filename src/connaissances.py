@@ -5357,3 +5357,42 @@ rencontrez d'autres étudiants."""
 CONNAISSANCES["moral conseil"] = """💡 CONSEIL MORAL
 Ne gardez jamais un problème
 important pour vous seul."""
+CONNAISSANCES["procedure sim"] = """📱 PROCÉDURE CARTE SIM
+1. SNILS au MFC (gratuit)
+2. Compte Gosuslugi
+3. Biométrie en banque agréée
+4. Acheter SIM chez MTS, Beeline, MegaFon ou Tele2
+5. Enregistrer IMEI du téléphone"""
+
+CONNAISSANCES["acheter sim"] = """📱 ACHETER SIM
+1. SNILS au MFC
+2. Gosuslugi
+3. Biométrie
+4. MTS, Beeline, MegaFon, Tele2
+5. IMEI"""
+
+CONNAISSANCES["je veux dortoir"] = """🏠 DORTOIR
+Contactez le service hébergement : accomodation@rudn.ru
++7 (499) 936-87-64
+Ou contactez BEM-RUDN pour être accompagné."""
+
+CONNAISSANCES["je veux sim"] = """📱 CARTE SIM
+1. SNILS au MFC
+2. Compte Gosuslugi
+3. Biométrie en banque
+4. Opérateur : MTS, Beeline, MegaFon, Tele2"""
+
+CONNAISSANCES["je veux visa"] = """🛂 VISA
+Contactez le service migration RUDN
+45 jours avant expiration.
+Documents : passeport, visa, carte migratoire, photos."""
+
+CONNAISSANCES["je veux banque"] = """💳 BANQUE
+Sberbank sur le campus RUDN.
+Passeport + migration + SIM activée + carte étudiante.
+Demande la carte MIR."""
+
+CONNAISSANCES["comment avoir sim"] = CONNAISSANCES["procedure sim"]
+CONNAISSANCES["comment avoir visa"] = CONNAISSANCES["visa"]
+CONNAISSANCES["comment avoir dortoir"] = CONNAISSANCES["dortoir"]
+CONNAISSANCES["comment avoir banque"] = CONNAISSANCES["banque"]

@@ -443,3 +443,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Remplacer la fonction chercher_contact par celle-ci :
+
+def chercher_contact(message):
+    message = message.lower()
+    # Chercher d'abord correspondance exacte
+    for tel, infos in MEMBRES_BUREAU.items():
+        if infos["nom"].lower() in message:
+            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
+    # Chercher sans accents
+    import unicodedata
+    message_clean = ''.join(c for c in unicodedata.normalize('NFD', message) if unicodedata.category(c) != 'Mn')
+    for tel, infos in MEMBRES_BUREAU.items():
+        nom_clean = ''.join(c for c in unicodedata.normalize('NFD', infos["nom"].lower()) if unicodedata.category(c) != 'Mn')
+        if nom_clean in message_clean:
+            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
+    return None

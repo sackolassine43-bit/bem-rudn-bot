@@ -6,7 +6,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8833102523:AAH4MnVi4vyN46xmwAFOOe9dfKfToT-t2Yw")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "data/bem_rudn.db")
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "Lassine223")
-FUZZY_THRESHOLD = int(os.getenv("FUZZY_THRESHOLD", "55"))
+FUZZY_THRESHOLD = 55
 
 VP_ID = "+79912435421"
 PRESIDENT_ID = "+79912697921"
