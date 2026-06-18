@@ -3541,3 +3541,118 @@ BEM-RUDN peut vous aider."""
 CONNAISSANCES["perdu applications"] = """❓ PERDU APPLICATIONS
 Contactez BEM-RUDN pour
 être accompagné."""
+
+# ==================== FIN D'ÉTUDES / DIPLÔME (30 Q&R) ====================
+CONNAISSANCES["fin etudes"] = """🎓 FIN ÉTUDES
+Félicitations ! Vérifiez vos documents
+avant de quitter l'université."""
+
+CONNAISSANCES["obtenir diplome"] = """🎓 OBTENIR DIPLÔME
+Contactez votre faculté pour
+connaître la procédure."""
+
+CONNAISSANCES["diplome pas pret"] = """⏳ DIPLÔME PAS PRÊT
+Contactez le secrétariat
+de votre faculté."""
+
+CONNAISSANCES["diplome recuperer plus tard"] = """🎓 RÉCUPÉRER DIPLÔME TARD
+Vérifiez les modalités
+auprès de la faculté."""
+
+CONNAISSANCES["diplome perdu"] = """⚠️ DIPLÔME PERDU
+Contactez l'université pour
+demander un duplicata."""
+
+CONNAISSANCES["releve notes obtenir"] = """📋 RELEVÉ NOTES
+Faites la demande auprès
+de votre faculté."""
+
+CONNAISSANCES["copie certifiee"] = """📄 COPIE CERTIFIÉE
+Contactez la faculté ou
+le service compétent."""
+
+CONNAISSANCES["diplome reconnaissance mali"] = """🇲🇱 RECONNAISSANCE DIPLÔME MALI
+Renseignez-vous auprès des
+autorités compétentes."""
+
+CONNAISSANCES["diplome legaliser"] = """📄 LÉGALISER DIPLÔME
+Vérifiez les exigences du pays
+où vous utiliserez le document."""
+
+CONNAISSANCES["attestation fin etudes"] = """📋 ATTESTATION FIN ÉTUDES
+Adressez-vous à votre faculté."""
+
+CONNAISSANCES["cherche stage"] = """💼 CHERCHE STAGE
+Contactez votre faculté
+et BEM-RUDN."""
+
+CONNAISSANCES["stage obligatoire"] = """💼 STAGE OBLIGATOIRE
+Cela dépend de votre programme."""
+
+CONNAISSANCES["trouver entreprise"] = """🏢 TROUVER ENTREPRISE
+Consultez les offres et
+les contacts universitaires."""
+
+CONNAISSANCES["stage pendant etudes"] = """💼 STAGE PENDANT ÉTUDES
+Oui, selon les règles
+de votre programme."""
+
+CONNAISSANCES["emploi apres diplome"] = """💼 EMPLOI APRÈS DIPLÔME
+Préparez votre CV et
+développez votre réseau."""
+
+CONNAISSANCES["rediger cv"] = """📝 RÉDIGER CV
+Mettez en avant études,
+compétences et expériences."""
+
+CONNAISSANCES["preparer entretien"] = """🗣️ PRÉPARER ENTRETIEN
+Préparez vos réponses et
+renseignez-vous sur l'entreprise."""
+
+CONNAISSANCES["rester russie apres etudes"] = """🇷🇺 RESTER RUSSIE APRÈS ÉTUDES
+Vérifiez les règles migratoires
+applicables à votre situation."""
+
+CONNAISSANCES["poursuivre master"] = """🎓 POURSUIVRE MASTER
+Préparez votre dossier académique."""
+
+CONNAISSANCES["poursuivre doctorat"] = """🎓 POURSUIVRE DOCTORAT
+Contactez les facultés concernées."""
+
+CONNAISSANCES["retourner mali apres"] = """🇲🇱 RETOURNER MALI
+Vérifiez passeport, visa et
+documents universitaires."""
+
+CONNAISSANCES["travailler apres diplome"] = """💼 TRAVAILLER APRÈS DIPLÔME
+Vérifiez les règles de séjour
+et de travail."""
+
+CONNAISSANCES["conseils professionnels"] = """💼 CONSEILS PROFESSIONNELS
+Contactez votre faculté
+et BEM-RUDN."""
+
+CONNAISSANCES["creer entreprise"] = """🏢 CRÉER ENTREPRISE
+Renseignez-vous sur les
+procédures légales."""
+
+CONNAISSANCES["cherche anciens etudiants"] = """👥 ANCIENS ÉTUDIANTS
+Contactez BEM-RUDN et les
+réseaux d'anciens."""
+
+CONNAISSANCES["rester contact communaute"] = """👥 RESTER EN CONTACT
+Rejoignez les groupes
+d'anciens étudiants."""
+
+CONNAISSANCES["fin etudes qui aider"] = """📞 AIDE FIN ÉTUDES
+BEM-RUDN et votre faculté."""
+
+CONNAISSANCES["fin etudes perdu"] = """❓ PERDU FIN ÉTUDES
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["apres diplome ne sais pas"] = """❓ APRÈS DIPLÔME
+Contactez votre faculté
+et demandez conseil."""
+
+CONNAISSANCES["fin etudes premiere etape"] = """🎯 PREMIÈRE ÉTAPE FIN ÉTUDES
+Récupérer tous vos
+documents universitaires."""
