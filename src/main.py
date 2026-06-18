@@ -436,26 +436,44 @@ async def notifier_membre_disponible(update, context, question):
 
 # ==================== NOTIFICATION MEMBRE DISPONIBLE ====================
 async def notifier_membre_disponible(update, context, question):
+    utilisateur = update.effective_user
     membres_dispos = fetchall(
-        "SELECT nom, telegram_id FROM membres WHERE disponibilite='disponible' LIMIT 1"
+        "SELECT nom, telephone, username FROM membres WHERE disponibilite='disponible' LIMIT 1"
     )
     
     if membres_dispos:
-        nom, telegram_id = membres_dispos[0]
-        if telegram_id:
+        nom, tel, username = membres_dispos[0]
+        # Essayer d'envoyer via username Telegram
+        if username and username.startswith("@"):
             try:
                 await context.bot.send_message(
-                    chat_id=telegram_id,
-                    text=f"📨 Question d'un étudiant :\n\n{question}\n\n📌 Répondre : /repondre"
+                    chat_id=username,
+                    text=f"📨 Question d'un étudiant :\n\n{question}\n\n📌 Utilisez /repondre pour répondre"
                 )
                 await update.message.reply_text(
                     "📨 Votre question a été transmise à un membre disponible du bureau.\n"
-                    "⏳ Vous recevrez une réponse bientôt."
+                    f"👤 {nom} va vous répondre.\n⏳ Merci de patienter."
                 )
                 return
             except:
                 pass
+        
+        # Fallback : envoyer au VP
+        try:
+            await context.bot.send_message(
+                chat_id="@Lassine223",
+                text=f"📨 Question sans réponse (membre dispo: {nom}, tel: {tel}):\n\n{question}"
+            )
+            await update.message.reply_text(
+                "📨 Votre question a été transmise au bureau.\n"
+                "⏳ Vous recevrez une réponse bientôt.\n\n"
+                "📞 Urgence : +79912435421"
+            )
+            return
+        except:
+            pass
     
+    # Si rien ne marche
     await update.message.reply_text(
         "❌ Aucun membre du bureau n'est disponible actuellement.\n\n"
         "📞 Contactez directement le Vice-Président :\n"
