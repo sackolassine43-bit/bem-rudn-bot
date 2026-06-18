@@ -4810,3 +4810,80 @@ au propriétaire."""
 
 CONNAISSANCES["appartement qui aider"] = """📞 AIDE APPARTEMENT
 BEM-RUDN peut vous orienter."""
+
+# ==================== VOYAGES (20 Q&R) ====================
+CONNAISSANCES["voyager russie"] = """✈️ VOYAGER RUSSIE
+Oui, avec vos documents en règle."""
+
+CONNAISSANCES["visiter saint petersbourg"] = """🏛️ SAINT-PÉTERSBOURG
+Oui, avec votre passeport
+et vos documents."""
+
+CONNAISSANCES["prendre train russie"] = """🚂 PRENDRE TRAIN
+Oui, avec une pièce d'identité
+valide."""
+
+CONNAISSANCES["prendre avion russie"] = """✈️ PRENDRE AVION
+Oui, avec les documents requis."""
+
+CONNAISSANCES["quitter russie"] = """✈️ QUITTER RUSSIE
+Vérifiez votre visa avant
+tout voyage."""
+
+CONNAISSANCES["revenir russie voyage"] = """✈️ REVENIR RUSSIE
+Vérifiez la validité
+de votre visa."""
+
+CONNAISSANCES["voyager mali vacances"] = """🇲🇱 VOYAGE MALI VACANCES
+Vérifiez vos documents
+avant le départ."""
+
+CONNAISSANCES["revenir mali voyage"] = """🇲🇱 REVENIR MALI
+Vérifiez les règles d'entrée
+et d'enregistrement."""
+
+CONNAISSANCES["visa expire voyage"] = """⚠️ VISA EXPIRE VOYAGE
+Contactez immédiatement
+le service migration."""
+
+CONNAISSANCES["voyage documents emporter"] = """📄 DOCUMENTS VOYAGE
+Passeport, visa, carte migratoire
+et enregistrement."""
+
+CONNAISSANCES["voyage documents perdus"] = """⚠️ DOCUMENTS PERDUS VOYAGE
+Contactez les autorités compétentes
+et BEM-RUDN."""
+
+CONNAISSANCES["voyager seul"] = """✈️ VOYAGER SEUL
+Oui."""
+
+CONNAISSANCES["visiter autre ville"] = """🏙️ VISITER AUTRE VILLE
+Vérifiez transport, logement
+et documents."""
+
+CONNAISSANCES["voyager europe"] = """✈️ VOYAGER EUROPE
+Vérifiez les exigences de visa
+du pays concerné."""
+
+CONNAISSANCES["billet avion chercher"] = """🎫 BILLET AVION
+Comparez les offres
+avant d'acheter."""
+
+CONNAISSANCES["billet avion quand acheter"] = """🎫 QUAND ACHETER BILLET
+Le plus tôt possible pour
+de meilleurs prix."""
+
+CONNAISSANCES["vol rate"] = """✈️ VOL RATÉ
+Contactez la compagnie aérienne."""
+
+CONNAISSANCES["vol annule"] = """✈️ VOL ANNULÉ
+Contactez immédiatement
+la compagnie."""
+
+CONNAISSANCES["voyage qui aider"] = """📞 AIDE VOYAGE
+BEM-RUDN et les services
+compétents."""
+
+CONNAISSANCES["voyage conseil"] = """💡 CONSEIL VOYAGE
+Vérifiez toujours vos documents
+avant de voyager."""
