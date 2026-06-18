@@ -4283,3 +4283,115 @@ et BEM-RUDN."""
 CONNAISSANCES["memoire perdu"] = """❓ PERDU MÉMOIRE
 Contactez votre faculté
 ou BEM-RUDN."""
+
+# ==================== SPORT (30 Q&R) ====================
+CONNAISSANCES["sport salle rudn"] = """⚽ SALLE SPORT RUDN
+Oui, plusieurs installations sportives
+accessibles aux étudiants."""
+
+CONNAISSANCES["sport ou faire"] = """⚽ OÙ FAIRE SPORT
+Terrains, gymnases et installations
+du campus."""
+
+CONNAISSANCES["sport football"] = """⚽ FOOTBALL
+Oui, plusieurs terrains sont
+disponibles."""
+
+CONNAISSANCES["sport equipe football"] = """⚽ ÉQUIPE FOOTBALL
+Contactez le responsable Sport
+du BEM-RUDN : Sangaré Issiaka."""
+
+CONNAISSANCES["sport basket"] = """🏀 BASKET
+Oui, selon les installations
+disponibles."""
+
+CONNAISSANCES["sport volleyball"] = """🏐 VOLLEYBALL
+Oui."""
+
+CONNAISSANCES["sport musculation"] = """💪 MUSCULATION
+Oui, dans les espaces prévus."""
+
+CONNAISSANCES["sport acces gymnase"] = """🏋️ ACCÈS GYMNASE
+Vérifiez les règles d'accès
+auprès de l'université."""
+
+CONNAISSANCES["sport gratuit"] = """💰 SPORT GRATUIT
+Certaines activités sont gratuites
+pour les étudiants."""
+
+CONNAISSANCES["sport competitions"] = """🏆 COMPÉTITIONS SPORT
+Oui, des tournois universitaires
+sont organisés."""
+
+CONNAISSANCES["sport representer rudn"] = """🏆 REPRÉSENTER RUDN
+Contactez le service des sports."""
+
+CONNAISSANCES["sport tournoi participer"] = """🏆 PARTICIPER TOURNOI
+Renseignez-vous auprès
+des organisateurs."""
+
+CONNAISSANCES["sport debutant"] = """🆕 SPORT DÉBUTANT
+Toutes les activités sont
+ouvertes aux étudiants."""
+
+CONNAISSANCES["sport jogging"] = """🏃 JOGGING
+Campus et parcs de Moscou."""
+
+CONNAISSANCES["sport perdre poids"] = """⚖️ PERTE POIDS
+Activité régulière +
+alimentation équilibrée."""
+
+CONNAISSANCES["sport prendre masse"] = """💪 PRISE MASSE
+Entraînement + bonne nutrition."""
+
+CONNAISSANCES["sport blesse"] = """⚠️ BLESSÉ SPORT
+Consultez un médecin avant
+de reprendre le sport."""
+
+CONNAISSANCES["sport partenaires"] = """👥 PARTENAIRES SPORT
+Contactez les groupes étudiants."""
+
+CONNAISSANCES["sport echecs"] = """♟️ ÉCHECS
+Renseignez-vous sur les
+clubs étudiants."""
+
+CONNAISSANCES["sport arts martiaux"] = """🥋 ARTS MARTIAUX
+Des clubs existent selon
+les années."""
+
+CONNAISSANCES["sport tennis"] = """🎾 TENNIS
+Vérifiez les installations
+disponibles."""
+
+CONNAISSANCES["sport natation"] = """🏊 NATATION
+Vérifiez les infrastructures
+accessibles aux étudiants."""
+
+CONNAISSANCES["sport organiser tournoi"] = """🏆 ORGANISER TOURNOI
+Contactez le responsable Sport
+du BEM-RUDN."""
+
+CONNAISSANCES["sport responsable bem"] = """⚽ RESPONSABLE SPORT BEM
+Sangaré Issiaka."""
+
+CONNAISSANCES["sport adjoint bem"] = """⚽ ADJOINT SPORT BEM
+Togola Boubacar A."""
+
+CONNAISSANCES["sport importance"] = """⚽ IMPORTANCE SPORT
+Oui, pour la santé physique
+et mentale."""
+
+CONNAISSANCES["sport stresse"] = """😰 STRESSÉ
+L'activité physique peut aider
+à réduire le stress."""
+
+CONNAISSANCES["sport nouveau"] = """🆕 SPORT NOUVEAU
+Rejoignez une activité pour
+rencontrer d'autres étudiants."""
+
+CONNAISSANCES["sport qui contacter"] = """📞 SPORT QUI CONTACTER
+Responsable Sport ou BEM-RUDN."""
+
+CONNAISSANCES["sport ou commencer"] = """❓ SPORT COMMENCER
+Contactez BEM-RUDN pour
+être orienté."""
