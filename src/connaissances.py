@@ -921,3 +921,84 @@ QUESTIONS_REPONSES = {
     "Je ne sais pas quoi faire": "Contactez BEM-RUDN. Nous vous orienterons.",
     "J'ai besoin d'aide urgente": "Contactez immédiatement BEM-RUDN. 📞 +79912435421",
 }
+
+# ==================== VISA (20 Q&R) ====================
+CONNAISSANCES["visa expire bientot"] = """⚠️ VISA EXPIRE BIENTÔT
+Commencez le renouvellement 45 jours avant.
+Contactez BEM-RUDN et le service migration."""
+
+CONNAISSANCES["visa renouveler comment"] = """🛂 RENOUVELER VISA
+Passeport, visa, carte migratoire,
+enregistrement, photos, documents universitaires."""
+
+CONNAISSANCES["visa finit demain"] = """🚨 VISA FINIT DEMAIN
+Contactez immédiatement BEM-RUDN
+et le service migration. N'attendez pas."""
+
+CONNAISSANCES["visa expire urgence"] = """🚨 VISA EXPIRÉ
+Situation urgente.
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["visa prepa expire"] = """🎓 VISA PRÉPA EXPIRE
+Contactez votre faculté préparatoire
+et BEM-RUDN."""
+
+CONNAISSANCES["visa perdu"] = """🛂 VISA PERDU
+Contactez la police, BEM-RUDN
+et le service migration."""
+
+CONNAISSANCES["visa ou renouveler"] = """📍 OÙ RENOUVELER VISA
+Au service migration de la RUDN
+selon les procédures en vigueur."""
+
+CONNAISSANCES["visa combien temps avant"] = """⏳ RENOUVELLEMENT VISA
+Environ 45 jours avant l'expiration.
+Anticipez les démarches."""
+
+CONNAISSANCES["visa quels documents"] = """📄 DOCUMENTS VISA
+Passeport, visa, enregistrement,
+carte migratoire, photos."""
+
+CONNAISSANCES["visa voyager expire"] = """✈️ VOYAGER AVEC VISA PRESQUE EXPIRÉ
+Vérifiez votre situation auprès
+du service migration avant tout voyage."""
+
+CONNAISSANCES["visa passeport expire"] = """🛂 PASSEPORT EXPIRE
+Renouvelez votre passeport
+avant de renouveler le visa."""
+
+CONNAISSANCES["visa arrive recemment"] = """🆕 ARRIVÉ RÉCEMMENT
+Vérifiez immédiatement la durée
+de validité de votre visa."""
+
+CONNAISSANCES["visa qui contacter"] = """📞 QUI CONTACTER
+Contactez d'abord BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["visa procedure incomprise"] = """❓ PROCÉDURE VISA
+BEM-RUDN peut vous orienter
+étape par étape."""
+
+CONNAISSANCES["visa renouveler seul"] = """✅ RENOUVELER SEUL
+Oui, mais il est recommandé
+de demander conseil à BEM-RUDN."""
+
+CONNAISSANCES["visa changement passeport"] = """🛂 CHANGEMENT PASSEPORT
+Informez le service migration
+de votre nouveau passeport."""
+
+CONNAISSANCES["visa changement faculte"] = """🎓 CHANGEMENT FACULTÉ
+Vérifiez si cela impacte
+votre dossier migration."""
+
+CONNAISSANCES["visa licence"] = """🎓 VISA LICENCE
+Suivez les instructions
+du service migration."""
+
+CONNAISSANCES["visa master"] = """🎓 VISA MASTER
+Les procédures sont similaires
+à celles de la Licence."""
+
+CONNAISSANCES["visa doctorant"] = """🎓 VISA DOCTORANT
+Contactez votre faculté
+et le service migration."""
