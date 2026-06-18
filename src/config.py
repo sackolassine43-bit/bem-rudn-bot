@@ -5,10 +5,30 @@ load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8833102523:AAH4MnVi4vyN46xmwAFOOe9dfKfToT-t2Yw")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "data/bem_rudn.db")
-
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "Lassine223")
+FUZZY_THRESHOLD = int(os.getenv("FUZZY_THRESHOLD", "55"))
+
 VP_ID = "+79912435421"
 PRESIDENT_ID = "+79912697921"
+
+MEMBRES_BUREAU = {
+    "+79912697921": {"nom": "Keita Dade", "poste": "Président", "pole": "Direction", "role": "president", "telegram": ""},
+    "+79912435421": {"nom": "Sacko Lassine", "poste": "Vice-Président", "pole": "Direction", "role": "vice_president", "telegram": "@Lassine223"},
+    "+79918834425": {"nom": "Dembelé Modibo", "poste": "Responsable", "pole": "Administration", "role": "responsable", "telegram": ""},
+    "+79161270804": {"nom": "Sangaré Ousmane", "poste": "Adjoint", "pole": "Administration", "role": "adjoint", "telegram": ""},
+    "+79164452921": {"nom": "Traoré Astan B", "poste": "Responsable", "pole": "Organisation", "role": "responsable", "telegram": ""},
+    "+79303376326": {"nom": "Doumbia Awa", "poste": "Adjointe", "pole": "Organisation", "role": "adjoint", "telegram": ""},
+    "+79569695061": {"nom": "Doumbia Coumba A", "poste": "Responsable", "pole": "Communication", "role": "responsable", "telegram": ""},
+    "+79851981117": {"nom": "Keita Fanta S", "poste": "Adjointe", "pole": "Communication", "role": "adjoint", "telegram": ""},
+    "+79205714407": {"nom": "Thiero Hadja M", "poste": "Responsable", "pole": "Finance", "role": "responsable", "telegram": ""},
+    "+79919204029": {"nom": "Djiguiba Ousmane", "poste": "Adjoint", "pole": "Finance", "role": "adjoint", "telegram": ""},
+    "+79997120179": {"nom": "Diarra Moussa K", "poste": "Responsable", "pole": "Culture", "role": "responsable", "telegram": ""},
+    "+79015976094": {"nom": "Touré Mohamed A", "poste": "Adjoint", "pole": "Culture", "role": "adjoint", "telegram": ""},
+    "+79773724269": {"nom": "Fané Abdoulaye", "poste": "Responsable", "pole": "Éducation", "role": "responsable", "telegram": ""},
+    "+79694763734": {"nom": "Sidibé Habou", "poste": "Adjoint", "pole": "Éducation", "role": "adjoint", "telegram": ""},
+    "+79999668502": {"nom": "Sangaré Issiaka", "poste": "Responsable", "pole": "Sport", "role": "responsable", "telegram": ""},
+    "+79996747933": {"nom": "Togola Boubacar A", "poste": "Adjoint", "pole": "Sport", "role": "adjoint", "telegram": ""},
+}
 
 RUDN_INFO = {
     "universite": "RUDN University",
@@ -49,6 +69,5 @@ URGENCES = {
 }
 
 ETATS_DISPONIBILITE = ["disponible", "occupé", "absent"]
-FUZZY_THRESHOLD = 60
 VERSION = "1.0.0"
 PROJECT_NAME = "BEM-RUDN BOT"
