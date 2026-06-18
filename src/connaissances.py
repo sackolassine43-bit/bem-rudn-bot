@@ -4062,3 +4062,114 @@ vos mots de passe."""
 CONNAISSANCES["informatique qui aider"] = """💻 AIDE INFORMATIQUE QUI
 BEM-RUDN ou le support
 informatique de l'université."""
+
+# ==================== COLIS / ACHATS EN LIGNE (30 Q&R) ====================
+CONNAISSANCES["colis recevoir russie"] = """📦 RECEVOIR COLIS RUSSIE
+Utilisez une adresse valide
+ou un point relais."""
+
+CONNAISSANCES["colis recuperer ou"] = """📦 RÉCUPÉRER COLIS
+Dans le point relais indiqué
+lors de la commande."""
+
+CONNAISSANCES["ozon definition"] = """🛍️ OZON
+Grande plateforme d'achats
+en ligne en Russie."""
+
+CONNAISSANCES["wildberries definition"] = """🛍️ WILDBERRIES
+Plateforme populaire de
+commerce en ligne."""
+
+CONNAISSANCES["ozon commander"] = """🛍️ COMMANDER OZON
+Créez un compte et choisissez
+un point de livraison."""
+
+CONNAISSANCES["wildberries commander"] = """🛍️ COMMANDER WILDBERRIES
+Créez un compte et sélectionnez
+un point de retrait."""
+
+CONNAISSANCES["colis payer livraison"] = """💳 PAYER LIVRAISON
+Cela dépend du vendeur
+et du service."""
+
+CONNAISSANCES["colis payer carte"] = """💳 PAYER CARTE COLIS
+Oui, dans la plupart des cas."""
+
+CONNAISSANCES["colis retard"] = """⏳ COLIS RETARD
+Vérifiez le suivi de la commande."""
+
+CONNAISSANCES["colis non recu"] = """⚠️ COLIS NON REÇU
+Contactez le service client
+de la plateforme."""
+
+CONNAISSANCES["colis perdu"] = """⚠️ COLIS PERDU
+Ouvrez une réclamation
+auprès du vendeur."""
+
+CONNAISSANCES["colis suivre"] = """📦 SUIVRE COLIS
+Utilisez le numéro de suivi."""
+
+CONNAISSANCES["colis mauvais article"] = """⚠️ MAUVAIS ARTICLE
+Contactez immédiatement le vendeur."""
+
+CONNAISSANCES["colis retourner"] = """🔄 RETOURNER ARTICLE
+Utilisez la procédure de retour
+de la plateforme."""
+
+CONNAISSANCES["colis delai livraison"] = """⏳ DÉLAI LIVRAISON
+Cela dépend du vendeur
+et de la région."""
+
+CONNAISSANCES["colis commander dortoir"] = """📦 COMMANDER DORTOIR
+Oui, si l'adresse est
+correctement indiquée."""
+
+CONNAISSANCES["ozon acheter quoi"] = """🛍️ ACHETER OZON
+Livres, vêtements, électronique
+et fournitures."""
+
+CONNAISSANCES["wildberries acheter quoi"] = """🛍️ ACHETER WILDBERRIES
+Vêtements, chaussures,
+accessoires et plus."""
+
+CONNAISSANCES["point relais trouver"] = """📍 POINT RELAIS
+Utilisez la carte intégrée
+de l'application."""
+
+CONNAISSANCES["commander livres"] = """📚 COMMANDER LIVRES
+Oui."""
+
+CONNAISSANCES["commander ordinateur"] = """💻 COMMANDER ORDINATEUR
+Oui."""
+
+CONNAISSANCES["commander vetements hiver"] = """🧥 COMMANDER VÊTEMENTS HIVER
+Oui, c'est très courant."""
+
+CONNAISSANCES["commander valise"] = """🧳 COMMANDER VALISE
+Oui."""
+
+CONNAISSANCES["commander chargeur"] = """🔌 COMMANDER CHARGEUR
+Oui, en ligne."""
+
+CONNAISSANCES["commander adaptateur"] = """🔌 COMMANDER ADAPTATEUR
+Disponible sur Ozon et Wildberries."""
+
+CONNAISSANCES["application commande incomprise"] = """❓ APP COMMANDE INCOMPRISE
+Utilisez la traduction automatique
+ou contactez BEM-RUDN."""
+
+CONNAISSANCES["economiser achats"] = """💰 ÉCONOMISER ACHATS
+Comparez les prix et
+surveillez les promotions."""
+
+CONNAISSANCES["achats qui aider"] = """🛍️ AIDE ACHATS
+Étudiants expérimentés
+et BEM-RUDN."""
+
+CONNAISSANCES["achats nouveau"] = """🆕 ACHATS NOUVEAU
+Demandez conseil avant
+votre première commande."""
+
+CONNAISSANCES["plateforme plus utilisee"] = """🛍️ PLATEFORME POPULAIRE
+Ozon et Wildberries sont les
+plus utilisées par les étudiants."""
