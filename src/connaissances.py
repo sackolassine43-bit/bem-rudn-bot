@@ -3319,3 +3319,114 @@ autorités compétentes."""
 CONNAISSANCES["reponse introuvable"] = """❓ RÉPONSE INTROUVABLE
 Contactez directement BEM-RUDN.
 📞 +79912435421"""
+
+# ==================== APPLICATIONS / NUMÉRIQUE (30 Q&R) ====================
+CONNAISSANCES["application cartes"] = """🗺️ APPLICATION CARTES
+Yandex Maps est très utilisée
+en Russie."""
+
+CONNAISSANCES["application taxi"] = """🚖 APPLICATION TAXI
+Yandex Go."""
+
+CONNAISSANCES["application transports"] = """🚇 APPLICATION TRANSPORTS
+Yandex Maps et applications
+de transport locales."""
+
+CONNAISSANCES["commander manger"] = """🍽️ COMMANDER MANGER
+Utilisez les applications de
+livraison disponibles (Yandex Eats)."""
+
+CONNAISSANCES["commander courses"] = """🛒 COMMANDER COURSES
+Services de livraison de supermarchés."""
+
+CONNAISSANCES["colis recevoir app"] = """📦 RECEVOIR COLIS
+Utilisez les points relais (Ozon, Wildberries)."""
+
+CONNAISSANCES["gosuslugi app"] = """💻 GOSUSLUGI
+Portail des services publics russes.
+Obligatoire pour certaines démarches."""
+
+CONNAISSANCES["gosuslugi besoin"] = """💻 BESOIN GOSUSLUGI
+Certaines démarches peuvent l'exiger
+(SIM, services publics)."""
+
+CONNAISSANCES["gosuslugi creer compte"] = """💻 CRÉER COMPTE GOSUSLUGI
+Suivez la procédure officielle et
+demandez de l'aide si nécessaire."""
+
+CONNAISSANCES["traduire russe"] = """🗣️ TRADUIRE RUSSE
+Utilisez un traducteur fiable
+(Google Traduction, Yandex Translate)."""
+
+CONNAISSANCES["application traduction"] = """🗣️ APPLICATION TRADUCTION
+Google Traduction ou Yandex Translate."""
+
+CONNAISSANCES["apprendre russe app"] = """📖 APPRENDRE RUSSE APP
+Pratique quotidienne et applications
+linguistiques (Duolingo, Memrise)."""
+
+CONNAISSANCES["application russe"] = """📖 APPLICATION RUSSE
+Duolingo, Memrise ou autres
+applications éducatives."""
+
+CONNAISSANCES["suivre etudes"] = """📚 SUIVRE ÉTUDES
+Consultez les plateformes
+de votre faculté."""
+
+CONNAISSANCES["recevoir annonces"] = """📢 RECEVOIR ANNONCES
+Consultez les canaux officiels
+de l'université."""
+
+CONNAISSANCES["rejoindre groupe etudiant"] = """👥 REJOINDRE GROUPE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["telephone casse"] = """📱 TÉLÉPHONE CASSÉ
+Faites-le réparer dans
+un centre agréé."""
+
+CONNAISSANCES["ordinateur panne"] = """💻 ORDINATEUR PANNE
+Contactez un centre de réparation."""
+
+CONNAISSANCES["mot passe oublie"] = """🔑 MOT PASSE OUBLIÉ
+Utilisez la procédure officielle
+de récupération."""
+
+CONNAISSANCES["compte bloque"] = """⚠️ COMPTE BLOQUÉ
+Contactez le support concerné."""
+
+CONNAISSANCES["messages suspects"] = """⚠️ MESSAGES SUSPECTS
+Ne cliquez sur aucun lien suspect."""
+
+CONNAISSANCES["proteger donnees"] = """🔐 PROTÉGER DONNÉES
+Utilisez des mots de passe forts."""
+
+CONNAISSANCES["sauvegarder documents"] = """☁️ SAUVEGARDER DOCUMENTS
+Oui, sur Google Drive ou
+autre service sécurisé."""
+
+CONNAISSANCES["stocker documents"] = """☁️ STOCKER DOCUMENTS
+Dans le cloud et sur
+votre téléphone."""
+
+CONNAISSANCES["scanner documents"] = """📱 SCANNER DOCUMENTS
+Oui, avant le départ
+et après l'arrivée."""
+
+CONNAISSANCES["scanner quels documents"] = """📱 QUELS DOCUMENTS SCANNER
+Passeport, visa, diplômes,
+attestations et assurance."""
+
+CONNAISSANCES["email fonctionne pas"] = """📧 EMAIL NE FONCTIONNE PAS
+Vérifiez votre accès ou
+contactez le support."""
+
+CONNAISSANCES["contacter universite email"] = """📧 CONTACTER UNIVERSITÉ
+Utilisez les emails officiels
+(intstudent@rudn.ru)."""
+
+CONNAISSANCES["aide outils numeriques"] = """💻 AIDE NUMÉRIQUE
+BEM-RUDN peut vous aider."""
+
+CONNAISSANCES["perdu applications"] = """❓ PERDU APPLICATIONS
+Contactez BEM-RUDN pour
+être accompagné."""
