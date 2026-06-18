@@ -5004,3 +5004,107 @@ obtenir des conseils."""
 CONNAISSANCES["apres priorite"] = """🎯 PRIORITÉ APRÈS
 Régulariser votre situation
 administrative et professionnelle."""
+
+# ==================== SALUTATIONS / DIVERS (30 Q&R) ====================
+CONNAISSANCES["bonjour"] = """👋 Bonjour !
+Bienvenue sur BEM-RUDN Assistant.
+Tapez un mot-clé ou décrivez votre situation."""
+
+CONNAISSANCES["salut"] = """👋 Salut !
+Comment puis-je vous aider ?"""
+
+CONNAISSANCES["merci"] = """😊 Avec plaisir !"""
+
+CONNAISSANCES["merci beaucoup"] = """😊 Je vous en prie."""
+
+CONNAISSANCES["qui es tu"] = """🤖 Je suis l'assistant officiel
+du BEM-RUDN."""
+
+CONNAISSANCES["que peux tu faire"] = """🤖 Je peux aider sur :
+études, visas, dortoirs, santé,
+transport et démarches administratives."""
+
+CONNAISSANCES["perdu"] = """❓ PERDU
+Contactez BEM-RUDN pour
+être accompagné.
+📞 +79912435421"""
+
+CONNAISSANCES["stresse"] = """😰 STRESSÉ
+Courage. Contactez vos proches
+ou BEM-RUDN si besoin."""
+
+CONNAISSANCES["seul"] = """😔 SEUL
+Contactez la communauté
+étudiante malienne."""
+
+CONNAISSANCES["arrivee"] = """🛬 ARRIVÉE
+Tapez /arrivee pour voir
+les étapes importantes."""
+
+CONNAISSANCES["nouveau"] = """🆕 NOUVEAU
+Tapez /nouveau."""
+
+CONNAISSANCES["comprends pas"] = """❓ COMPRENDS PAS
+Reformulez votre question ou
+contactez BEM-RUDN."""
+
+CONNAISSANCES["reponse introuvable"] = """❓ RÉPONSE INTROUVABLE
+Contactez directement BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["qui contacter"] = """📞 QUI CONTACTER
+Contactez d'abord BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["peur"] = """😰 PEUR
+Expliquez votre problème
+et demandez de l'aide."""
+
+CONNAISSANCES["parler personne"] = """👤 PARLER PERSONNE
+Contactez un membre du bureau.
+📞 +79912435421"""
+
+CONNAISSANCES["bot trompe"] = """⚠️ BOT SE TROMPE
+Contactez le Vice-président
+pour signaler l'erreur."""
+
+CONNAISSANCES["trouve pas probleme"] = """❓ TROUVE PAS PROBLÈME
+Décrivez-le avec plus de détails."""
+
+CONNAISSANCES["que faire maintenant"] = """❓ QUE FAIRE
+Expliquez votre situation."""
+
+CONNAISSANCES["aide moi"] = """🆘 AIDE-MOI
+Dites-moi précisément
+votre problème."""
+
+CONNAISSANCES["urgence tape"] = """🚨 URGENCE
+Tapez /urgence immédiatement."""
+
+CONNAISSANCES["contacts tape"] = """📞 CONTACTS
+Tapez /contacts."""
+
+CONNAISSANCES["bureau tape"] = """👥 BUREAU
+Tapez /bureau."""
+
+CONNAISSANCES["documents tape"] = """📄 DOCUMENTS
+Tapez /documents."""
+
+CONNAISSANCES["visa tape"] = """🛂 VISA
+Tapez /visa."""
+
+CONNAISSANCES["rvpo tape"] = """📋 RVPO
+Tapez /rvpo."""
+
+CONNAISSANCES["dortoir tape"] = """🏠 DORTOIR
+Tapez /dortoir."""
+
+CONNAISSANCES["banque tape"] = """💳 BANQUE
+Tapez /banque."""
+
+CONNAISSANCES["sim tape"] = """📱 SIM
+Tapez /sim."""
+
+CONNAISSANCES["regle principale"] = """📌 RÈGLE PRINCIPALE
+En cas de doute, contactez
+BEM-RUDN avant d'agir."""
