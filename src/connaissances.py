@@ -3118,3 +3118,94 @@ toujours BEM-RUDN en premier."""
 CONNAISSANCES["bem comment contacter"] = """📞 COMMENT CONTACTER BEM
 Via les responsables du bureau
 ou le bot officiel @BEM_RUDN_bot."""
+
+# ==================== RACCOURCIS / COMMANDES (30 Q&R) ====================
+CONNAISSANCES["arrivee que faire"] = """🛬 QUE FAIRE ARRIVÉE
+/arrivee"""
+
+CONNAISSANCES["nouveau etudiant raccourci"] = """🆕 NOUVEAU
+/nouveau"""
+
+CONNAISSANCES["probleme urgent raccourci"] = """🚨 PROBLÈME URGENT
+/urgence"""
+
+CONNAISSANCES["cherche contact raccourci"] = """📞 CHERCHE CONTACT
+/contacts"""
+
+CONNAISSANCES["besoin documents raccourci"] = """📄 BESOIN DOCUMENTS
+/documents"""
+
+CONNAISSANCES["renouveler visa raccourci"] = """🛂 RENOUVELER VISA
+/visa"""
+
+CONNAISSANCES["demander rvpo raccourci"] = """📋 DEMANDER RVPO
+/rvpo"""
+
+CONNAISSANCES["cherche logement raccourci"] = """🏠 CHERCHE LOGEMENT
+/dortoir"""
+
+CONNAISSANCES["ouvrir compte raccourci"] = """💳 OUVRIR COMPTE
+/banque"""
+
+CONNAISSANCES["carte sim raccourci"] = """📱 CARTE SIM
+/sim"""
+
+CONNAISSANCES["malade raccourci"] = """🏥 MALADE
+/sante"""
+
+CONNAISSANCES["cherche mosquee raccourci"] = """🕌 CHERCHE MOSQUÉE
+/mosquee"""
+
+CONNAISSANCES["cherche halal raccourci"] = """🥩 CHERCHE HALAL
+/halal"""
+
+CONNAISSANCES["cherche bourse raccourci"] = """💰 CHERCHE BOURSE
+/bourse"""
+
+CONNAISSANCES["travailler raccourci"] = """💼 TRAVAILLER
+/travail"""
+
+CONNAISSANCES["transports raccourci"] = """🚇 TRANSPORTS
+/transport"""
+
+CONNAISSANCES["contacts bureau raccourci"] = """👥 CONTACTS BUREAU
+/bureau"""
+
+CONNAISSANCES["perdu raccourci"] = """❓ PERDU
+/aide"""
+
+CONNAISSANCES["ne sais pas raccourci"] = """❓ NE SAIS PAS
+/aide"""
+
+CONNAISSANCES["aide raccourci"] = """🆘 AIDE
+/aide"""
+
+CONNAISSANCES["urgence raccourci"] = """🚨 URGENCE
+/urgence"""
+
+CONNAISSANCES["visa raccourci"] = """🛂 VISA
+/visa"""
+
+CONNAISSANCES["migration raccourci"] = """🛂 MIGRATION
+/migration"""
+
+CONNAISSANCES["police raccourci"] = """👮 POLICE
+/urgence"""
+
+CONNAISSANCES["hopital raccourci"] = """🏥 HÔPITAL
+/sante"""
+
+CONNAISSANCES["dortoir raccourci"] = """🏠 DORTOIR
+/dortoir"""
+
+CONNAISSANCES["banque raccourci"] = """💳 BANQUE
+/banque"""
+
+CONNAISSANCES["sim raccourci"] = """📱 SIM
+/sim"""
+
+CONNAISSANCES["rvpo raccourci"] = """📋 RVPO
+/rvpo"""
+
+CONNAISSANCES["contact raccourci"] = """📞 CONTACT
+/contacts"""
