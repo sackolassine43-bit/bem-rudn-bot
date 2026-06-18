@@ -1236,3 +1236,124 @@ et enregistrement."""
 CONNAISSANCES["migration aide urgente"] = """🚨 AIDE URGENTE MIGRATION
 Contactez immédiatement BEM-RUDN.
 📞 +79912435421"""
+
+# ==================== RVPO (30 Q&R) ====================
+CONNAISSANCES["rvpo definition"] = """📋 RVPO
+Titre de séjour temporaire pour
+certains étudiants étrangers en Russie."""
+
+CONNAISSANCES["rvpo qui peut demander"] = """📋 QUI PEUT DEMANDER RVPO
+Les étudiants inscrits dans un
+établissement russe reconnu."""
+
+CONNAISSANCES["rvpo pourquoi"] = """📋 POURQUOI RVPO
+Il permet de résider légalement
+en Russie pendant les études."""
+
+CONNAISSANCES["rvpo quand demander"] = """⏳ QUAND DEMANDER RVPO
+Plusieurs mois avant l'expiration
+du statut actuel."""
+
+CONNAISSANCES["rvpo quels documents"] = """📄 DOCUMENTS RVPO
+Passeport, traduction, photos,
+documents universitaires et autres justificatifs."""
+
+CONNAISSANCES["rvpo passeport expire"] = """🛂 PASSEPORT EXPIRE RVPO
+Renouvelez-le avant de déposer
+le dossier RVPO."""
+
+CONNAISSANCES["rvpo traduction passeport"] = """📝 TRADUCTION PASSEPORT RVPO
+Oui, une traduction notariée
+est généralement nécessaire."""
+
+CONNAISSANCES["rvpo photos"] = """📸 PHOTOS RVPO
+Oui, plusieurs photos sont
+généralement demandées."""
+
+CONNAISSANCES["rvpo visite medicale"] = """🏥 VISITE MÉDICALE RVPO
+Oui, selon les exigences en vigueur.
+Certificat médical requis."""
+
+CONNAISSANCES["rvpo biometrie"] = """👆 BIOMÉTRIE RVPO
+Oui, elle peut être obligatoire.
+Empreintes digitales + photo."""
+
+CONNAISSANCES["rvpo duree procedure"] = """⏳ DURÉE RVPO
+Plusieurs semaines ou mois
+selon le dossier."""
+
+CONNAISSANCES["rvpo voyager pendant"] = """✈️ VOYAGER PENDANT RVPO
+Vérifiez votre situation auprès
+du service compétent."""
+
+CONNAISSANCES["rvpo dossier perdu"] = """⚠️ DOSSIER RVPO PERDU
+Contactez immédiatement
+le service concerné."""
+
+CONNAISSANCES["rvpo changement faculte"] = """🎓 CHANGEMENT FACULTÉ RVPO
+Informez les autorités compétentes
+de votre changement."""
+
+CONNAISSANCES["rvpo changement passeport"] = """🛂 CHANGEMENT PASSEPORT RVPO
+Mettez votre dossier à jour
+dès que possible."""
+
+CONNAISSANCES["rvpo qui peut aider"] = """📞 AIDE RVPO
+Contactez d'abord BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["rvpo ou deposer"] = """📍 OÙ DÉPOSER RVPO
+Selon les instructions du
+service migration de la RUDN."""
+
+CONNAISSANCES["rvpo licence"] = """🎓 RVPO LICENCE
+Vérifiez votre éligibilité
+auprès du service migration."""
+
+CONNAISSANCES["rvpo master"] = """🎓 RVPO MASTER
+Vérifiez votre éligibilité
+auprès du service migration."""
+
+CONNAISSANCES["rvpo doctorant"] = """🎓 RVPO DOCTORANT
+Vérifiez votre éligibilité
+auprès du service migration."""
+
+CONNAISSANCES["rvpo prepa"] = """📚 RVPO PRÉPA
+Renseignez-vous auprès
+de l'université."""
+
+CONNAISSANCES["rvpo visa expire"] = """⚠️ VISA EXPIRE RVPO
+Commencez rapidement les démarches.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["rvpo certificat"] = """📋 CERTIFICAT RVPO
+Demandez-le à l'université.
+Nécessaire pour le dossier."""
+
+CONNAISSANCES["rvpo attestation"] = """📋 ATTESTATION RVPO
+Adressez-vous au MFC
+ou à votre faculté."""
+
+CONNAISSANCES["rvpo dossier incomplet"] = """⚠️ DOSSIER RVPO INCOMPLET
+Complétez tous les documents
+avant le dépôt."""
+
+CONNAISSANCES["rvpo refus"] = """⚠️ RVPO REFUSÉ
+Demandez les motifs et
+contactez BEM-RUDN."""
+
+CONNAISSANCES["rvpo refaire demande"] = """🔄 REFAIRE DEMANDE RVPO
+Cela dépend du motif du refus.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["rvpo changement adresse"] = """📍 CHANGEMENT ADRESSE RVPO
+Signalez-le rapidement
+au service migration."""
+
+CONNAISSANCES["rvpo procedure incomprise"] = """❓ PROCÉDURE RVPO
+Contactez BEM-RUDN pour être orienté.
+Nous vous expliquerons."""
+
+CONNAISSANCES["rvpo aide urgente"] = """🚨 AIDE URGENTE RVPO
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
