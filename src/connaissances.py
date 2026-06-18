@@ -928,3 +928,132 @@ Je rencontre une difficulté concernant [visa/migration/dortoir/documents].
 Je sollicite votre aide.
 Nom : / Groupe : / Téléphone :
 Merci. Cordialement."""
+CONNAISSANCES["argent"] = """💰 ARGENT
+Western Union, MoneyGram
+Banques russes
+Toujours conserver les reçus
+Demandez conseil à BEM-RUDN"""
+
+CONNAISSANCES["transfert argent"] = """💸 RECEVOIR DE L'ARGENT
+Western Union, MoneyGram
+Virement bancaire
+Carte MIR recommandée"""
+
+CONNAISSANCES["carte bloquée"] = """💳 CARTE BLOQUÉE
+Contactez immédiatement votre banque.
+Conservez votre passeport.
+BEM-RUDN peut vous orienter."""
+
+CONNAISSANCES["travail"] = """💼 TRAVAIL ÉTUDIANT
+Vérifiez toujours la légalité.
+Ne remettez jamais votre passeport.
+Demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["perte téléphone"] = """📱 TÉLÉPHONE PERDU
+Bloquer la SIM.
+Changer les mots de passe.
+Prévenir la banque si nécessaire."""
+
+CONNAISSANCES["retour vacances"] = """✈️ RETOUR DE VACANCES
+Passeport, Visa, Carte migratoire
+Nouvel enregistrement obligatoire."""
+
+CONNAISSANCES["billet avion"] = """🎫 BILLET D'AVION
+Vérifiez visa et passeport.
+Conservez le billet électronique.
+Arrivez tôt à l'aéroport."""
+
+CONNAISSANCES["transit"] = """🛫 TRANSIT
+Vérifiez les conditions du pays de transit.
+Conservez tous vos documents.
+Gardez les contacts BEM-RUDN."""
+
+CONNAISSANCES["redoublement"] = """📚 REDOUBLEMENT
+Contactez rapidement votre faculté.
+Demandez les procédures officielles.
+Ne laissez pas la situation s'aggraver."""
+
+CONNAISSANCES["changement filière"] = """🎓 CHANGEMENT DE FILIÈRE
+Adressez-vous à votre faculté.
+Certaines conditions académiques s'appliquent."""
+
+CONNAISSANCES["notes"] = """📝 NOTES INSUFFISANTES
+Contactez votre responsable pédagogique.
+Renseignez-vous sur les rattrapages."""
+
+CONNAISSANCES["dentiste"] = """🦷 DENTISTE
+Centre médical RUDN
+Ou clinique partenaire.
+Vérifiez votre assurance."""
+
+CONNAISSANCES["pharmacie"] = """💊 PHARMACIE
+Présentez votre ordonnance si nécessaire.
+Demandez conseil à un médecin."""
+
+CONNAISSANCES["vol"] = """🚨 VOL
+Prévenir la police.
+Prévenir BEM-RUDN.
+Bloquer cartes et comptes."""
+
+CONNAISSANCES["expulsion dortoir"] = """🏠 RISQUE D'EXPULSION
+Contactez immédiatement BEM-RUDN.
+Ne signez rien sans comprendre.
+Demandez une explication écrite."""
+
+CONNAISSANCES["qui contacter"] = """📞 QUI CONTACTER ?
+Toujours contacter BEM-RUDN en premier.
+Le bureau vous orientera vers le bon service."""
+
+CONNAISSANCES["urgence documents"] = """📄 DOCUMENTS
+Passeport perdu, Visa expiré
+Carte migratoire perdue
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["alerte visa"] = """⏰ ALERTE VISA
+Commencez les démarches 45 jours avant expiration.
+Ne jamais attendre le dernier mois.
+Contactez BEM-RUDN immédiatement."""
+
+CONNAISSANCES["alerte migration"] = """⏰ ALERTE MIGRATION
+Après chaque retour en Russie,
+l'enregistrement est obligatoire.
+Prévenez BEM-RUDN si vous avez un doute."""
+
+CONNAISSANCES["alerte rvpo"] = """⏰ ALERTE RVPO
+Préparez les documents plusieurs mois à l'avance.
+Passeport, traductions, certificats médicaux,
+biométrie et enregistrement."""
+
+CONNAISSANCES["alerte rentrée"] = """📚 RENTRÉE UNIVERSITAIRE
+Vérifiez votre emploi du temps.
+Préparez vos documents.
+Suivez les annonces BEM-RUDN."""
+
+CONNAISSANCES["alerte dortoir"] = """🏠 DORTOIR
+Respectez les règles du dortoir.
+Signalez rapidement tout problème.
+Contactez BEM-RUDN si nécessaire."""
+
+CONNAISSANCES["alerte urgence"] = """🚨 URGENCE
+Maladie, Hospitalisation, Police
+Documents perdus
+Toujours contacter BEM-RUDN en premier."""
+
+CONNAISSANCES["alerte examen"] = """📝 EXAMENS
+Vérifiez les dates.
+Préparez vos documents.
+Contactez votre faculté en cas de problème."""
+
+CONNAISSANCES["alerte hiver"] = """❄️ HIVER MOSCOU
+Préparez manteau, gants, bonnet et bottes.
+Les températures peuvent descendre sous -20°C."""
+
+CONNAISSANCES["alerte sécurité"] = """🔐 SÉCURITÉ
+Ne partagez pas vos documents.
+Conservez des copies numériques.
+Méfiez-vous des arnaques."""
+
+CONNAISSANCES["alerte bureau"] = """👥 BEM-RUDN
+En cas de difficulté,
+contactez toujours le bureau en premier.
+Le bureau vous orientera vers le bon service."""
