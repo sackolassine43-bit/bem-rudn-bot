@@ -877,3 +877,54 @@ Hiver très froid (-20°C à -30°C)
 Été doux (15°C à 25°C)
 Prévoir vêtements adaptés""",
 }
+# Ajout des nouveaux mots-clés
+CONNAISSANCES["services campus"] = """🏫 AUTOUR DE RUDN
+📚 Bibliothèque RUDN
+🕌 Mosquée proche (Konkovo)
+💳 Sberbank sur le campus
+🛒 Supermarchés Perekrestok
+🍽️ Cafés et restaurants étudiants
+🏥 Centre médical
+🚇 Métro Belyaevo et Yugo-Zapadnaya"""
+
+CONNAISSANCES["mosquee"] = """🕌 MOSQUÉE
+Mosquée Khatam al-Anbiya (près du campus)
+Grande Mosquée de Moscou pour les grandes fêtes
+Demandez aussi aux étudiants du dortoir"""
+
+CONNAISSANCES["bibliotheque"] = """📚 BIBLIOTHÈQUE RUDN
+Campus principal
+Rue Miklukho-Maklaya 6
+Accès avec carte étudiante
+Salles d'étude et livres numériques"""
+
+CONNAISSANCES["courses"] = """🛒 COURSES
+Perekrestok, EuroSpar, Auchan
+Magasins ouverts tard le soir
+Paiement par carte MIR accepté"""
+
+CONNAISSANCES["lettre visa"] = """📧 MODÈLE EMAIL VISA
+
+Bonjour,
+Je suis étudiant à la RUDN.
+Mon visa expire le [date].
+Je sollicite votre aide pour son renouvellement.
+Nom : / Nationalité : / Passeport :
+Merci. Cordialement."""
+
+CONNAISSANCES["lettre absence"] = """📧 MODÈLE ABSENCE
+
+Bonjour,
+Je suis étudiant à la RUDN.
+Je serai absent du [date] au [date] pour [raison].
+Merci de prendre en compte cette situation.
+Cordialement."""
+
+CONNAISSANCES["lettre aide"] = """📧 DEMANDE D'AIDE
+
+Bonjour,
+Je suis étudiant à la RUDN.
+Je rencontre une difficulté concernant [visa/migration/dortoir/documents].
+Je sollicite votre aide.
+Nom : / Groupe : / Téléphone :
+Merci. Cordialement."""
