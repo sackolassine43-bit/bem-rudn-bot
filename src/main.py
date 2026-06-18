@@ -21,7 +21,7 @@ def est_admin(update):
     return utilisateur.username and utilisateur.username.lower() == ADMIN_USERNAME.lower()
 
 
-def fuzzy_search(query, connaissances, threshold=55):
+def fuzzy_search(query, connaissances, threshold=60):
     meilleur_score = 0
     meilleure_cle = None
     query = query.lower().strip()
@@ -188,7 +188,7 @@ async def signaler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "INSERT INTO signalements (user_id, message, date_creation) VALUES (?, ?, ?)",
         (utilisateur.id, message, now)
     )
-    await update.message.reply_text("✅ Signalement enregistré. Merci ! L'équipe BEM-RUDN va vérifier.")
+    await update.message.reply_text("✅ Signalement enregistré. Merci !")
 
 
 # ==================== COMMANDES ADMIN ====================
@@ -372,19 +372,26 @@ async def texte(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(message_urgence())
         return
     
-    # 4. Contact par nom
+    # 4. Contact par nom (chercher en premier)
     contact = chercher_contact(message)
     if contact:
         await update.message.reply_text(contact)
         return
     
-    # 5. Fuzzy search
-    cle = fuzzy_search(message, CONNAISSANCES, 55)
+    # 5. Fuzzy search dans connaissances (seuil plus élevé)
+    cle = fuzzy_search(message, CONNAISSANCES, 65)
     if cle:
         await update.message.reply_text(CONNAISSANCES[cle])
         return
     
-    # 6. Assistance humaine
+    # 6. Recherche exacte dans connaissances
+    message_min = message.lower()
+    for mot_cle, reponse in CONNAISSANCES.items():
+        if mot_cle in message_min:
+            await update.message.reply_text(reponse)
+            return
+    
+    # 7. Assistance humaine
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     execute(
         "INSERT INTO tickets (user_id, probleme, statut, date_creation) VALUES (?, ?, 'ouvert', ?)",
@@ -408,7 +415,6 @@ def main():
     
     app = Application.builder().token(BOT_TOKEN).build()
     
-    # Commandes étudiants
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("aide", aide))
     app.add_handler(CommandHandler("membres", membres))
@@ -421,8 +427,6 @@ def main():
     app.add_handler(CommandHandler("faq", faq))
     app.add_handler(CommandHandler("recherche", recherche))
     app.add_handler(CommandHandler("signaler", signaler))
-    
-    # Commandes admin
     app.add_handler(CommandHandler("historique", historique))
     app.add_handler(CommandHandler("stats", stats))
     app.add_handler(CommandHandler("tickets", tickets_cmd))
@@ -431,7 +435,6 @@ def main():
     app.add_handler(CommandHandler("panel", panel))
     app.add_handler(CommandHandler("broadcast", broadcast))
     
-    # Messages texte
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, texte))
     
     print("BEM-RUDN BOT démarré...")
