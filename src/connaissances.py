@@ -4173,3 +4173,113 @@ votre première commande."""
 CONNAISSANCES["plateforme plus utilisee"] = """🛍️ PLATEFORME POPULAIRE
 Ozon et Wildberries sont les
 plus utilisées par les étudiants."""
+
+# ==================== BIBLIOTHÈQUE / MÉMOIRE (30 Q&R) ====================
+CONNAISSANCES["bibliotheque ou"] = """📚 BIBLIOTHÈQUE OÙ
+Sur le campus RUDN. Demandez
+l'emplacement exact à votre faculté."""
+
+CONNAISSANCES["bibliotheque utiliser"] = """📚 UTILISER BIBLIOTHÈQUE
+Oui, avec votre carte étudiante."""
+
+CONNAISSANCES["bibliotheque emprunter"] = """📚 EMPRUNTER LIVRE
+Présentez votre carte étudiante."""
+
+CONNAISSANCES["bibliotheque combien livres"] = """📚 NOMBRE LIVRES
+Selon les règles de la bibliothèque."""
+
+CONNAISSANCES["bibliotheque livre perdu"] = """⚠️ LIVRE PERDU
+Signalez-le rapidement
+à la bibliothèque."""
+
+CONNAISSANCES["bibliotheque rendre livre"] = """📚 RENDRE LIVRE
+Rapportez-le avant la date limite."""
+
+CONNAISSANCES["bibliotheque etudier"] = """📚 ÉTUDIER BIBLIOTHÈQUE
+Oui, elle dispose d'espaces
+de travail."""
+
+CONNAISSANCES["bibliotheque wifi"] = """📶 WI-FI BIBLIOTHÈQUE
+Oui, généralement disponible."""
+
+CONNAISSANCES["bibliotheque imprimer"] = """🖨️ IMPRIMER BIBLIOTHÈQUE
+Oui, selon les services disponibles."""
+
+CONNAISSANCES["bibliotheque scanner"] = """📄 SCANNER BIBLIOTHÈQUE
+Oui, dans les espaces prévus."""
+
+CONNAISSANCES["bibliotheque chercher livre"] = """📚 CHERCHER LIVRE
+Consultez le catalogue
+de la bibliothèque."""
+
+CONNAISSANCES["bibliotheque article scientifique"] = """📄 ARTICLE SCIENTIFIQUE
+Utilisez les bases de données
+universitaires."""
+
+CONNAISSANCES["memoire faire"] = """📝 FAIRE MÉMOIRE
+Suivez les consignes
+de votre faculté."""
+
+CONNAISSANCES["memoire choisir sujet"] = """📝 CHOISIR SUJET MÉMOIRE
+Discutez avec votre
+directeur scientifique."""
+
+CONNAISSANCES["memoire directeur qui"] = """👨‍🏫 DIRECTEUR MÉMOIRE
+Votre faculté vous informera."""
+
+CONNAISSANCES["memoire bibliographie"] = """📝 BIBLIOGRAPHIE
+Respectez les normes demandées
+par votre faculté."""
+
+CONNAISSANCES["memoire commencer"] = """📝 COMMENCER MÉMOIRE
+Contactez votre directeur
+de mémoire."""
+
+CONNAISSANCES["memoire sources"] = """📄 SOURCES MÉMOIRE
+Consultez la bibliothèque
+universitaire."""
+
+CONNAISSANCES["memoire plagiat"] = """⚠️ PLAGIAT
+Citez toujours vos sources."""
+
+CONNAISSANCES["plagiat definition"] = """⚠️ PLAGIAT DÉFINITION
+Utiliser le travail d'autrui
+sans citation."""
+
+CONNAISSANCES["memoire retard"] = """⚠️ MÉMOIRE RETARD
+Contactez rapidement
+votre directeur."""
+
+CONNAISSANCES["memoire aide recherche"] = """📝 AIDE RECHERCHE
+Consultez votre faculté."""
+
+CONNAISSANCES["memoire publier article"] = """📄 PUBLIER ARTICLE
+Demandez conseil à votre
+directeur scientifique."""
+
+CONNAISSANCES["memoire master"] = """🎓 MÉMOIRE MASTER
+Préparez votre mémoire
+dès le début."""
+
+CONNAISSANCES["memoire doctorant"] = """🎓 MÉMOIRE DOCTORANT
+Consultez régulièrement
+votre directeur."""
+
+CONNAISSANCES["salle calme"] = """🤫 SALLE CALME
+Utilisez les espaces de travail
+de la bibliothèque."""
+
+CONNAISSANCES["bibliotheque travail groupe"] = """👥 TRAVAIL GROUPE
+Oui, dans les zones autorisées."""
+
+CONNAISSANCES["memoire reussir"] = """✅ RÉUSSIR MÉMOIRE
+Travaillez régulièrement et
+respectez les délais."""
+
+CONNAISSANCES["memoire qui aider"] = """📞 AIDE MÉMOIRE
+Votre faculté, votre directeur
+et BEM-RUDN."""
+
+CONNAISSANCES["memoire perdu"] = """❓ PERDU MÉMOIRE
+Contactez votre faculté
+ou BEM-RUDN."""
