@@ -4545,3 +4545,80 @@ et professionnels."""
 CONNAISSANCES["apres etudes conseil"] = """💡 MEILLEUR CONSEIL
 Préparez votre avenir avant
 la fin des études."""
+
+# ==================== FAMILLE (20 Q&R) ====================
+CONNAISSANCES["famille femme russie"] = """👨‍👩‍👧‍👦 FEMME RUSSIE
+Vérifiez les procédures de visa
+applicables à votre situation."""
+
+CONNAISSANCES["famille mari russie"] = """👨‍👩‍👧‍👦 MARI RUSSIE
+Renseignez-vous sur les
+documents requis."""
+
+CONNAISSANCES["famille enfants russie"] = """👨‍👩‍👧‍👦 ENFANTS RUSSIE
+Oui, sous réserve des formalités
+administratives nécessaires."""
+
+CONNAISSANCES["famille documents"] = """📄 DOCUMENTS FAMILLE
+Passeports, actes d'état civil
+et documents demandés."""
+
+CONNAISSANCES["famille marie"] = """💍 MARIÉ
+Conservez toujours vos
+documents de mariage."""
+
+CONNAISSANCES["famille marier russie"] = """💍 MARIAGE RUSSIE
+Renseignez-vous sur les procédures
+légales avant toute démarche."""
+
+CONNAISSANCES["famille naissance russie"] = """👶 NAISSANCE RUSSIE
+Déclarez rapidement la naissance
+auprès des autorités compétentes."""
+
+CONNAISSANCES["famille declarer naissance"] = """👶 DÉCLARER NAISSANCE
+Contactez les services
+administratifs concernés."""
+
+CONNAISSANCES["famille enfant passeport"] = """🛂 PASSEPORT ENFANT
+Contactez l'ambassade et
+les autorités compétentes."""
+
+CONNAISSANCES["famille enfant malade"] = """🏥 ENFANT MALADE
+Contactez immédiatement
+un médecin."""
+
+CONNAISSANCES["famille vivre hors dortoir"] = """🏠 VIVRE HORS DORTOIR
+Oui, selon vos moyens et
+votre situation administrative."""
+
+CONNAISSANCES["famille louer appartement"] = """🏠 LOUER APPARTEMENT FAMILLE
+Oui, en respectant les
+règles locales."""
+
+CONNAISSANCES["famille femme etudier"] = """🎓 FEMME ÉTUDIER
+Vérifiez les conditions d'admission."""
+
+CONNAISSANCES["famille mari etudier"] = """🎓 MARI ÉTUDIER
+Vérifiez les conditions d'admission."""
+
+CONNAISSANCES["famille enfant ecole"] = """🏫 ENFANT ÉCOLE
+Renseignez-vous auprès des
+établissements scolaires."""
+
+CONNAISSANCES["famille assurance"] = """🏥 ASSURANCE FAMILLE
+Oui, selon les offres disponibles."""
+
+CONNAISSANCES["famille separe"] = """😢 FAMILLE SÉPARÉE
+Contactez régulièrement vos proches
+et demandez du soutien."""
+
+CONNAISSANCES["famille difficultes"] = """⚠️ DIFFICULTÉS FAMILIALES
+Contactez BEM-RUDN pour
+être orienté."""
+
+CONNAISSANCES["famille demarches incomprises"] = """❓ DÉMARCHES FAMILLE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["famille qui aider"] = """📞 AIDE FAMILLE
+BEM-RUDN et les services
+administratifs compétents."""
