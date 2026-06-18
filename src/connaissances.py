@@ -3209,3 +3209,113 @@ CONNAISSANCES["rvpo raccourci"] = """📋 RVPO
 
 CONNAISSANCES["contact raccourci"] = """📞 CONTACT
 /contacts"""
+
+# ==================== DIVERS / ADMINISTRATIF (30 Q&R) ====================
+CONNAISSANCES["passeport expire ambassade"] = """🛂 PASSEPORT EXPIRE
+Contactez votre ambassade
+dès que possible."""
+
+CONNAISSANCES["ambassade mali contacter"] = """🏛️ AMBASSADE MALI
+Contactez BEM-RUDN pour obtenir
+les coordonnées à jour."""
+
+CONNAISSANCES["passeport dechire"] = """🛂 PASSEPORT DÉCHIRÉ
+Contactez immédiatement
+votre ambassade."""
+
+CONNAISSANCES["rentrer mali"] = """🇲🇱 RENTRER MALI
+Vérifiez votre visa et vos
+documents avant le départ."""
+
+CONNAISSANCES["revenir russie"] = """🇷🇺 REVENIR RUSSIE
+Vérifiez votre visa et
+les conditions d'entrée."""
+
+CONNAISSANCES["semestre rate"] = """📚 SEMESTRE RATÉ
+Contactez votre faculté
+rapidement."""
+
+CONNAISSANCES["exclu faculte"] = """⚠️ EXCLU
+Contactez immédiatement votre
+faculté et BEM-RUDN."""
+
+CONNAISSANCES["transfert faculte"] = """🔄 TRANSFERT
+Contactez votre faculté."""
+
+CONNAISSANCES["changer groupe"] = """🔄 CHANGER GROUPE
+Adressez-vous à votre faculté."""
+
+CONNAISSANCES["comprends pas russe"] = """🗣️ PAS RUSSE
+Pratiquez quotidiennement
+et demandez de l'aide."""
+
+CONNAISSANCES["cherche traducteur"] = """🗣️ TRADUCTEUR
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["apprendre russe vite"] = """📖 RUSSE RAPIDE
+Pratiquez tous les jours
+avec des russophones."""
+
+CONNAISSANCES["racisme"] = """⚠️ RACISME
+Signalez immédiatement à
+l'université et BEM-RUDN."""
+
+CONNAISSANCES["conflit enseignant"] = """👨‍🏫 CONFLIT ENSEIGNANT
+Restez respectueux et
+contactez votre faculté."""
+
+CONNAISSANCES["conflit etudiant"] = """👥 CONFLIT ÉTUDIANT
+Essayez le dialogue puis
+contactez l'administration."""
+
+CONNAISSANCES["stresse etudes"] = """😰 STRESSÉ ÉTUDES
+Parlez à vos proches
+et demandez de l'aide."""
+
+CONNAISSANCES["creer association"] = """🏛️ CRÉER ASSOCIATION
+Renseignez-vous auprès
+de l'université."""
+
+CONNAISSANCES["organiser evenement"] = """🎉 ORGANISER ÉVÉNEMENT
+Contactez le BEM-RUDN."""
+
+CONNAISSANCES["rejoindre bem"] = """🤝 REJOINDRE BEM
+Contactez un membre du bureau."""
+
+CONNAISSANCES["devenir benevole"] = """🤝 BÉNÉVOLE
+Contactez le BEM-RUDN."""
+
+CONNAISSANCES["cherche etudiants maliens"] = """🇲🇱 ÉTUDIANTS MALIENS
+Contactez le BEM-RUDN."""
+
+CONNAISSANCES["cherche etudiants africains"] = """🌍 ÉTUDIANTS AFRICAINS
+Contactez les associations étudiantes."""
+
+CONNAISSANCES["besoin traduction"] = """📝 TRADUCTION
+Contactez BEM-RUDN pour
+être orienté."""
+
+CONNAISSANCES["legaliser document"] = """📄 LÉGALISER DOCUMENT
+Vérifiez la procédure
+avant toute démarche."""
+
+CONNAISSANCES["procuration"] = """📋 PROCURATION
+Contactez un notaire compétent."""
+
+CONNAISSANCES["louer appartement"] = """🏠 LOUER APPARTEMENT
+Vérifiez le contrat
+avant de signer."""
+
+CONNAISSANCES["colocation"] = """🏠 COLOCATION
+Demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["acheter voiture"] = """🚗 ACHETER VOITURE
+Vérifiez les règles administratives."""
+
+CONNAISSANCES["permis conduire"] = """🚗 PERMIS CONDUIRE
+Renseignez-vous auprès des
+autorités compétentes."""
+
+CONNAISSANCES["reponse introuvable"] = """❓ RÉPONSE INTROUVABLE
+Contactez directement BEM-RUDN.
+📞 +79912435421"""
