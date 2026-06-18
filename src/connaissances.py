@@ -4470,3 +4470,78 @@ l'intégration."""
 
 CONNAISSANCES["evenements qui contacter"] = """📞 ÉVÉNEMENTS CONTACT
 Responsable Culture ou BEM-RUDN."""
+
+# ==================== CARRIÈRE / APRÈS ÉTUDES (20 Q&R) ====================
+CONNAISSANCES["apres etudes que faire"] = """🎓 APRÈS ÉTUDES
+Préparez votre CV et commencez
+vos recherches d'emploi."""
+
+CONNAISSANCES["apres etudes trouver emploi"] = """💼 TROUVER EMPLOI
+Plateformes d'emploi et
+réseau professionnel."""
+
+CONNAISSANCES["apres etudes rediger cv"] = """📝 RÉDIGER CV
+Mettez en avant études,
+compétences et expériences."""
+
+CONNAISSANCES["apres etudes cv russe"] = """📝 CV RUSSE
+Oui, c'est fortement recommandé."""
+
+CONNAISSANCES["apres etudes cv anglais"] = """📝 CV ANGLAIS
+Oui, utile selon le poste."""
+
+CONNAISSANCES["apres etudes entretien"] = """🗣️ ENTRETIEN
+Renseignez-vous sur l'entreprise
+et préparez vos réponses."""
+
+CONNAISSANCES["apres etudes ou chercher"] = """🔍 OÙ CHERCHER EMPLOI
+Plateformes de recrutement
+et réseau professionnel."""
+
+CONNAISSANCES["apres etudes pas experience"] = """🆕 PAS EXPÉRIENCE
+Valorisez stages, projets
+et compétences."""
+
+CONNAISSANCES["apres etudes stage"] = """💼 STAGE CV
+Mentionnez-le dans votre CV."""
+
+CONNAISSANCES["apres etudes travailler russie"] = """🇷🇺 TRAVAILLER RUSSIE
+Vérifiez les règles de séjour
+et de travail."""
+
+CONNAISSANCES["apres etudes retourner mali"] = """🇲🇱 RETOUR MALI
+Préparez votre retour
+professionnel dès maintenant."""
+
+CONNAISSANCES["apres etudes entreprise"] = """🏢 CRÉER ENTREPRISE
+Renseignez-vous sur les
+démarches légales."""
+
+CONNAISSANCES["apres etudes international"] = """🌍 ENTREPRISE INTERNATIONALE
+Développez vos compétences
+linguistiques."""
+
+CONNAISSANCES["apres etudes doctorat"] = """🎓 DOCTORAT
+Contactez les facultés concernées."""
+
+CONNAISSANCES["apres etudes deuxieme master"] = """🎓 DEUXIÈME MASTER
+Vérifiez les conditions d'admission."""
+
+CONNAISSANCES["apres etudes reseau"] = """👥 DÉVELOPPER RÉSEAU
+Participez aux événements
+professionnels."""
+
+CONNAISSANCES["apres etudes anciens"] = """👥 ANCIENS ÉTUDIANTS
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["apres etudes mentor"] = """👨‍🏫 MENTOR
+Demandez conseil aux
+anciens étudiants."""
+
+CONNAISSANCES["apres etudes metier"] = """❓ CHOISIR MÉTIER
+Discutez avec enseignants
+et professionnels."""
+
+CONNAISSANCES["apres etudes conseil"] = """💡 MEILLEUR CONSEIL
+Préparez votre avenir avant
+la fin des études."""
