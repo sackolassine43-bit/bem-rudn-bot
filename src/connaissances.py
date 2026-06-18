@@ -5108,3 +5108,118 @@ Tapez /sim."""
 CONNAISSANCES["regle principale"] = """📌 RÈGLE PRINCIPALE
 En cas de doute, contactez
 BEM-RUDN avant d'agir."""
+
+# ==================== TÉLÉPHONE / SIM (30 Q&R) ====================
+CONNAISSANCES["appeler mali"] = """📞 APPELER MALI
+Utilisez WhatsApp, Telegram
+ou un forfait international."""
+
+CONNAISSANCES["recharger sim"] = """💳 RECHARGER SIM
+Via l'application de l'opérateur
+ou dans les magasins."""
+
+CONNAISSANCES["plus credit"] = """⚠️ PLUS CRÉDIT
+Rechargez via l'application
+ou un terminal."""
+
+CONNAISSANCES["operateur choisir"] = """📱 OPÉRATEUR
+MTS, Beeline, MegaFon ou Tele2."""
+
+CONNAISSANCES["verifier solde"] = """💰 VÉRIFIER SOLDE
+Utilisez l'application de
+votre opérateur."""
+
+CONNAISSANCES["plus internet"] = """📶 PLUS INTERNET
+Vérifiez votre forfait ou
+rechargez votre compte."""
+
+CONNAISSANCES["sim fonctionne pas"] = """⚠️ SIM NE FONCTIONNE PAS
+Contactez votre opérateur."""
+
+CONNAISSANCES["sim perdue"] = """⚠️ SIM PERDUE
+Rendez-vous dans une agence
+de votre opérateur."""
+
+CONNAISSANCES["recuperer numero"] = """📱 RÉCUPÉRER NUMÉRO
+Présentez votre passeport
+à l'opérateur."""
+
+CONNAISSANCES["activer internet"] = """📶 ACTIVER INTERNET
+Utilisez les paramètres fournis
+par l'opérateur."""
+
+CONNAISSANCES["arrive pas appeler"] = """⚠️ PAS APPELER
+Vérifiez votre solde
+et votre réseau."""
+
+CONNAISSANCES["arrive pas recevoir"] = """⚠️ PAS RECEVOIR APPELS
+Vérifiez les paramètres
+de votre téléphone."""
+
+CONNAISSANCES["telegram utiliser"] = """📲 TELEGRAM
+Téléchargez l'application
+et créez un compte."""
+
+CONNAISSANCES["whatsapp utiliser"] = """📲 WHATSAPP
+Vérifiez votre numéro et
+votre connexion Internet."""
+
+CONNAISSANCES["sim malienne russie"] = """🇲🇱 SIM MALIENNE RUSSIE
+Oui, mais le roaming
+peut coûter cher."""
+
+CONNAISSANCES["economiser internet"] = """📶 ÉCONOMISER INTERNET
+Utilisez le Wi-Fi lorsque
+c'est possible."""
+
+CONNAISSANCES["contacter famille"] = """👨‍👩‍👧‍👦 CONTACTER FAMILLE
+WhatsApp ou Telegram."""
+
+CONNAISSANCES["envoyer argent mali"] = """💸 ENVOYER ARGENT MALI
+Utilisez les services recommandés
+par la communauté étudiante."""
+
+CONNAISSANCES["western union"] = """💸 WESTERN UNION
+Vérifiez les disponibilités
+actuelles avant toute opération."""
+
+CONNAISSANCES["moyen transfert mali"] = """💸 TRANSFERT MALI
+Solutions recommandées par
+la communauté malienne."""
+
+CONNAISSANCES["forfait comprends pas"] = """❓ FORFAIT INCOMPRIS
+Contactez le service client
+de votre opérateur."""
+
+CONNAISSANCES["sim qui aider"] = """📞 AIDE SIM
+BEM-RUDN ou votre
+opérateur mobile."""
+
+CONNAISSANCES["sim nouveau"] = """🆕 SIM NOUVEAU
+Procurez-vous rapidement
+une SIM russe."""
+
+CONNAISSANCES["premier service activer"] = """📱 PREMIER SERVICE
+Une SIM russe avec Internet."""
+
+CONNAISSANCES["partager connexion"] = """📶 PARTAGER CONNEXION
+Oui, via le point d'accès mobile."""
+
+CONNAISSANCES["contacter bem"] = """📞 CONTACTER BEM
+Utilisez les numéros et
+contacts officiels."""
+
+CONNAISSANCES["pas recevoir sms"] = """⚠️ PAS RECEVOIR SMS
+Vérifiez votre réseau
+et votre compte."""
+
+CONNAISSANCES["voyager hors moscou"] = """🚆 VOYAGE HORS MOSCOU
+Vérifiez votre couverture réseau."""
+
+CONNAISSANCES["aller mali"] = """🇲🇱 ALLER MALI
+Vérifiez les frais d'itinérance
+avant le départ."""
+
+CONNAISSANCES["sim conseil"] = """💡 CONSEIL SIM
+Gardez toujours Internet actif
+sur votre téléphone."""
