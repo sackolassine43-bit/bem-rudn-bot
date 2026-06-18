@@ -4622,3 +4622,116 @@ Contactez BEM-RUDN."""
 CONNAISSANCES["famille qui aider"] = """📞 AIDE FAMILLE
 BEM-RUDN et les services
 administratifs compétents."""
+
+# ==================== ARNAQUES / SÉCURITÉ (30 Q&R) ====================
+CONNAISSANCES["arnaque victime"] = """⚠️ ARNAQUE
+Arrêtez immédiatement tout paiement
+et contactez BEM-RUDN."""
+
+CONNAISSANCES["arnaque demande argent"] = """⚠️ DEMANDE ARGENT
+Vérifiez toujours l'identité avant
+d'envoyer de l'argent."""
+
+CONNAISSANCES["arnaque message suspect"] = """⚠️ MESSAGE SUSPECT
+Ne cliquez sur aucun lien inconnu."""
+
+CONNAISSANCES["arnaque appel suspect"] = """⚠️ APPEL SUSPECT
+Ne communiquez jamais vos
+données personnelles."""
+
+CONNAISSANCES["arnaque code bancaire"] = """⚠️ CODE BANCAIRE
+Ne le communiquez jamais."""
+
+CONNAISSANCES["arnaque mot passe"] = """⚠️ MOT DE PASSE
+Ne partagez jamais vos
+mots de passe."""
+
+CONNAISSANCES["arnaque logement"] = """⚠️ ARNAQUE LOGEMENT
+Conservez les preuves et
+contactez BEM-RUDN."""
+
+CONNAISSANCES["arnaque fausse annonce"] = """⚠️ FAUSSE ANNONCE
+Contactez votre banque
+immédiatement."""
+
+CONNAISSANCES["arnaque eviter logement"] = """🏠 ÉVITER ARNAQUE LOGEMENT
+Vérifiez toujours l'identité
+du propriétaire."""
+
+CONNAISSANCES["arnaque eviter internet"] = """🌐 ÉVITER ARNAQUE INTERNET
+Utilisez uniquement des
+sites fiables."""
+
+CONNAISSANCES["arnaque compte vide"] = """⚠️ COMPTE VIDE
+Contactez immédiatement
+votre banque."""
+
+CONNAISSANCES["arnaque carte utilisee"] = """⚠️ CARTE UTILISÉE
+Bloquez-la immédiatement."""
+
+CONNAISSANCES["arnaque identite volee"] = """⚠️ IDENTITÉ VOLÉE
+Contactez les autorités compétentes."""
+
+CONNAISSANCES["arnaque faux email"] = """⚠️ FAUX EMAIL
+Ne téléchargez aucune pièce
+jointe suspecte."""
+
+CONNAISSANCES["arnaque faux sms"] = """⚠️ FAUX SMS BANCAIRE
+Contactez directement votre banque."""
+
+CONNAISSANCES["arnaque vente visa"] = """⚠️ VENTE VISA
+Méfiez-vous, vérifiez toujours
+les informations officielles."""
+
+CONNAISSANCES["arnaque admission garantie"] = """⚠️ ADMISSION GARANTIE
+Vérifiez toujours auprès
+de l'université."""
+
+CONNAISSANCES["arnaque payer emploi"] = """⚠️ PAYER EMPLOI
+Ne payez jamais pour
+obtenir un emploi."""
+
+CONNAISSANCES["arnaque avance appartement"] = """⚠️ AVANCE APPARTEMENT
+Vérifiez le logement
+avant tout paiement."""
+
+CONNAISSANCES["arnaque pas sur"] = """❓ PAS SÛR
+Demandez conseil à BEM-RUDN
+avant de payer."""
+
+CONNAISSANCES["arnaque conseil"] = """💡 CONSEIL ARNAQUE
+Si une offre semble trop belle,
+méfiez-vous."""
+
+CONNAISSANCES["arnaque proteger argent"] = """💰 PROTÉGER ARGENT
+Ne partagez jamais vos
+informations bancaires."""
+
+CONNAISSANCES["arnaque proteger documents"] = """📄 PROTÉGER DOCUMENTS
+Gardez des copies numériques
+et papier."""
+
+CONNAISSANCES["arnaque proteger telephone"] = """📱 PROTÉGER TÉLÉPHONE
+Utilisez un code de sécurité."""
+
+CONNAISSANCES["arnaque proteger telegram"] = """📲 PROTÉGER TELEGRAM
+Activez la double authentification."""
+
+CONNAISSANCES["arnaque telephone perdu"] = """📱 TÉLÉPHONE PERDU
+Bloquez vos comptes
+importants rapidement."""
+
+CONNAISSANCES["arnaque pirate"] = """⚠️ PIRATÉ
+Changez immédiatement
+vos mots de passe."""
+
+CONNAISSANCES["arnaque qui contacter"] = """📞 ARNAQUE CONTACT
+Banque, autorités compétentes
+et BEM-RUDN."""
+
+CONNAISSANCES["arnaque aide urgente"] = """🚨 AIDE URGENTE ARNAQUE
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["arnaque regle num 1"] = """📌 RÈGLE ARNAQUE N°1
+Ne jamais envoyer d'argent
+sans vérification."""
