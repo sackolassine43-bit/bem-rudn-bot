@@ -1,20 +1,8 @@
-# Environnement virtuel
 venv/
-.env
-
-# Cache Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Fichiers système
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Fichiers d'IDE
-.vscode/
-.idea/
+.env
+data/
+backups/
+logs/
+exports/

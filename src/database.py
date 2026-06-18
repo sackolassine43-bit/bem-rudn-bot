@@ -114,14 +114,40 @@ def init_database():
 
     conn.commit()
     conn.close()
+    
+    init_membres()
+
+
+def init_membres():
+    membres = [
+        ("Keita Dade", "Président", "+79912697921", ""),
+        ("Sacko Lassine", "Vice-président", "+79912435421", "@Lassine223"),
+        ("Dembelé Modibo", "Administration", "+79918834425", ""),
+        ("Sangaré Ousmane", "Adjoint Administration", "+79161270804", ""),
+        ("Traoré Astan B", "Organisation", "+79164452921", ""),
+        ("Doumbia Awa", "Adjointe Organisation", "+79303376326", ""),
+        ("Doumbia Coumba A", "Communication", "+79569695061", ""),
+        ("Keita Fanta S", "Adjointe Communication", "+79851981117", ""),
+        ("Thiero Hadja M", "Finance", "+79205714407", ""),
+        ("Djiguiba Ousmane", "Adjoint Finance", "+79919204029", ""),
+        ("Diarra Moussa K", "Culture", "+79997120179", ""),
+        ("Touré Mohamed A", "Adjoint Culture", "+79015976094", ""),
+        ("Fané Abdoulaye", "Éducation", "+79773724269", ""),
+        ("Sidibé Habou", "Adjoint Éducation", "+79694763734", ""),
+        ("Sangaré Issiaka", "Sport", "+79999668502", ""),
+        ("Togola Boubacar A", "Adjoint Sport", "+79996747933", ""),
+    ]
+    for nom, poste, telephone, username in membres:
+        execute(
+            "INSERT OR IGNORE INTO membres (nom, poste, telephone, username) VALUES (?, ?, ?, ?)",
+            (nom, poste, telephone, username),
+        )
 
 
 def execute(query, params=()):
     conn = get_connection()
     cur = conn.cursor()
-
     cur.execute(query, params)
-
     conn.commit()
     conn.close()
 
@@ -129,10 +155,8 @@ def execute(query, params=()):
 def fetchone(query, params=()):
     conn = get_connection()
     cur = conn.cursor()
-
     cur.execute(query, params)
     result = cur.fetchone()
-
     conn.close()
     return result
 
@@ -140,9 +164,7 @@ def fetchone(query, params=()):
 def fetchall(query, params=()):
     conn = get_connection()
     cur = conn.cursor()
-
     cur.execute(query, params)
     result = cur.fetchall()
-
     conn.close()
     return result

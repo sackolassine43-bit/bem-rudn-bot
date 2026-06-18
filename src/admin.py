@@ -90,3 +90,29 @@ def panneau_admin():
 
 Accès réservé.
 """
+def stats_text():
+    return statistiques()
+
+def backup_database():
+    return sauvegarder_base()
+
+async def broadcast_message(bot, message):
+    utilisateurs = fetchall("SELECT telegram_id FROM utilisateurs")
+    for u in utilisateurs:
+        try:
+            await bot.send_message(chat_id=u[0], text=message)
+        except:
+            pass
+
+def panel_admin():
+    return panneau_admin()
+
+def historique_recent(limit=50):
+    return historique_admin(limit)
+
+def chercher_reponse(question, connaissances, seuil=60):
+    from fuzzy import meilleur_match
+    mot, score = meilleur_match(question, list(connaissances.keys()))
+    if score >= seuil:
+        return connaissances[mot]
+    return "Aucune réponse trouvée."

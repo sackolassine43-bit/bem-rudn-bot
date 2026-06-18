@@ -3,16 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-DATABASE_NAME = os.getenv(
-    "DATABASE_NAME",
-    "data/bem_rudn.db"
-)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8833102523:AAH4MnVi4vyN46xmwAFOOe9dfKfToT-t2Yw")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "data/bem_rudn.db")
 
-ADMIN_USERNAME = os.getenv(
-    "ADMIN_USERNAME",
-    "Lassine223"
-)
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "Lassine223")
+VP_ID = "+79912435421"
+PRESIDENT_ID = "+79912697921"
 
 RUDN_INFO = {
     "universite": "RUDN University",
@@ -52,13 +48,7 @@ URGENCES = {
     "103": "Ambulance",
 }
 
-ETATS_DISPONIBILITE = [
-    "disponible",
-    "occupé",
-    "absent"
-]
-
+ETATS_DISPONIBILITE = ["disponible", "occupé", "absent"]
 FUZZY_THRESHOLD = 60
-
 VERSION = "1.0.0"
 PROJECT_NAME = "BEM-RUDN BOT"
