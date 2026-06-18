@@ -158,3 +158,31 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ==================== ASSISTANCE HUMAINE ====================
+# Ajouter après la fonction texte()
+
+async def question_non_trouvee(update, message):
+    """Transmet la question au responsable compétent"""
+    from database import execute
+    from datetime import datetime
+    
+    utilisateur = update.effective_user
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Enregistrer la question non résolue
+    execute(
+        "INSERT INTO tickets (user_id, probleme, statut, date_creation) VALUES (?, ?, 'ouvert', ?)",
+        (utilisateur.id, message, now)
+    )
+    
+    # Notifier l'admin
+    await update.message.reply_text(
+        "❌ Je n'ai pas trouvé de réponse précise.\n\n"
+        "📨 Votre question a été transmise au responsable compétent du BEM-RUDN.\n\n"
+        "⏳ Veuillez patienter pendant qu'un membre du bureau vous répond.\n\n"
+        "📞 En cas d'urgence :\n"
+        "Président : +79912697921\n"
+        "Vice-président : +79912435421\n"
+        "Telegram : @Lassine223"
+    )
