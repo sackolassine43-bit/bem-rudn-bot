@@ -1057,3 +1057,31 @@ CONNAISSANCES["alerte bureau"] = """👥 BEM-RUDN
 En cas de difficulté,
 contactez toujours le bureau en premier.
 Le bureau vous orientera vers le bon service."""
+CONNAISSANCES["argent"] = """💰 ENVOYER ET RECEVOIR DE L'ARGENT
+Orange Money est la solution la plus utilisée.
+Demandez conseil à votre famille avant tout transfert.
+Conservez toujours les preuves de paiement."""
+
+CONNAISSANCES["orange money"] = """📱 ORANGE MONEY
+Solution la plus utilisée par les étudiants maliens.
+Transferts rapides vers le Mali.
+Retrait possible dans les points Orange Money."""
+
+CONNAISSANCES["recevoir argent"] = """💸 RECEVOIR DE L'ARGENT
+Orange Money, Transfert bancaire
+Autres solutions selon la situation.
+Demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["famille"] = """👨‍👩‍👧‍👦 ARGENT DE LA FAMILLE
+Prévenez toujours votre famille à l'avance.
+Vérifiez les frais et les délais.
+Conservez les reçus des transferts."""
+
+CONNAISSANCES["urgence argent"] = """🚨 BESOIN D'ARGENT EN URGENCE
+Contactez d'abord BEM-RUDN.
+Le bureau pourra vous orienter vers la meilleure solution."""
+
+CONNAISSANCES["budget"] = """💵 BUDGET ÉTUDIANT
+Prévoyez les dépenses pour :
+Logement, Transport, Téléphone
+Alimentation, Documents administratifs"""
