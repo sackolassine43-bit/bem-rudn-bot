@@ -4395,3 +4395,78 @@ Responsable Sport ou BEM-RUDN."""
 CONNAISSANCES["sport ou commencer"] = """❓ SPORT COMMENCER
 Contactez BEM-RUDN pour
 être orienté."""
+
+# ==================== ÉVÉNEMENTS / CULTURE (20 Q&R) ====================
+CONNAISSANCES["evenements rudn"] = """🎉 ÉVÉNEMENTS RUDN
+Oui, des activités culturelles sont
+organisées toute l'année."""
+
+CONNAISSANCES["evenements connaitre"] = """📢 CONNAÎTRE ÉVÉNEMENTS
+Consultez les groupes étudiants
+et le BEM-RUDN."""
+
+CONNAISSANCES["evenements participer"] = """🎉 PARTICIPER ÉVÉNEMENTS
+Oui, généralement ouverts
+aux étudiants."""
+
+CONNAISSANCES["evenements chanter"] = """🎤 CHANTER
+Rejoignez les clubs et
+événements culturels."""
+
+CONNAISSANCES["evenements danser"] = """💃 DANSER
+Plusieurs activités culturelles
+permettent de participer."""
+
+CONNAISSANCES["evenements instrument"] = """🎸 JOUER INSTRUMENT
+Participez aux spectacles
+étudiants."""
+
+CONNAISSANCES["evenements representer mali"] = """🇲🇱 REPRÉSENTER MALI
+Contactez le BEM-RUDN lors
+des événements culturels."""
+
+CONNAISSANCES["evenements journee culturelle"] = """🌍 JOURNÉE CULTURELLE
+Oui, plusieurs événements
+internationaux organisés."""
+
+CONNAISSANCES["evenements culture malienne"] = """🇲🇱 CULTURE MALIENNE
+Oui, c'est fortement encouragé."""
+
+CONNAISSANCES["evenements vetements traditionnels"] = """👘 VÊTEMENTS TRADITIONNELS
+Appréciés lors des événements
+culturels."""
+
+CONNAISSANCES["evenements cuisiner"] = """🍳 CUISINER ÉVÉNEMENT
+Contactez les organisateurs."""
+
+CONNAISSANCES["evenements rejoindre activite"] = """🎉 REJOINDRE ACTIVITÉ
+Renseignez-vous auprès
+du BEM-RUDN."""
+
+CONNAISSANCES["culture responsable"] = """🎭 RESPONSABLE CULTURE
+Diarra Moussa K."""
+
+CONNAISSANCES["culture adjoint"] = """🎭 ADJOINT CULTURE
+Touré Mohamed A."""
+
+CONNAISSANCES["evenements timide"] = """😊 TIMIDE ÉVÉNEMENTS
+Les activités culturelles aident
+à s'intégrer."""
+
+CONNAISSANCES["evenements etudiants etrangers"] = """🌍 ÉTUDIANTS ÉTRANGERS
+Participez aux événements
+internationaux."""
+
+CONNAISSANCES["evenements organiser"] = """🎉 ORGANISER ÉVÉNEMENT
+Oui, avec l'accord des
+responsables concernés."""
+
+CONNAISSANCES["evenements projet culturel"] = """🎭 PROJET CULTUREL
+Contactez le BEM-RUDN."""
+
+CONNAISSANCES["evenements nouveau"] = """🆕 ÉVÉNEMENTS NOUVEAU
+Les événements facilitent
+l'intégration."""
+
+CONNAISSANCES["evenements qui contacter"] = """📞 ÉVÉNEMENTS CONTACT
+Responsable Culture ou BEM-RUDN."""
