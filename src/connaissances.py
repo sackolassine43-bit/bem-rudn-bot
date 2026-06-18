@@ -3773,3 +3773,106 @@ toute démarche importante."""
 CONNAISSANCES["but du bot"] = """🎯 BUT DU BOT
 Aider les étudiants maliens avant,
 pendant et après leurs études à la RUDN."""
+
+# ==================== MFC (30 Q&R) ====================
+CONNAISSANCES["mfc definition"] = """🏢 MFC
+Centre administratif principal pour
+les démarches étudiantes RUDN."""
+
+CONNAISSANCES["mfc ou"] = """📍 MFC OÙ
+Rez-de-chaussée du bâtiment
+principal de la RUDN."""
+
+CONNAISSANCES["mfc services"] = """🏢 MFC SERVICES
+Attestations, certificats, documents
+étudiants et autres démarches."""
+
+CONNAISSANCES["mfc attestation besoin"] = """📋 ATTESTATION MFC
+Adressez-vous au MFC."""
+
+CONNAISSANCES["mfc certificat scolarite"] = """📋 CERTIFICAT SCOLARITÉ MFC
+Faites la demande au MFC."""
+
+CONNAISSANCES["mfc document universitaire"] = """📋 DOCUMENT UNIVERSITAIRE
+Contactez le MFC."""
+
+CONNAISSANCES["mfc attestation banque"] = """🏦 ATTESTATION BANQUE MFC
+Demandez-la au MFC."""
+
+CONNAISSANCES["mfc attestation ambassade"] = """🏛️ ATTESTATION AMBASSADE MFC
+Adressez-vous au MFC."""
+
+CONNAISSANCES["mfc certificat visa"] = """🛂 CERTIFICAT VISA MFC
+Contactez le MFC ou le
+service compétent."""
+
+CONNAISSANCES["mfc documents apporter"] = """📄 MFC DOCUMENTS
+Passeport et carte étudiante."""
+
+CONNAISSANCES["mfc envoyer quelquun"] = """👥 MFC ENVOYER QUELQU'UN
+Vérifiez les règles applicables."""
+
+CONNAISSANCES["mfc ouvert jours"] = """🕘 MFC OUVERT
+Vérifiez les horaires officiels
+(09h00-18h00)."""
+
+CONNAISSANCES["mfc carte etudiante perdue"] = """🎓 CARTE ÉTUDIANTE PERDUE MFC
+Contactez immédiatement le MFC."""
+
+CONNAISSANCES["mfc refaire carte etudiante"] = """🎓 REFAIRE CARTE ÉTUDIANTE
+Adressez-vous au MFC."""
+
+CONNAISSANCES["mfc changement passeport"] = """🛂 CHANGEMENT PASSEPORT MFC
+Informez les services concernés."""
+
+CONNAISSANCES["mfc changement nom"] = """📋 CHANGEMENT NOM MFC
+Signalez-le rapidement."""
+
+CONNAISSANCES["mfc document urgent"] = """🚨 DOCUMENT URGENT MFC
+Expliquez votre situation au MFC."""
+
+CONNAISSANCES["mfc procedure incomprise"] = """❓ MFC PROCÉDURE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["mfc migration aide"] = """🛂 MFC MIGRATION
+Certaines démarches administratives
+peuvent y être liées."""
+
+CONNAISSANCES["mfc qui contacter"] = """📞 MFC QUI CONTACTER
+Contactez BEM-RUDN puis
+le MFC si nécessaire."""
+
+CONNAISSANCES["mfc nouveau"] = """🆕 MFC NOUVEAU
+Le MFC est l'un des services les
+plus importants à connaître."""
+
+CONNAISSANCES["mfc aide administrative"] = """📋 AIDE ADMINISTRATIVE MFC
+Contactez le MFC."""
+
+CONNAISSANCES["mfc perdu"] = """❓ MFC PERDU
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["mfc document aujourdhui"] = """📋 DOCUMENT AUJOURD'HUI MFC
+Vérifiez les horaires et
+rendez-vous au MFC."""
+
+CONNAISSANCES["mfc importance"] = """🏢 MFC IMPORTANCE
+Oui, pour la plupart des
+démarches universitaires."""
+
+CONNAISSANCES["mfc poser questions"] = """❓ MFC QUESTIONS
+Oui, le personnel peut
+vous orienter."""
+
+CONNAISSANCES["mfc probleme document"] = """⚠️ PROBLÈME DOCUMENT MFC
+Contactez rapidement le MFC."""
+
+CONNAISSANCES["mfc copie officielle"] = """📄 COPIE OFFICIELLE MFC
+Faites la demande au MFC."""
+
+CONNAISSANCES["mfc ne sais pas ou aller"] = """❓ MFC OÙ ALLER
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["mfc premiere regle"] = """📌 MFC RÈGLE
+Conservez toujours des copies
+de vos documents."""
