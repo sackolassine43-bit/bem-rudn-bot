@@ -5296,3 +5296,64 @@ Vérifiez les promotions disponibles."""
 CONNAISSANCES["budget conseil"] = """💡 CONSEIL BUDGET
 Dépensez moins que ce
 que vous recevez."""
+
+# ==================== SOUTIEN MORAL / SANTÉ MENTALE (15 Q&R) ====================
+CONNAISSANCES["stresse moral"] = """😰 STRESSÉ
+Parlez à des proches ou à
+des personnes de confiance."""
+
+CONNAISSANCES["seul moral"] = """😔 SEUL
+Contactez la communauté étudiante.
+BEM-RUDN est là pour vous."""
+
+CONNAISSANCES["mal du pays"] = """🇲🇱 MAL DU PAYS
+C'est normal au début, gardez
+le contact avec votre famille."""
+
+CONNAISSANCES["rentrer mali moral"] = """🇲🇱 RENTRER MALI
+Réfléchissez calmement et
+demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["decourage"] = """😞 DÉCOURAGÉ
+Parlez à un ami, un responsable
+ou BEM-RUDN."""
+
+CONNAISSANCES["difficultes adaptation"] = """🆕 DIFFICULTÉS ADAPTATION
+Beaucoup d'étudiants passent
+par cette étape. Courage."""
+
+CONNAISSANCES["fatigue"] = """😴 FATIGUÉ
+Reposez-vous et organisez
+votre emploi du temps."""
+
+CONNAISSANCES["arrive plus etudier"] = """📚 ARRIVE PLUS ÉTUDIER
+Demandez de l'aide rapidement.
+Parlez à votre faculté."""
+
+CONNAISSANCES["anxieux"] = """😰 ANXIEUX
+Cherchez du soutien auprès
+de personnes de confiance."""
+
+CONNAISSANCES["isole"] = """😔 ISOLÉ
+Rejoignez les activités étudiantes.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["triste"] = """😢 TRISTE
+Ne restez pas seul.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["personne parler"] = """🗣️ PERSONNE À QUI PARLER
+Contactez BEM-RUDN ou
+un ami proche."""
+
+CONNAISSANCES["besoin aide morale"] = """🆘 BESOIN AIDE
+Demandez de l'aide dès
+que possible."""
+
+CONNAISSANCES["mieux integrer"] = """🤝 MIEUX S'INTÉGRER
+Participez aux activités et
+rencontrez d'autres étudiants."""
+
+CONNAISSANCES["moral conseil"] = """💡 CONSEIL MORAL
+Ne gardez jamais un problème
+important pour vous seul."""
