@@ -3729,3 +3729,47 @@ BEM-RUDN peut vous orienter."""
 
 CONNAISSANCES["ambassade qui contacter"] = """📞 AMBASSADE QUI CONTACTER
 Contactez d'abord BEM-RUDN."""
+
+# ==================== CONSEILS / RÈGLES (10 Q&R) ====================
+CONNAISSANCES["survivre premier mois"] = """🆕 PREMIER MOIS RUSSIE
+1. Dortoir
+2. Migration
+3. SIM
+4. Banque
+5. Carte étudiante
+6. Cours"""
+
+CONNAISSANCES["documents toujours avoir"] = """📄 DOCUMENTS TOUJOURS AVOIR
+Passeport, visa, carte migratoire
+et enregistrement."""
+
+CONNAISSANCES["copies documents faire"] = """📄 COPIES DOCUMENTS
+Oui, papier et numérique.
+Scannez tout."""
+
+CONNAISSANCES["sauvegarder documents ou"] = """☁️ SAUVEGARDER DOCUMENTS
+Google Drive ou autre
+espace sécurisé."""
+
+CONNAISSANCES["perdu que faire"] = """❓ PERDU
+Contactez BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["procedure incomprise"] = """❓ PROCÉDURE INCOMPRISE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["regle numero 1"] = """📌 RÈGLE N°1
+Ne jamais attendre lorsqu'un
+problème apparaît."""
+
+CONNAISSANCES["regle numero 2"] = """📌 RÈGLE N°2
+Conserver des copies de
+tous les documents."""
+
+CONNAISSANCES["regle numero 3"] = """📌 RÈGLE N°3
+Contacter BEM-RUDN avant
+toute démarche importante."""
+
+CONNAISSANCES["but du bot"] = """🎯 BUT DU BOT
+Aider les étudiants maliens avant,
+pendant et après leurs études à la RUDN."""
