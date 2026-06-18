@@ -21,8 +21,7 @@ def est_admin(update):
     return utilisateur.username and utilisateur.username.lower() == ADMIN_USERNAME.lower()
 
 
-def fuzzy_search(query, connaissances, threshold=60):
-    """Recherche floue dans les connaissances"""
+def fuzzy_search(query, connaissances, threshold=55):
     meilleur_score = 0
     meilleure_cle = None
     query = query.lower().strip()
@@ -36,7 +35,7 @@ def fuzzy_search(query, connaissances, threshold=60):
     return None
 
 
-# ==================== COMMANDES ====================
+# ==================== COMMANDES ÉTUDIANTS ====================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     utilisateur = update.effective_user
     execute(
@@ -62,7 +61,8 @@ async def aide(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/nouveau - Guide premier jour\n"
         "/urgence - Contacts urgence\n"
         "/membres - Liste du bureau\n"
-        "/documents - Documents par niveau"
+        "/documents - Documents par niveau\n"
+        "/signaler - Signaler une erreur"
     )
 
 
@@ -91,7 +91,6 @@ async def parcours(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def etape_fait(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Gère 'étape X fait' ou 'bloqué étape X'"""
     message = update.message.text.lower().strip()
     utilisateur = update.effective_user
     
@@ -178,6 +177,21 @@ async def urgence_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
+async def signaler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if len(context.args) == 0:
+        await update.message.reply_text("Usage : /signaler description de l'erreur")
+        return
+    message = " ".join(context.args)
+    utilisateur = update.effective_user
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    execute(
+        "INSERT INTO signalements (user_id, message, date_creation) VALUES (?, ?, ?)",
+        (utilisateur.id, message, now)
+    )
+    await update.message.reply_text("✅ Signalement enregistré. Merci ! L'équipe BEM-RUDN va vérifier.")
+
+
+# ==================== COMMANDES ADMIN ====================
 async def historique(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not est_admin(update):
         return
@@ -193,7 +207,6 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def tickets_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Voir les tickets/questions non résolues"""
     if not est_admin(update):
         return
     tickets = fetchall("SELECT id, user_id, probleme, statut, date_creation FROM tickets WHERE statut='ouvert' OR statut='bloqué' ORDER BY id DESC LIMIT 10")
@@ -204,6 +217,30 @@ async def tickets_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     for t in tickets:
         texte += f"#{t[0]} — {t[3]} — {t[4]}\n{t[2][:100]}\n\n"
     await update.message.reply_text(texte)
+
+
+async def repondre_ticket(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not est_admin(update):
+        return
+    if len(context.args) < 2:
+        await update.message.reply_text("Usage : /repondre numero_ticket message")
+        return
+    try:
+        ticket_id = int(context.args[0])
+        reponse = " ".join(context.args[1:])
+        ticket = fetchone("SELECT user_id, probleme FROM tickets WHERE id=?", (ticket_id,))
+        if not ticket:
+            await update.message.reply_text("Ticket introuvable.")
+            return
+        user_id, probleme = ticket
+        await context.bot.send_message(
+            chat_id=user_id,
+            text=f"📨 Réponse BEM-RUDN à votre question :\n\n{reponse}"
+        )
+        execute("UPDATE tickets SET statut='résolu' WHERE id=?", (ticket_id,))
+        await update.message.reply_text(f"✅ Réponse envoyée au ticket #{ticket_id}")
+    except:
+        await update.message.reply_text("Erreur. Usage : /repondre 5 votre message")
 
 
 async def backup(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -319,35 +356,35 @@ async def texte(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     enregistrer_message(utilisateur.id, utilisateur.full_name, message)
     
-    # 1. Vérifier disponibilité membre
+    # 1. Disponibilité membre
     dispo_result = await gerer_dispo(update, context)
     if dispo_result:
         return
     
-    # 2. Vérifier étape fait/bloqué
+    # 2. Étape fait/bloqué
     etape_result = await etape_fait(update, context)
     if etape_result:
         return
     
-    # 3. Vérifier urgence
+    # 3. Urgence
     if est_urgence(message):
         enregistrer_urgence(utilisateur.id, message)
         await update.message.reply_text(message_urgence())
         return
     
-    # 4. Chercher contact par nom
+    # 4. Contact par nom
     contact = chercher_contact(message)
     if contact:
         await update.message.reply_text(contact)
         return
     
-    # 5. FUZZY SEARCH dans connaissances
+    # 5. Fuzzy search
     cle = fuzzy_search(message, CONNAISSANCES, 55)
     if cle:
         await update.message.reply_text(CONNAISSANCES[cle])
         return
     
-    # 6. Question non trouvée → assistance humaine
+    # 6. Assistance humaine
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     execute(
         "INSERT INTO tickets (user_id, probleme, statut, date_creation) VALUES (?, ?, 'ouvert', ?)",
@@ -383,11 +420,13 @@ def main():
     app.add_handler(CommandHandler("urgence", urgence_cmd))
     app.add_handler(CommandHandler("faq", faq))
     app.add_handler(CommandHandler("recherche", recherche))
+    app.add_handler(CommandHandler("signaler", signaler))
     
     # Commandes admin
     app.add_handler(CommandHandler("historique", historique))
     app.add_handler(CommandHandler("stats", stats))
     app.add_handler(CommandHandler("tickets", tickets_cmd))
+    app.add_handler(CommandHandler("repondre", repondre_ticket))
     app.add_handler(CommandHandler("backup", backup))
     app.add_handler(CommandHandler("panel", panel))
     app.add_handler(CommandHandler("broadcast", broadcast))
@@ -401,47 +440,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# ==================== SIGNALER UNE ERREUR ====================
-async def signaler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if len(context.args) == 0:
-        await update.message.reply_text("Usage : /signaler description de l'erreur")
-        return
-    message = " ".join(context.args)
-    utilisateur = update.effective_user
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    execute(
-        "INSERT INTO signalements (user_id, message, date_creation) VALUES (?, ?, ?)",
-        (utilisateur.id, message, now)
-    )
-    await update.message.reply_text("✅ Signalement enregistré. Merci ! L'équipe BEM-RUDN va vérifier.")
-
-
-# ==================== RÉPONDRE À UN TICKET ====================
-async def repondre_ticket(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if not est_admin(update):
-        return
-    if len(context.args) < 2:
-        await update.message.reply_text("Usage : /repondre numero_ticket message")
-        return
-    try:
-        ticket_id = int(context.args[0])
-        reponse = " ".join(context.args[1:])
-        ticket = fetchone("SELECT user_id, probleme FROM tickets WHERE id=?", (ticket_id,))
-        if not ticket:
-            await update.message.reply_text("Ticket introuvable.")
-            return
-        user_id, probleme = ticket
-        await context.bot.send_message(
-            chat_id=user_id,
-            text=f"📨 Réponse BEM-RUDN à votre question :\n\n{reponse}"
-        )
-        execute("UPDATE tickets SET statut='résolu' WHERE id=?", (ticket_id,))
-        await update.message.reply_text(f"✅ Réponse envoyée au ticket #{ticket_id}")
-    except:
-        await update.message.reply_text("Erreur. Usage : /repondre 5 votre message")
-
-
-# LIGNE À AJOUTER DANS main() AVANT app.run_polling():
-# app.add_handler(CommandHandler("signaler", signaler))
-# app.add_handler(CommandHandler("repondre", repondre_ticket))
