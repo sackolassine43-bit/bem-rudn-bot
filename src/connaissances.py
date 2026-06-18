@@ -3656,3 +3656,76 @@ et demandez conseil."""
 CONNAISSANCES["fin etudes premiere etape"] = """🎯 PREMIÈRE ÉTAPE FIN ÉTUDES
 Récupérer tous vos
 documents universitaires."""
+
+# ==================== PASSEPORT / AMBASSADE / FAMILLE (20 Q&R) ====================
+CONNAISSANCES["passeport malien expire"] = """🇲🇱 PASSEPORT MALIEN EXPIRE
+Contactez l'Ambassade du Mali
+dès que possible."""
+
+CONNAISSANCES["renouveler passeport malien"] = """🛂 RENOUVELER PASSEPORT
+Contactez l'Ambassade du Mali et
+préparez les documents demandés."""
+
+CONNAISSANCES["passeport perdu ambassade"] = """⚠️ PASSEPORT PERDU
+Contactez immédiatement BEM-RUDN,
+la police et l'Ambassade du Mali."""
+
+CONNAISSANCES["passeport vole"] = """🚨 PASSEPORT VOLÉ
+Faites une déclaration à la police
+puis contactez l'ambassade."""
+
+CONNAISSANCES["document consulaire"] = """📋 DOCUMENT CONSULAIRE
+Contactez l'Ambassade du Mali."""
+
+CONNAISSANCES["procuration ambassade"] = """📋 PROCURATION
+Contactez l'ambassade ou un notaire."""
+
+CONNAISSANCES["acte naissance"] = """📋 ACTE DE NAISSANCE
+Vérifiez les démarches auprès
+des autorités maliennes."""
+
+CONNAISSANCES["attestation ambassade"] = """📋 ATTESTATION AMBASSADE
+Contactez l'ambassade si nécessaire."""
+
+CONNAISSANCES["voyager urgence ambassade"] = """✈️ VOYAGE URGENCE
+Vérifiez vos documents et
+contactez l'ambassade."""
+
+CONNAISSANCES["rentrer mali urgence"] = """🇲🇱 RENTRER MALI URGENCE
+Vérifiez passeport, visa
+et billet d'avion."""
+
+CONNAISSANCES["bloque etranger"] = """⚠️ BLOQUÉ ÉTRANGER
+Contactez immédiatement l'ambassade."""
+
+CONNAISSANCES["difficulte ambassade"] = """⚠️ DIFFICULTÉ
+Contactez BEM-RUDN puis
+l'ambassade si nécessaire."""
+
+CONNAISSANCES["famille besoin mali"] = """🇲🇱 FAMILLE BESOIN MALI
+Vérifiez les conséquences sur
+votre visa et vos études."""
+
+CONNAISSANCES["deces famille"] = """🕊️ DÉCÈS FAMILLE
+Contactez BEM-RUDN et votre faculté.
+Toutes nos condoléances."""
+
+CONNAISSANCES["quitter russie rapide"] = """✈️ QUITTER RUSSIE RAPIDE
+Vérifiez vos documents avant le départ."""
+
+CONNAISSANCES["revenir mali russie"] = """🇲🇱🇷🇺 REVENIR DU MALI
+Vérifiez les règles d'entrée
+et votre enregistrement."""
+
+CONNAISSANCES["tous documents perdus ambassade"] = """🚨 TOUS DOCUMENTS PERDUS
+Contactez immédiatement BEM-RUDN
+et l'ambassade."""
+
+CONNAISSANCES["aide consulaire"] = """🏛️ AIDE CONSULAIRE
+Contactez l'Ambassade du Mali."""
+
+CONNAISSANCES["demarches inconnues"] = """❓ DÉMARCHES INCONNUES
+BEM-RUDN peut vous orienter."""
+
+CONNAISSANCES["ambassade qui contacter"] = """📞 AMBASSADE QUI CONTACTER
+Contactez d'abord BEM-RUDN."""
