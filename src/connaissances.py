@@ -3951,3 +3951,114 @@ Présentez-la au bureau."""
 CONNAISSANCES["role bem"] = """🎯 RÔLE BEM-RUDN
 Représenter, accompagner et soutenir
 les étudiants maliens."""
+
+# ==================== INFORMATIQUE / INTERNET (30 Q&R) ====================
+CONNAISSANCES["wifi dortoir panne"] = """📶 WI-FI DORTOIR PANNE
+Contactez l'administration du dortoir
+ou le support technique."""
+
+CONNAISSANCES["pas internet"] = """📶 PAS INTERNET
+Vérifiez votre connexion Wi-Fi
+ou votre forfait mobile."""
+
+CONNAISSANCES["internet rudn"] = """📶 INTERNET RUDN
+Utilisez le Wi-Fi universitaire
+ou une SIM russe."""
+
+CONNAISSANCES["ordinateur panne"] = """💻 ORDINATEUR PANNE
+Contactez un centre de
+réparation informatique."""
+
+CONNAISSANCES["ordinateur lent"] = """💻 ORDINATEUR LENT
+Libérez de l'espace et
+redémarrez l'appareil."""
+
+CONNAISSANCES["ordinateur cours"] = """💻 ORDINATEUR COURS
+Renseignez-vous sur les salles
+informatiques de l'université."""
+
+CONNAISSANCES["imprimer ou"] = """🖨️ IMPRIMER OÙ
+Centres d'impression ou
+près des facultés."""
+
+CONNAISSANCES["scanner ou"] = """📄 SCANNER OÙ
+Dans les centres d'impression."""
+
+CONNAISSANCES["envoyer pdf"] = """📧 ENVOYER PDF
+Utilisez votre email ou
+un service de stockage cloud."""
+
+CONNAISSANCES["sauvegarder documents ou"] = """☁️ SAUVEGARDER DOCUMENTS
+Google Drive ou autre
+service sécurisé."""
+
+CONNAISSANCES["fichiers perdus"] = """⚠️ FICHIERS PERDUS
+Vérifiez vos sauvegardes
+et votre corbeille."""
+
+CONNAISSANCES["email etudiant creer"] = """📧 EMAIL ÉTUDIANT
+Suivez les instructions
+de votre faculté."""
+
+CONNAISSANCES["mot passe universitaire oublie"] = """🔑 MOT PASSE UNIVERSITÉ
+Contactez le support informatique."""
+
+CONNAISSANCES["plateforme cours connexion"] = """💻 PLATEFORME COURS
+Vérifiez vos identifiants ou
+contactez le support."""
+
+CONNAISSANCES["notes ou voir"] = """📋 VOIR NOTES
+Sur les plateformes
+universitaires officielles."""
+
+CONNAISSANCES["telephone cours"] = """📱 TÉLÉPHONE COURS
+Oui, selon les exigences
+des enseignants."""
+
+CONNAISSANCES["envoyer devoir"] = """📧 ENVOYER DEVOIR
+Utilisez la plateforme indiquée
+par votre enseignant."""
+
+CONNAISSANCES["plateforme russe incomprise"] = """❓ PLATEFORME RUSSE
+Utilisez un traducteur et
+demandez de l'aide."""
+
+CONNAISSANCES["logiciel installer"] = """💻 LOGICIEL INSTALLER
+Vérifiez les recommandations
+de votre faculté."""
+
+CONNAISSANCES["aide informatique"] = """💻 AIDE INFORMATIQUE
+Contactez le support ou BEM-RUDN."""
+
+CONNAISSANCES["telephone casse"] = """📱 TÉLÉPHONE CASSÉ
+Faites-le réparer dans
+un centre agréé."""
+
+CONNAISSANCES["chargeur perdu"] = """🔌 CHARGEUR PERDU
+Achetez-en un compatible rapidement."""
+
+CONNAISSANCES["acheter ordinateur moscou"] = """💻 ACHETER ORDINATEUR MOSCOU
+Oui, dans les magasins spécialisés."""
+
+CONNAISSANCES["proteger donnees"] = """🔐 PROTÉGER DONNÉES
+Utilisez des mots de passe sécurisés."""
+
+CONNAISSANCES["sauvegarder passeport numerique"] = """🛂 SAUVEGARDER PASSEPORT
+Oui, gardez une copie sécurisée."""
+
+CONNAISSANCES["sauvegarder visa numerique"] = """🛂 SAUVEGARDER VISA
+Oui, conservez une copie numérique."""
+
+CONNAISSANCES["sauvegarder diplomes numerique"] = """🎓 SAUVEGARDER DIPLÔMES
+Oui, avant et après votre arrivée."""
+
+CONNAISSANCES["email suspect"] = """⚠️ EMAIL SUSPECT
+Ne cliquez pas sur les liens inconnus."""
+
+CONNAISSANCES["pirate"] = """⚠️ PIRATÉ
+Changez immédiatement
+vos mots de passe."""
+
+CONNAISSANCES["informatique qui aider"] = """💻 AIDE INFORMATIQUE QUI
+BEM-RUDN ou le support
+informatique de l'université."""
