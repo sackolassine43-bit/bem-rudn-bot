@@ -1357,3 +1357,1764 @@ Nous vous expliquerons."""
 CONNAISSANCES["rvpo aide urgente"] = """🚨 AIDE URGENTE RVPO
 Contactez immédiatement BEM-RUDN.
 📞 +79912435421"""
+
+# ==================== DORTOIR (30 Q&R) ====================
+CONNAISSANCES["dortoir obtenir place"] = """🏠 OBTENIR PLACE DORTOIR
+Contactez le service hébergement et BEM-RUDN
+après votre admission.
+📧 accomodation@rudn.ru"""
+
+CONNAISSANCES["dortoir jarrive demain"] = """🛬 J'ARRIVE DEMAIN
+Contactez immédiatement BEM-RUDN
+pour être orienté vers votre dortoir.
+📞 +79912435421"""
+
+CONNAISSANCES["dortoir ou vais je loger"] = """🏠 OÙ LOGER
+L'université vous attribuera un dortoir
+selon les disponibilités."""
+
+CONNAISSANCES["dortoir comment connaitre"] = """🏠 CONNAÎTRE SON DORTOIR
+Vérifiez les informations de l'université
+ou contactez BEM-RUDN."""
+
+CONNAISSANCES["dortoir choisir"] = """🏠 CHOISIR SON DORTOIR
+L'attribution dépend généralement
+des places disponibles."""
+
+CONNAISSANCES["dortoir changer chambre"] = """🏠 CHANGER DE CHAMBRE
+Oui, dans certains cas et selon
+les règles du dortoir."""
+
+CONNAISSANCES["dortoir voisin bruit"] = """🏠 VOISIN BRUYANT
+Parlez d'abord avec lui, puis
+contactez l'administration du dortoir."""
+
+CONNAISSANCES["dortoir probleme colocataire"] = """🏠 PROBLÈME COLOCATAIRE
+Contactez l'administration du dortoir
+et BEM-RUDN."""
+
+CONNAISSANCES["dortoir pas de cle"] = """🔑 PAS DE CLÉ
+Adressez-vous immédiatement
+à l'administration du dortoir."""
+
+CONNAISSANCES["dortoir cle perdue"] = """🔑 CLÉ PERDUE
+Signalez-le rapidement
+à l'administration."""
+
+CONNAISSANCES["dortoir chauffage panne"] = """🌡️ CHAUFFAGE EN PANNE
+Informez l'administration du dortoir."""
+
+CONNAISSANCES["dortoir eau chaude panne"] = """🚿 PAS D'EAU CHAUDE
+Contactez l'administration du dortoir."""
+
+CONNAISSANCES["dortoir electricite panne"] = """💡 ÉLECTRICITÉ EN PANNE
+Signalez la panne immédiatement."""
+
+CONNAISSANCES["dortoir wifi panne"] = """📶 WI-FI EN PANNE
+Contactez l'administration ou
+le support concerné."""
+
+CONNAISSANCES["dortoir invites"] = """🏠 INVITÉS DORTOIR
+Respectez les règles de votre dortoir.
+Vérifiez les horaires autorisés."""
+
+CONNAISSANCES["dortoir cuisiner"] = """🍳 CUISINER DORTOIR
+Oui, dans les espaces autorisés.
+Respectez les règles de sécurité."""
+
+CONNAISSANCES["dortoir changer batiment"] = """🏠 CHANGER DE DORTOIR
+Adressez une demande officielle
+au service hébergement."""
+
+CONNAISSANCES["dortoir cout"] = """💰 COÛT DORTOIR
+Le tarif dépend du bâtiment
+et du type de chambre."""
+
+CONNAISSANCES["dortoir comment payer"] = """💳 PAYER LE DORTOIR
+Selon les procédures indiquées
+par l'université."""
+
+CONNAISSANCES["dortoir paiement rate"] = """⚠️ PAIEMENT DORTOIR RATÉ
+Contactez rapidement l'administration."""
+
+CONNAISSANCES["dortoir risque expulsion"] = """⚠️ RISQUE EXPULSION DORTOIR
+Oui, en cas de non-respect des règles.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["dortoir regles"] = """📋 RÈGLES DORTOIR
+Respect du calme, de la sécurité
+et du règlement intérieur."""
+
+CONNAISSANCES["dortoir carte etudiante perdue"] = """🎓 CARTE ÉTUDIANTE PERDUE
+Signalez-le rapidement au MFC."""
+
+CONNAISSANCES["dortoir malade"] = """🏥 MALADE AU DORTOIR
+Contactez le centre médical et BEM-RUDN.
+📞 +7 (495) 434-24-91"""
+
+CONNAISSANCES["dortoir urgence chambre"] = """🚨 URGENCE DANS LA CHAMBRE
+Contactez immédiatement l'administration
+et les secours si nécessaire (112)."""
+
+CONNAISSANCES["dortoir demenager campus"] = """🏠 DÉMÉNAGER HORS CAMPUS
+Oui, mais vérifiez les conséquences
+sur votre enregistrement migration."""
+
+CONNAISSANCES["dortoir changement logement"] = """🏠 CHANGEMENT LOGEMENT
+Informez immédiatement
+les services concernés."""
+
+CONNAISSANCES["dortoir loin faculte"] = """🏠 DORTOIR LOIN FACULTÉ
+Contactez BEM-RUDN pour des conseils.
+Des solutions existent."""
+
+CONNAISSANCES["dortoir qui contacter"] = """📞 QUI CONTACTER DORTOIR
+Contactez toujours BEM-RUDN en premier.
+📞 +79912435421"""
+
+CONNAISSANCES["dortoir aide urgente"] = """🚨 AIDE URGENTE DORTOIR
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+# ==================== DORTOIR (30 Q&R) ====================
+CONNAISSANCES["dortoir obtenir place"] = """🏠 OBTENIR PLACE DORTOIR
+Contactez le service hébergement et BEM-RUDN
+après votre admission.
+📧 accomodation@rudn.ru"""
+
+CONNAISSANCES["dortoir jarrive demain"] = """🛬 J'ARRIVE DEMAIN
+Contactez immédiatement BEM-RUDN
+pour être orienté vers votre dortoir.
+📞 +79912435421"""
+
+CONNAISSANCES["dortoir ou vais je loger"] = """🏠 OÙ LOGER
+L'université vous attribuera un dortoir
+selon les disponibilités."""
+
+CONNAISSANCES["dortoir comment connaitre"] = """🏠 CONNAÎTRE SON DORTOIR
+Vérifiez les informations de l'université
+ou contactez BEM-RUDN."""
+
+CONNAISSANCES["dortoir choisir"] = """🏠 CHOISIR SON DORTOIR
+L'attribution dépend généralement
+des places disponibles."""
+
+CONNAISSANCES["dortoir changer chambre"] = """🏠 CHANGER DE CHAMBRE
+Oui, dans certains cas et selon
+les règles du dortoir."""
+
+CONNAISSANCES["dortoir voisin bruit"] = """🏠 VOISIN BRUYANT
+Parlez d'abord avec lui, puis
+contactez l'administration du dortoir."""
+
+CONNAISSANCES["dortoir probleme colocataire"] = """🏠 PROBLÈME COLOCATAIRE
+Contactez l'administration du dortoir
+et BEM-RUDN."""
+
+CONNAISSANCES["dortoir pas de cle"] = """🔑 PAS DE CLÉ
+Adressez-vous immédiatement
+à l'administration du dortoir."""
+
+CONNAISSANCES["dortoir cle perdue"] = """🔑 CLÉ PERDUE
+Signalez-le rapidement
+à l'administration."""
+
+CONNAISSANCES["dortoir chauffage panne"] = """🌡️ CHAUFFAGE EN PANNE
+Informez l'administration du dortoir."""
+
+CONNAISSANCES["dortoir eau chaude panne"] = """🚿 PAS D'EAU CHAUDE
+Contactez l'administration du dortoir."""
+
+CONNAISSANCES["dortoir electricite panne"] = """💡 ÉLECTRICITÉ EN PANNE
+Signalez la panne immédiatement."""
+
+CONNAISSANCES["dortoir wifi panne"] = """📶 WI-FI EN PANNE
+Contactez l'administration ou
+le support concerné."""
+
+CONNAISSANCES["dortoir invites"] = """🏠 INVITÉS DORTOIR
+Respectez les règles de votre dortoir.
+Vérifiez les horaires autorisés."""
+
+CONNAISSANCES["dortoir cuisiner"] = """🍳 CUISINER DORTOIR
+Oui, dans les espaces autorisés.
+Respectez les règles de sécurité."""
+
+CONNAISSANCES["dortoir changer batiment"] = """🏠 CHANGER DE DORTOIR
+Adressez une demande officielle
+au service hébergement."""
+
+CONNAISSANCES["dortoir cout"] = """💰 COÛT DORTOIR
+Le tarif dépend du bâtiment
+et du type de chambre."""
+
+CONNAISSANCES["dortoir comment payer"] = """💳 PAYER LE DORTOIR
+Selon les procédures indiquées
+par l'université."""
+
+CONNAISSANCES["dortoir paiement rate"] = """⚠️ PAIEMENT DORTOIR RATÉ
+Contactez rapidement l'administration."""
+
+CONNAISSANCES["dortoir risque expulsion"] = """⚠️ RISQUE EXPULSION DORTOIR
+Oui, en cas de non-respect des règles.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["dortoir regles"] = """📋 RÈGLES DORTOIR
+Respect du calme, de la sécurité
+et du règlement intérieur."""
+
+CONNAISSANCES["dortoir carte etudiante perdue"] = """🎓 CARTE ÉTUDIANTE PERDUE
+Signalez-le rapidement au MFC."""
+
+CONNAISSANCES["dortoir malade"] = """🏥 MALADE AU DORTOIR
+Contactez le centre médical et BEM-RUDN.
+📞 +7 (495) 434-24-91"""
+
+CONNAISSANCES["dortoir urgence chambre"] = """🚨 URGENCE DANS LA CHAMBRE
+Contactez immédiatement l'administration
+et les secours si nécessaire (112)."""
+
+CONNAISSANCES["dortoir demenager campus"] = """🏠 DÉMÉNAGER HORS CAMPUS
+Oui, mais vérifiez les conséquences
+sur votre enregistrement migration."""
+
+CONNAISSANCES["dortoir changement logement"] = """🏠 CHANGEMENT LOGEMENT
+Informez immédiatement
+les services concernés."""
+
+CONNAISSANCES["dortoir loin faculte"] = """🏠 DORTOIR LOIN FACULTÉ
+Contactez BEM-RUDN pour des conseils.
+Des solutions existent."""
+
+CONNAISSANCES["dortoir qui contacter"] = """📞 QUI CONTACTER DORTOIR
+Contactez toujours BEM-RUDN en premier.
+📞 +79912435421"""
+
+CONNAISSANCES["dortoir aide urgente"] = """🚨 AIDE URGENTE DORTOIR
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+# ==================== SIM (30 Q&R) ====================
+CONNAISSANCES["sim acheter comment"] = """📱 ACHETER UNE SIM
+Passeport, traduction notariée,
+SNILS, Gosuslugi, biométrie.
+Boutiques MTS, Beeline, MegaFon, Tele2."""
+
+CONNAISSANCES["sim quel operateur"] = """📱 QUEL OPÉRATEUR
+MTS, Beeline, MegaFon et Tele2.
+Tous disponibles à Moscou."""
+
+CONNAISSANCES["sim meilleure"] = """📱 MEILLEURE SIM
+Cela dépend de votre budget
+et de votre zone de résidence."""
+
+CONNAISSANCES["sim ou acheter"] = """📍 OÙ ACHETER UNE SIM
+Dans les boutiques officielles
+des opérateurs (MTS, Beeline...)."""
+
+CONNAISSANCES["sim jarrive aujourdhui"] = """🆕 J'ARRIVE AUJOURD'HUI
+D'abord installation au dortoir,
+puis démarches SIM.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["sim numero malien"] = """🇲🇱 NUMÉRO MALIEN
+Oui, utilisable mais le roaming
+est souvent coûteux."""
+
+CONNAISSANCES["sim pourquoi russe"] = """📱 POURQUOI SIM RUSSE
+Pour la banque, Gosuslugi
+et les démarches administratives."""
+
+CONNAISSANCES["sim telephone capte pas"] = """📱 TÉLÉPHONE NE CAPTE PAS
+Vérifiez les paramètres réseau
+et votre forfait."""
+
+CONNAISSANCES["sim pas internet"] = """📱 PAS D'INTERNET
+Vérifiez votre solde ou
+contactez l'opérateur."""
+
+CONNAISSANCES["sim recharger"] = """💳 RECHARGER SA SIM
+Via l'application de l'opérateur
+ou un terminal de paiement."""
+
+CONNAISSANCES["sim perdue"] = """⚠️ SIM PERDUE
+Contactez immédiatement l'opérateur.
+Présentez votre passeport."""
+
+CONNAISSANCES["sim changement telephone"] = """📱 CHANGEMENT TÉLÉPHONE
+Vérifiez que votre numéro reste actif.
+Mettez à jour l'IMEI si nécessaire."""
+
+CONNAISSANCES["sim numero bloque"] = """📱 NUMÉRO BLOQUÉ
+Contactez le service client
+de l'opérateur."""
+
+CONNAISSANCES["sim telephone vole"] = """⚠️ TÉLÉPHONE VOLÉ
+Bloquez la SIM et changez
+tous vos mots de passe."""
+
+CONNAISSANCES["sim plusieurs"] = """📱 PLUSIEURS SIM
+Oui, selon les règles en vigueur."""
+
+CONNAISSANCES["snils definition"] = """📋 SNILS
+Numéro administratif russe.
+Souvent nécessaire pour les démarches.
+Gratuit au MFC."""
+
+CONNAISSANCES["gosuslugi definition"] = """💻 GOSUSLUGI
+Portail officiel des services
+publics russes. Obligatoire pour SIM."""
+
+CONNAISSANCES["biometrie pourquoi"] = """👆 BIOMÉTRIE POURQUOI
+Nécessaire pour certaines démarches
+liées aux SIM et au RVPO."""
+
+CONNAISSANCES["imei definition"] = """📱 IMEI
+Numéro d'identification du téléphone.
+Tapez *#06# pour le voir."""
+
+CONNAISSANCES["imei comment connaitre"] = """📱 CONNAÎTRE SON IMEI
+Tapez *#06# sur votre téléphone.
+Communiquez-le à l'opérateur."""
+
+CONNAISSANCES["sim etudiant forfait"] = """📱 SIM ÉTUDIANT
+Choisissez un forfait avec
+Internet suffisant."""
+
+CONNAISSANCES["sim partager internet"] = """📱 PARTAGER INTERNET
+Oui, via le partage de connexion
+de votre téléphone."""
+
+CONNAISSANCES["sim whatsapp fonctionne"] = """📱 WHATSAPP
+Oui, selon les conditions du réseau.
+WhatsApp fonctionne en Russie."""
+
+CONNAISSANCES["sim telegram fonctionne"] = """📱 TELEGRAM
+Oui, Telegram est très utilisé
+en Russie. Fonctionne normalement."""
+
+CONNAISSANCES["sim appeler mali"] = """📞 APPELER LE MALI
+Via Internet (WhatsApp, Telegram)
+ou les services téléphoniques internationaux."""
+
+CONNAISSANCES["sim economiser internet"] = """📱 ÉCONOMISER INTERNET
+Utilisez le Wi-Fi du campus
+quand c'est possible."""
+
+CONNAISSANCES["sim qui contacter probleme"] = """📞 PROBLÈME SIM
+Contactez d'abord BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["sim aide demarches"] = """📱 AIDE DÉMARCHES SIM
+BEM-RUDN peut vous orienter.
+Contactez-nous."""
+
+CONNAISSANCES["sim ne comprends pas"] = """❓ DÉMARCHES SIM INCOMPRISES
+Demandez l'aide du bureau BEM-RUDN.
+Nous vous expliquerons."""
+
+CONNAISSANCES["sim arrivee russie ordre"] = """🆕 ARRIVÉE RUSSIE ORDRE
+1. Dortoir
+2. Migration
+3. SIM
+4. Banque
+5. Carte étudiante"""
+
+# ==================== BANQUE (30 Q&R) ====================
+CONNAISSANCES["banque ouvrir compte"] = """💳 OUVRIR UN COMPTE
+Présentez votre passeport, les documents
+demandés et suivez la procédure de la banque."""
+
+CONNAISSANCES["banque quelle choisir"] = """🏦 QUELLE BANQUE
+Sberbank, VTB et autres banques russes
+sont populaires chez les étudiants."""
+
+CONNAISSANCES["banque carte mir definition"] = """💳 CARTE MIR
+Principale carte bancaire utilisée
+en Russie. Acceptée partout."""
+
+CONNAISSANCES["banque pourquoi mir"] = """💳 POURQUOI CARTE MIR
+Pour les paiements, retraits
+et services quotidiens."""
+
+CONNAISSANCES["banque ouvrir arrivee"] = """🆕 OUVRIR COMPTE À L'ARRIVÉE
+Oui, après avoir obtenu
+les documents nécessaires (SIM, migration)."""
+
+CONNAISSANCES["banque quels documents"] = """📄 DOCUMENTS BANQUE
+Passeport et autres justificatifs
+demandés par la banque."""
+
+CONNAISSANCES["banque cout carte"] = """💰 COÛT CARTE BANCAIRE
+Cela dépend de la banque
+et du type de compte."""
+
+CONNAISSANCES["banque recevoir argent"] = """💸 RECEVOIR DE L'ARGENT
+Utilisez les solutions disponibles et
+demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["banque famille envoi argent"] = """👨‍👩‍👧‍👦 FAMILLE ENVOIE ARGENT
+Vérifiez la méthode la plus pratique
+avant le transfert."""
+
+CONNAISSANCES["banque carte perdue"] = """⚠️ CARTE BANCAIRE PERDUE
+Bloquez-la immédiatement
+et contactez la banque."""
+
+CONNAISSANCES["banque compte bloque"] = """⚠️ COMPTE BLOQUÉ
+Contactez le service client
+de votre banque."""
+
+CONNAISSANCES["banque code pin oublie"] = """🔢 CODE PIN OUBLIÉ
+Contactez votre banque
+pour le réinitialiser."""
+
+CONNAISSANCES["banque payer telephone"] = """📱 PAYER AVEC TÉLÉPHONE
+Cela dépend des services proposés
+par votre banque."""
+
+CONNAISSANCES["banque retirer argent"] = """💳 RETIRER DE L'ARGENT
+Utilisez les distributeurs automatiques
+compatibles avec votre carte."""
+
+CONNAISSANCES["banque distributeur ou"] = """📍 DISTRIBUTEUR
+Sur le campus ou dans
+les centres commerciaux."""
+
+CONNAISSANCES["banque payer dortoir carte"] = """🏠 PAYER DORTOIR PAR CARTE
+Vérifiez les modalités indiquées
+par l'université."""
+
+CONNAISSANCES["banque payer frais universite"] = """🎓 PAYER FRAIS UNIVERSITÉ
+Oui, selon les procédures
+de l'université."""
+
+CONNAISSANCES["banque consulter solde"] = """💰 CONSULTER SOLDE
+Via l'application mobile
+de votre banque."""
+
+CONNAISSANCES["banque pres campus"] = """🏦 BANQUE PRÈS CAMPUS
+Oui, plusieurs agences sont
+accessibles aux étudiants."""
+
+CONNAISSANCES["banque plusieurs comptes"] = """💳 PLUSIEURS COMPTES
+Oui, selon les règles
+des banques."""
+
+CONNAISSANCES["banque changer"] = """🔄 CHANGER DE BANQUE
+Ouvrez un nouveau compte et
+effectuez les démarches nécessaires."""
+
+CONNAISSANCES["banque argent non arrive"] = """⚠️ ARGENT NON ARRIVÉ
+Vérifiez le transfert et
+contactez la banque."""
+
+CONNAISSANCES["banque paiement erreur"] = """⚠️ PAIEMENT PAR ERREUR
+Contactez immédiatement la banque."""
+
+CONNAISSANCES["banque envoyer argent mali"] = """🇲🇱 ENVOYER ARGENT AU MALI
+Vérifiez les solutions disponibles
+au moment du transfert."""
+
+CONNAISSANCES["banque proteger compte"] = """🔐 PROTÉGER COMPTE
+Ne partagez jamais vos codes
+ou mots de passe."""
+
+CONNAISSANCES["banque message suspect"] = """⚠️ MESSAGE SUSPECT
+Ne cliquez pas sur les liens
+et contactez la banque."""
+
+CONNAISSANCES["banque arnaque"] = """⚠️ ARNAQUE BANCAIRE
+Contactez la banque et BEM-RUDN
+immédiatement."""
+
+CONNAISSANCES["banque qui contacter"] = """📞 PROBLÈME BANQUE
+Contactez toujours BEM-RUDN
+en cas de difficulté."""
+
+CONNAISSANCES["banque nouvel etudiant"] = """🆕 NOUVEL ÉTUDIANT BANQUE
+Après la SIM, ouvrez un compte
+bancaire pour faciliter vos démarches."""
+
+CONNAISSANCES["banque aide demarches"] = """🏦 AIDE DÉMARCHES BANQUE
+BEM-RUDN peut vous orienter
+vers la bonne procédure."""
+
+# ==================== ARRIVÉE / AÉROPORT (30 Q&R) ====================
+CONNAISSANCES["arrivee moscou"] = """🛬 ARRIVÉE À MOSCOU
+Contactez immédiatement BEM-RUDN
+et rejoignez votre dortoir.
+📞 +79912435421"""
+
+CONNAISSANCES["aeroport suis"] = """🛬 À L'AÉROPORT
+Restez calme et gardez tous
+vos documents avec vous."""
+
+CONNAISSANCES["aeroports principaux"] = """🛬 AÉROPORTS MOSCOU
+SVO - Cheremetievo
+DME - Domodedovo
+VKO - Vnoukovo"""
+
+CONNAISSANCES["aeroport aller rudn"] = """🚆 AÉROPORT → RUDN
+Aeroexpress + métro
+ou taxi Yandex Go."""
+
+CONNAISSANCES["aeroport quel taxi"] = """🚖 TAXI AÉROPORT
+Yandex Go est généralement recommandé.
+Utilisez les services officiels."""
+
+CONNAISSANCES["aeroport prendre taxi"] = """🚖 PRENDRE TAXI AÉROPORT
+Oui, mais utilisez de préférence
+les services officiels (Yandex Go)."""
+
+CONNAISSANCES["aeroport pas russe"] = """🗣️ NE PARLE PAS RUSSE
+Utilisez un traducteur sur téléphone
+et contactez BEM-RUDN."""
+
+CONNAISSANCES["aeroport vol rate"] = """✈️ VOL RATÉ
+Contactez immédiatement
+la compagnie aérienne."""
+
+CONNAISSANCES["aeroport vol retarde"] = """⏳ VOL RETARDÉ
+Informez les personnes
+qui vous attendent."""
+
+CONNAISSANCES["aeroport bagage perdu"] = """🧳 BAGAGE PERDU
+Signalez-le immédiatement
+à l'aéroport."""
+
+CONNAISSANCES["aeroport passeport perdu"] = """🛂 PASSEPORT PERDU AÉROPORT
+Contactez la police, votre ambassade
+et BEM-RUDN."""
+
+CONNAISSANCES["aeroport documents perdus"] = """⚠️ DOCUMENTS PERDUS AÉROPORT
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["aeroport bloque"] = """⚠️ BLOQUÉ À L'AÉROPORT
+Contactez BEM-RUDN et
+les services compétents."""
+
+CONNAISSANCES["arrivee apres quoi faire"] = """🆕 APRÈS ARRIVÉE
+1. Dortoir
+2. Migration
+3. SIM
+4. Banque
+5. Carte étudiante"""
+
+CONNAISSANCES["carte migratoire garder"] = """🛂 CARTE MIGRATOIRE
+Oui, conservez-la précieusement.
+Ne la perdez jamais."""
+
+CONNAISSANCES["aeroport beaucoup bagages"] = """🧳 BEAUCOUP DE BAGAGES
+Utilisez un taxi officiel
+ou demandez de l'aide."""
+
+CONNAISSANCES["aeroport changer argent"] = """💱 CHANGER ARGENT AÉROPORT
+Oui, mais comparez les taux
+disponibles avant."""
+
+CONNAISSANCES["aeroport fatigue"] = """😴 FATIGUÉ AÉROPORT
+Reposez-vous après votre
+installation au dortoir."""
+
+CONNAISSANCES["aeroport qui vient chercher"] = """🚖 QUI VIENT CHERCHER
+Vérifiez avec BEM-RUDN
+ou vos contacts."""
+
+CONNAISSANCES["aeroport arriver nuit"] = """🌙 ARRIVER LA NUIT
+Prévenez BEM-RUDN
+avant votre arrivée."""
+
+CONNAISSANCES["arrivee prepa"] = """📚 ARRIVÉE PRÉPA
+Contactez votre faculté préparatoire
+et BEM-RUDN."""
+
+CONNAISSANCES["arrivee licence"] = """🎓 ARRIVÉE LICENCE
+Préparez vos documents universitaires.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["arrivee master"] = """🎓 ARRIVÉE MASTER
+Gardez tous vos documents accessibles.
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["arrivee doctorat"] = """🎓 ARRIVÉE DOCTORAT
+Contactez votre faculté
+dès votre arrivée."""
+
+CONNAISSANCES["aeroport prendre metro"] = """🚇 PRENDRE MÉTRO
+Oui, avec une carte Troïka.
+Achetez-la aux stations."""
+
+CONNAISSANCES["troika ou acheter"] = """💳 OÙ ACHETER TROÏKA
+Dans les stations de métro."""
+
+CONNAISSANCES["aeroport contacter famille"] = """📞 CONTACTER FAMILLE
+Utilisez le Wi-Fi ou
+une SIM russe."""
+
+CONNAISSANCES["aeroport aide urgente"] = """🚨 AIDE URGENTE AÉROPORT
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["aeroport qui contacter"] = """📞 QUI CONTACTER AÉROPORT
+Toujours BEM-RUDN en premier.
+📞 +79912435421"""
+
+CONNAISSANCES["arrivee priorite"] = """🎯 PRIORITÉ ARRIVÉE
+1. Installation dortoir
+2. Migration
+3. SIM
+4. Banque
+5. Études"""
+
+# ==================== SANTÉ (30 Q&R) ====================
+CONNAISSANCES["sante malade"] = """🏥 JE SUIS MALADE
+Contactez rapidement le centre médical RUDN
+et informez BEM-RUDN.
+📞 +7 (495) 434-24-91"""
+
+CONNAISSANCES["sante fievre"] = """🌡️ FIÈVRE
+Consultez un médecin rapidement
+et reposez-vous."""
+
+CONNAISSANCES["sante toux"] = """🤧 TOUX
+Prenez rendez-vous au centre médical.
+📞 +7 (495) 434-24-91"""
+
+CONNAISSANCES["sante mal tete"] = """🤕 MAL À LA TÊTE
+Consultez un médecin si les
+symptômes persistent."""
+
+CONNAISSANCES["sante mal ventre"] = """🤢 MAL AU VENTRE
+Consultez un professionnel de santé."""
+
+CONNAISSANCES["sante centre medical ou"] = """📍 CENTRE MÉDICAL RUDN
+10 rue Miklukho-Maklaya.
+📞 +7 (495) 434-24-91"""
+
+CONNAISSANCES["sante centre medical numero"] = """📞 CENTRE MÉDICAL RUDN
++7 (495) 434-24-91"""
+
+CONNAISSANCES["sante assurance obligatoire"] = """🏥 ASSURANCE MÉDICALE
+Oui, elle est obligatoire pour
+les étudiants étrangers."""
+
+CONNAISSANCES["sante assurance perdue"] = """⚠️ ASSURANCE PERDUE
+Contactez votre assureur
+et BEM-RUDN."""
+
+CONNAISSANCES["sante consulter medecin"] = """👨‍⚕️ CONSULTER MÉDECIN
+Prenez rendez-vous au centre médical.
+📞 +7 (495) 434-24-91"""
+
+CONNAISSANCES["sante dentiste"] = """🦷 DENTISTE
+Demandez une orientation
+au centre médical RUDN."""
+
+CONNAISSANCES["sante ordonnance"] = """💊 ORDONNANCE
+Consultez un médecin
+pour obtenir une ordonnance."""
+
+CONNAISSANCES["sante certificat medical"] = """📋 CERTIFICAT MÉDICAL
+Adressez-vous au centre médical RUDN."""
+
+CONNAISSANCES["sante hospitalise"] = """🏥 HOSPITALISÉ
+Prévenez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["sante ami hospitalise"] = """🏥 AMI HOSPITALISÉ
+Informez BEM-RUDN pour
+qu'il puisse aider."""
+
+CONNAISSANCES["sante accident"] = """🚑 ACCIDENT
+Appelez le 112 ou le 103
+immédiatement."""
+
+CONNAISSANCES["sante ambulance numero"] = """🚑 AMBULANCE
+103 ou 112."""
+
+CONNAISSANCES["sante pas russe"] = """🏥 NE PARLE PAS RUSSE
+Contactez BEM-RUDN pour
+être accompagné."""
+
+CONNAISSANCES["sante medecin urgent"] = """🚑 MÉDECIN URGENT
+Appelez le 112 ou le 103."""
+
+CONNAISSANCES["sante perte connaissance"] = """🚨 PERTE CONNAISSANCE
+Les personnes présentes doivent
+appeler les secours immédiatement (112)."""
+
+CONNAISSANCES["sante stresse"] = """😰 STRESSÉ
+Parlez à vos proches
+et demandez de l'aide."""
+
+CONNAISSANCES["sante seul"] = """😔 SEUL
+Contactez vos amis ou BEM-RUDN.
+Ne restez pas isolé."""
+
+CONNAISSANCES["sante deprime"] = """😢 DÉPRIMÉ
+Demandez de l'aide rapidement
+et ne restez pas seul."""
+
+CONNAISSANCES["sante psychologue"] = """🧠 PSYCHOLOGUE
+Contactez le centre médical
+ou votre faculté."""
+
+CONNAISSANCES["sante traitement"] = """💊 TRAITEMENT
+Informez votre médecin
+de votre traitement en cours."""
+
+CONNAISSANCES["sante acheter medicaments"] = """💊 ACHETER MÉDICAMENTS
+Oui, dans les pharmacies autorisées."""
+
+CONNAISSANCES["sante pharmacie ou"] = """📍 PHARMACIE
+Près du campus ou dans
+les centres commerciaux."""
+
+CONNAISSANCES["sante urgence medicale"] = """🚑 URGENCE MÉDICALE
+Appelez immédiatement le 112."""
+
+CONNAISSANCES["sante qui contacter"] = """📞 SANTÉ QUI CONTACTER
+En cas de danger immédiat : 112
+Puis informez BEM-RUDN."""
+
+CONNAISSANCES["sante ne sais pas quoi faire"] = """❓ SANTÉ JE NE SAIS PAS
+Contactez BEM-RUDN pour
+être orienté rapidement."""
+
+# ==================== POLICE / SÉCURITÉ (30 Q&R) ====================
+CONNAISSANCES["police arrete"] = """👮 POLICE M'A ARRÊTÉ
+Restez calme, présentez vos documents
+et contactez BEM-RUDN."""
+
+CONNAISSANCES["police demande passeport"] = """👮 POLICE DEMANDE PASSEPORT
+Présentez votre passeport
+si vous l'avez avec vous."""
+
+CONNAISSANCES["police quels documents avoir"] = """📄 DOCUMENTS À AVOIR
+Passeport, visa, carte migratoire
+et enregistrement."""
+
+CONNAISSANCES["police documents oublies"] = """⚠️ DOCUMENTS OUBLIÉS
+Expliquez calmement la situation
+et contactez BEM-RUDN."""
+
+CONNAISSANCES["police verifier identite"] = """👮 VÉRIFIER IDENTITÉ
+Coopérez calmement et
+présentez vos documents."""
+
+CONNAISSANCES["police peur"] = """😰 PEUR DE LA POLICE
+Restez respectueux et
+gardez votre calme."""
+
+CONNAISSANCES["police filmer controle"] = """📵 FILMER CONTRÔLE
+Respectez les règles et
+évitez toute confrontation."""
+
+CONNAISSANCES["police pas russe"] = """🗣️ POLICE - PAS RUSSE
+Expliquez calmement et
+contactez BEM-RUDN."""
+
+CONNAISSANCES["police questions"] = """👮 POLICE POSE QUESTIONS
+Répondez calmement
+et honnêtement."""
+
+CONNAISSANCES["police temoin"] = """👮 TÉMOIN
+Contactez les autorités compétentes
+si nécessaire."""
+
+CONNAISSANCES["police passeport perdu"] = """🛂 PASSEPORT PERDU POLICE
+Contactez immédiatement BEM-RUDN
+et votre ambassade."""
+
+CONNAISSANCES["police visa expire"] = """⚠️ VISA EXPIRÉ POLICE
+Contactez rapidement BEM-RUDN
+et le service migration."""
+
+CONNAISSANCES["police carte migratoire perdue"] = """⚠️ CARTE MIGRATOIRE PERDUE
+Signalez-le rapidement
+à la police."""
+
+CONNAISSANCES["police documents retenus"] = """⚠️ DOCUMENTS RETENUS
+Demandez des explications
+et contactez BEM-RUDN."""
+
+CONNAISSANCES["police amende"] = """📋 AMENDE
+Vérifiez le motif et
+demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["police eviter problemes"] = """✅ ÉVITER PROBLÈMES
+Gardez toujours vos documents
+à jour et sur vous."""
+
+CONNAISSANCES["police controle metro"] = """🚇 CONTRÔLE MÉTRO
+Présentez votre titre de transport
+et vos documents si demandés."""
+
+CONNAISSANCES["police conflit"] = """⚠️ CONFLIT
+Évitez l'escalade et
+contactez BEM-RUDN."""
+
+CONNAISSANCES["police numero urgence"] = """📞 URGENCE
+112."""
+
+CONNAISSANCES["police numero"] = """👮 POLICE
+102."""
+
+CONNAISSANCES["police vol"] = """🚨 VOL
+Contactez immédiatement
+la police (102)."""
+
+CONNAISSANCES["police telephone vole"] = """📱 TÉLÉPHONE VOLÉ
+Bloquez votre SIM et
+informez la police."""
+
+CONNAISSANCES["police ordinateur vole"] = """💻 ORDINATEUR VOLÉ
+Déclarez le vol rapidement."""
+
+CONNAISSANCES["police objet trouve"] = """📦 OBJET TROUVÉ
+Remettez-le au service compétent."""
+
+CONNAISSANCES["police en danger"] = """🚨 EN DANGER
+Appelez immédiatement le 112."""
+
+CONNAISSANCES["police ami arrete"] = """⚠️ AMI ARRÊTÉ
+Contactez rapidement BEM-RUDN."""
+
+CONNAISSANCES["police interprete"] = """🗣️ INTERPRÈTE
+Contactez BEM-RUDN pour
+être orienté."""
+
+CONNAISSANCES["police qui contacter"] = """📞 QUI CONTACTER
+Contactez BEM-RUDN
+dès que possible."""
+
+CONNAISSANCES["police rester securite"] = """🔐 RESTER EN SÉCURITÉ
+Respectez les lois, gardez vos
+documents, évitez les risques."""
+
+CONNAISSANCES["police ne sais pas"] = """❓ JE NE SAIS PAS QUOI FAIRE
+Contactez immédiatement BEM-RUDN
+pour obtenir de l'aide."""
+
+# ==================== ÉTUDES / PRÉPA (30 Q&R) ====================
+CONNAISSANCES["prepa definition"] = """📚 ANNÉE PRÉPARATOIRE
+Année destinée à apprendre le russe
+avant l'entrée en faculté."""
+
+CONNAISSANCES["prepa suis"] = """📚 EN PRÉPA
+Assistez régulièrement aux cours et
+préparez-vous à intégrer une faculté."""
+
+CONNAISSANCES["prepa duree"] = """⏳ DURÉE PRÉPA
+Généralement une année universitaire."""
+
+CONNAISSANCES["prepa apprendre quoi"] = """📚 APPRENDRE EN PRÉPA
+Le russe et les matières liées
+à votre future spécialité."""
+
+CONNAISSANCES["prepa entrer faculte"] = """🎓 ENTRER EN FACULTÉ
+Oui, si vous remplissez
+les conditions d'admission."""
+
+CONNAISSANCES["prepa choisir faculte"] = """🏛️ CHOISIR FACULTÉ
+Selon votre diplôme, vos résultats
+et votre projet d'études."""
+
+CONNAISSANCES["prepa medecine"] = """🩺 MÉDECINE
+Contactez l'Institut de Médecine
+de la RUDN."""
+
+CONNAISSANCES["prepa informatique"] = """💻 INFORMATIQUE
+Renseignez-vous auprès de
+l'Académie d'Ingénierie."""
+
+CONNAISSANCES["prepa droit"] = """⚖️ DROIT
+Contactez la Faculté de Droit."""
+
+CONNAISSANCES["prepa economie"] = """💹 ÉCONOMIE
+Contactez la Faculté d'Économie."""
+
+CONNAISSANCES["etudes changer faculte"] = """🔄 CHANGER FACULTÉ
+Adressez une demande à
+votre faculté actuelle."""
+
+CONNAISSANCES["etudes changer specialite"] = """🔄 CHANGER SPÉCIALITÉ
+Oui, sous certaines conditions."""
+
+CONNAISSANCES["etudes examen rate"] = """📝 EXAMEN RATÉ
+Contactez immédiatement
+votre enseignant."""
+
+CONNAISSANCES["etudes rattrapage"] = """📝 RATTRAPAGE
+Une seconde chance pour
+valider une matière."""
+
+CONNAISSANCES["etudes mauvaise note"] = """📝 MAUVAISE NOTE
+Consultez votre enseignant pour
+connaître les possibilités."""
+
+CONNAISSANCES["etudes redoubler"] = """⚠️ RISQUE REDOUBLEMENT
+Contactez votre responsable
+pédagogique."""
+
+CONNAISSANCES["etudes attestation"] = """📋 ATTESTATION
+Au MFC ou auprès du
+service compétent."""
+
+CONNAISSANCES["etudes certificat scolarite"] = """📋 CERTIFICAT SCOLARITÉ
+Faites la demande au MFC."""
+
+CONNAISSANCES["etudes releve notes"] = """📋 RELEVÉ DE NOTES
+Adressez-vous à votre faculté."""
+
+CONNAISSANCES["etudes contacter enseignant"] = """👨‍🏫 CONTACTER ENSEIGNANT
+Utilisez les coordonnées fournies
+par votre faculté."""
+
+CONNAISSANCES["etudes absent"] = """⚠️ ABSENT
+Prévenez votre faculté rapidement."""
+
+CONNAISSANCES["etudes probleme academique"] = """⚠️ PROBLÈME ACADÉMIQUE
+Contactez votre faculté
+et BEM-RUDN."""
+
+CONNAISSANCES["etudes master condition"] = """🎓 MASTER
+Vous devez avoir une
+licence reconnue."""
+
+CONNAISSANCES["etudes doctorat condition"] = """🎓 DOCTORAT
+Vous devez avoir un
+master reconnu."""
+
+CONNAISSANCES["etudes francais"] = """🗣️ ÉTUDIER EN FRANÇAIS
+La plupart des programmes sont
+en russe ou en anglais."""
+
+CONNAISSANCES["etudes anglais"] = """🗣️ ÉTUDIER EN ANGLAIS
+Certains programmes sont
+disponibles en anglais."""
+
+CONNAISSANCES["etudes comprends pas"] = """❓ NE COMPRENDS PAS COURS
+Demandez de l'aide à vos
+enseignants ou camarades."""
+
+CONNAISSANCES["prepa reussir"] = """✅ RÉUSSIR PRÉPA
+Assister aux cours et pratiquer
+le russe chaque jour."""
+
+CONNAISSANCES["etudes probleme qui contacter"] = """📞 PROBLÈME ÉTUDES
+Contactez d'abord BEM-RUDN."""
+
+CONNAISSANCES["etudes perdu"] = """❓ PERDU ÉTUDES
+Contactez BEM-RUDN,
+nous vous orienterons."""
+
+# ==================== BOURSE (30 Q&R) ====================
+CONNAISSANCES["bourse obtenir"] = """💰 OBTENIR BOURSE
+Vérifiez les programmes disponibles
+et les conditions de candidature."""
+
+CONNAISSANCES["bourse russe definition"] = """🇷🇺 BOURSE RUSSE
+Aide accordée par le gouvernement
+russe ou une institution."""
+
+CONNAISSANCES["bourse rudn possible"] = """🏆 BOURSE RUDN
+Certaines bourses sont disponibles
+selon résultats et programmes."""
+
+CONNAISSANCES["bourse ou postuler"] = """📍 OÙ POSTULER BOURSE
+Consultez les plateformes
+officielles de candidature."""
+
+CONNAISSANCES["bourse contractuel"] = """💰 CONTRACTUEL BOURSE
+Certaines aides peuvent être
+accessibles selon votre situation."""
+
+CONNAISSANCES["bourse boursier"] = """✅ BOURSIER
+Respectez les conditions de
+votre programme de bourse."""
+
+CONNAISSANCES["bourse montant"] = """💵 MONTANT BOURSE
+Le montant dépend du
+programme concerné."""
+
+CONNAISSANCES["bourse versement mensuel"] = """📅 VERSEMENT BOURSE
+Cela dépend du règlement
+du programme."""
+
+CONNAISSANCES["bourse perdre"] = """⚠️ PERDRE BOURSE
+Oui, en cas de non-respect
+des conditions académiques."""
+
+CONNAISSANCES["bourse notes importance"] = """📝 NOTES ET BOURSE
+Oui, elles influencent souvent
+le maintien de la bourse."""
+
+CONNAISSANCES["bourse mauvaises notes"] = """⚠️ MAUVAISES NOTES BOURSE
+Travaillez à améliorer
+vos résultats rapidement."""
+
+CONNAISSANCES["bourse aide financiere"] = """💰 AIDE FINANCIÈRE
+Contactez votre faculté
+et BEM-RUDN."""
+
+CONNAISSANCES["bourse aide urgence"] = """🚨 AIDE URGENCE BOURSE
+Certaines aides exceptionnelles
+peuvent exister."""
+
+CONNAISSANCES["bourse difficulte financiere"] = """⚠️ DIFFICULTÉ FINANCIÈRE
+Contactez rapidement BEM-RUDN."""
+
+CONNAISSANCES["bourse et travail"] = """💼 BOURSE ET TRAVAIL
+Vérifiez les règles applicables
+à votre situation."""
+
+CONNAISSANCES["bourse renouveler"] = """🔄 RENOUVELER BOURSE
+Respectez les procédures
+et les délais demandés."""
+
+CONNAISSANCES["bourse prepa"] = """📚 BOURSE PRÉPA
+Renseignez-vous sur les
+aides disponibles."""
+
+CONNAISSANCES["bourse licence"] = """🎓 BOURSE LICENCE
+Consultez votre faculté
+pour les opportunités."""
+
+CONNAISSANCES["bourse master"] = """🎓 BOURSE MASTER
+Des programmes spécifiques
+peuvent exister."""
+
+CONNAISSANCES["bourse doctorant"] = """🎓 BOURSE DOCTORANT
+Des financements de recherche
+peuvent être disponibles."""
+
+CONNAISSANCES["bourse plusieurs aides"] = """💰 PLUSIEURS AIDES
+Cela dépend des règlements
+des programmes."""
+
+CONNAISSANCES["bourse date limite ratee"] = """⚠️ DATE LIMITE RATÉE
+Contactez rapidement le
+service concerné."""
+
+CONNAISSANCES["bourse quels documents"] = """📄 DOCUMENTS BOURSE
+Passeport, documents universitaires
+et formulaires."""
+
+CONNAISSANCES["bourse qui decide"] = """🏛️ QUI DÉCIDE BOURSE
+Les organismes ou institutions
+responsables."""
+
+CONNAISSANCES["bourse suivre candidature"] = """📋 SUIVRE CANDIDATURE
+Vérifiez les informations
+communiquées par le programme."""
+
+CONNAISSANCES["bourse refus"] = """⚠️ BOURSE REFUSÉE
+Demandez les raisons et
+explorez d'autres options."""
+
+CONNAISSANCES["bourse qui peut aider"] = """📞 AIDE BOURSE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["bourse ne comprends pas"] = """❓ DÉMARCHES BOURSE
+BEM-RUDN peut vous orienter."""
+
+CONNAISSANCES["bourse aide urgente"] = """🚨 AIDE URGENTE BOURSE
+Contactez rapidement BEM-RUDN."""
+
+CONNAISSANCES["bourse premiere chose"] = """🎯 PREMIÈRE CHOSE BOURSE
+Se renseigner tôt sur les
+programmes disponibles."""
+
+# ==================== TRAVAIL (30 Q&R) ====================
+CONNAISSANCES["travail possible"] = """💼 TRAVAILLER EN RUSSIE
+Vérifiez toujours les règles applicables
+à votre statut d'étudiant."""
+
+CONNAISSANCES["travail chercher"] = """💼 CHERCHER TRAVAIL
+Contactez BEM-RUDN et renseignez-vous
+auprès des étudiants expérimentés."""
+
+CONNAISSANCES["travail quel"] = """💼 QUEL TRAVAIL
+Cela dépend de vos compétences
+et des règles en vigueur."""
+
+CONNAISSANCES["travail prepa"] = """📚 TRAVAIL EN PRÉPA
+Vérifiez les conditions applicables
+à votre situation."""
+
+CONNAISSANCES["travail licence"] = """🎓 TRAVAIL EN LICENCE
+Vérifiez les conditions applicables
+à votre situation."""
+
+CONNAISSANCES["travail master"] = """🎓 TRAVAIL EN MASTER
+Vérifiez les conditions applicables
+à votre situation."""
+
+CONNAISSANCES["travail doctorat"] = """🎓 TRAVAIL EN DOCTORAT
+Vérifiez les conditions applicables
+à votre situation."""
+
+CONNAISSANCES["travail comment trouver"] = """💼 TROUVER EMPLOI
+Consultez les offres légales et
+demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["travail francais"] = """🗣️ TRAVAIL FRANÇAIS
+Les cours particuliers peuvent
+être une option."""
+
+CONNAISSANCES["travail anglais"] = """🗣️ TRAVAIL ANGLAIS
+Opportunités dans l'enseignement
+et les services."""
+
+CONNAISSANCES["travail russe"] = """🗣️ TRAVAIL RUSSE
+Cela augmente vos possibilités
+d'emploi."""
+
+CONNAISSANCES["travail cours particuliers"] = """📚 COURS PARTICULIERS
+Oui, selon les règles applicables."""
+
+CONNAISSANCES["travail babysitting"] = """👶 BABYSITTING
+Oui, selon les règles applicables."""
+
+CONNAISSANCES["travail livraison"] = """🛵 LIVRAISON
+Vérifiez les conditions légales
+avant de commencer."""
+
+CONNAISSANCES["travail combien gagner"] = """💵 SALAIRE ÉTUDIANT
+Cela dépend du travail et du
+nombre d'heures effectuées."""
+
+CONNAISSANCES["travail employeur passeport"] = """⚠️ EMPLOYEUR DEMANDE PASSEPORT
+Ne laissez jamais votre passeport
+sans nécessité."""
+
+CONNAISSANCES["travail employeur garde documents"] = """⚠️ EMPLOYEUR GARDE DOCUMENTS
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["travail pas paye"] = """⚠️ PAS PAYÉ
+Conservez toutes les preuves
+et demandez conseil."""
+
+CONNAISSANCES["travail arnaque"] = """⚠️ ARNAQUE TRAVAIL
+Arrêtez immédiatement les paiements
+et contactez BEM-RUDN."""
+
+CONNAISSANCES["travail sans contrat"] = """⚠️ TRAVAIL SANS CONTRAT
+Informez-vous toujours sur les
+risques avant d'accepter."""
+
+CONNAISSANCES["travail weekend"] = """📅 TRAVAIL WEEK-END
+Vérifiez que cela n'affecte
+pas vos études."""
+
+CONNAISSANCES["travail temps plein"] = """⏰ TRAVAIL TEMPS PLEIN
+Vérifiez les règles liées à
+votre statut étudiant."""
+
+CONNAISSANCES["travail etudes priorite"] = """🎓 ÉTUDES OU TRAVAIL
+Les études doivent rester
+la priorité."""
+
+CONNAISSANCES["travail cours rates"] = """⚠️ COURS RATÉS TRAVAIL
+Réorganisez votre emploi
+du temps rapidement."""
+
+CONNAISSANCES["travail employeur injuste"] = """⚠️ EMPLOYEUR INJUSTE
+Conservez les preuves et
+demandez conseil."""
+
+CONNAISSANCES["travail emploi urgent"] = """🚨 EMPLOI URGENT
+Contactez d'abord BEM-RUDN."""
+
+CONNAISSANCES["travail campus"] = """🏫 TRAVAIL CAMPUS
+Certaines opportunités
+peuvent exister."""
+
+CONNAISSANCES["travail eviter arnaques"] = """⚠️ ÉVITER ARNAQUES
+Ne payez jamais pour
+obtenir un emploi."""
+
+CONNAISSANCES["travail probleme qui contacter"] = """📞 PROBLÈME TRAVAIL
+Contactez toujours BEM-RUDN."""
+
+CONNAISSANCES["travail ne sais pas"] = """❓ TRAVAIL JE NE SAIS PAS
+Contactez BEM-RUDN pour
+être orienté."""
+
+# ==================== TRANSPORT (30 Q&R) ====================
+CONNAISSANCES["transport se deplacer"] = """🚇 SE DÉPLACER MOSCOU
+Métro, bus et carte Troïka.
+Stations RUDN : Belyaevo, Yugo-Zapadnaya."""
+
+CONNAISSANCES["transport troika definition"] = """💳 TROÏKA
+Carte de transport de Moscou.
+Valable métro, bus, tramway."""
+
+CONNAISSANCES["transport troika acheter"] = """💳 ACHETER TROÏKA
+Dans les stations de métro."""
+
+CONNAISSANCES["transport troika cout"] = """💰 COÛT TROÏKA
+Vérifiez les tarifs actuels
+aux guichets du métro."""
+
+CONNAISSANCES["transport troika recharger"] = """💳 RECHARGER TROÏKA
+Aux bornes, guichets ou
+applications compatibles."""
+
+CONNAISSANCES["transport troika bus"] = """🚌 TROÏKA DANS BUS
+Oui, sur la plupart des
+transports publics de Moscou."""
+
+CONNAISSANCES["transport troika tramway"] = """🚊 TROÏKA DANS TRAMWAY
+Oui."""
+
+CONNAISSANCES["transport troika metro"] = """🚇 TROÏKA DANS MÉTRO
+Oui."""
+
+CONNAISSANCES["transport station rudn"] = """🚇 STATION RUDN
+Belyaevo et Yugo-Zapadnaya."""
+
+CONNAISSANCES["transport aller rudn"] = """🚇 ALLER À RUDN
+Métro puis marche ou bus
+selon votre position."""
+
+CONNAISSANCES["transport quel metro"] = """🚇 QUEL MÉTRO
+Selon votre destination.
+Utilisez Yandex Maps."""
+
+CONNAISSANCES["transport metro sur"] = """🚇 MÉTRO SÛR
+Oui, mais restez vigilant
+comme partout."""
+
+CONNAISSANCES["transport metro ouvre"] = """🕠 MÉTRO OUVRE
+En général vers 5h30."""
+
+CONNAISSANCES["transport metro ferme"] = """🕐 MÉTRO FERME
+En général vers 1h00."""
+
+CONNAISSANCES["transport troika perdue"] = """⚠️ TROÏKA PERDUE
+Achetez-en une nouvelle
+et protégez votre solde."""
+
+CONNAISSANCES["transport payer carte bancaire"] = """💳 PAYER CARTE BANCAIRE
+Oui dans de nombreuses stations."""
+
+CONNAISSANCES["transport plan metro"] = """🗺️ PLAN MÉTRO
+Utilisez Yandex Maps ou
+les plans affichés."""
+
+CONNAISSANCES["transport bus rudn"] = """🚌 BUS RUDN
+Vérifiez les applications
+de transport locales."""
+
+CONNAISSANCES["transport yandex maps"] = """🗺️ YANDEX MAPS
+Entrez votre destination pour
+obtenir l'itinéraire."""
+
+CONNAISSANCES["transport perdu metro"] = """😰 PERDU MÉTRO
+Demandez de l'aide ou
+contactez BEM-RUDN."""
+
+CONNAISSANCES["transport arret rate"] = """🚇 ARRÊT RATÉ
+Descendez à la station suivante
+et revenez."""
+
+CONNAISSANCES["transport sans ticket"] = """⚠️ VOYAGER SANS TICKET
+Non, vous devez avoir
+un titre valide."""
+
+CONNAISSANCES["transport amende"] = """⚠️ AMENDE TRANSPORT
+Vérifiez le motif et
+conservez les documents."""
+
+CONNAISSANCES["transport controleur"] = """👮 CONTRÔLEUR
+Présentez votre titre
+de transport."""
+
+CONNAISSANCES["transport eviter amendes"] = """✅ ÉVITER AMENDES
+Validez toujours votre trajet."""
+
+CONNAISSANCES["transport taxi"] = """🚖 TAXI
+Oui, Yandex Go est
+souvent utilisé."""
+
+CONNAISSANCES["transport quel taxi"] = """🚖 QUEL TAXI
+Utilisez les applications
+officielles (Yandex Go)."""
+
+CONNAISSANCES["transport taxi carte"] = """💳 TAXI CARTE
+Oui dans la plupart des cas."""
+
+CONNAISSANCES["transport aller aeroport"] = """✈️ ALLER AÉROPORT
+Métro, Aeroexpress ou taxi."""
+
+CONNAISSANCES["transport ne comprends pas"] = """❓ TRANSPORT INCOMPRIS
+Contactez BEM-RUDN pour
+être orienté."""
+
+# ==================== MOSQUÉE / HALAL / RELIGION (30 Q&R) ====================
+CONNAISSANCES["mosquee trouver"] = """🕌 TROUVER MOSQUÉE
+Plusieurs mosquées à Moscou.
+Demandez conseil à BEM-RUDN."""
+
+CONNAISSANCES["mosquee connue"] = """🕌 MOSQUÉE CONNUE
+Mosquée Cathédrale de Moscou
+(Prospekt Mira)."""
+
+CONNAISSANCES["mosquee pres rudn"] = """🕌 MOSQUÉE PRÈS RUDN
+Oui, plusieurs lieux de prière
+accessibles depuis le campus."""
+
+CONNAISSANCES["mosquee prier ou"] = """🕌 OÙ PRIER
+À la mosquée ou dans les
+espaces autorisés."""
+
+CONNAISSANCES["mosquee nouveau moscou"] = """🆕 NOUVEAU MOSCOU
+Contactez BEM-RUDN pour les lieux
+de prière fréquentés par les étudiants."""
+
+CONNAISSANCES["halal viande acheter"] = """🥩 VIANDE HALAL
+Boucheries halal et marchés
+de Moscou. Marché Danilovsky."""
+
+CONNAISSANCES["halal restaurants"] = """🍽️ RESTAURANTS HALAL
+Oui, plusieurs autour du campus
+et dans Moscou."""
+
+CONNAISSANCES["halal manger ou"] = """🍽️ OÙ MANGER HALAL
+Demandez recommandations aux
+étudiants et à BEM-RUDN."""
+
+CONNAISSANCES["restaurant africain"] = """🌍 RESTAURANT AFRICAIN
+Plusieurs restaurants africains
+existent à Moscou."""
+
+CONNAISSANCES["nourriture malienne"] = """🇲🇱 NOURRITURE MALIENNE
+Demandez aux étudiants maliens
+et à BEM-RUDN."""
+
+CONNAISSANCES["ramadan moscou"] = """🌙 RAMADAN MOSCOU
+Communauté musulmane active.
+Iftars organisés dans les mosquées."""
+
+CONNAISSANCES["ramadan iftar"] = """🌙 IFTARS
+Oui, organisés dans les mosquées
+et par les étudiants."""
+
+CONNAISSANCES["aid ou faire"] = """🕌 AÏD
+Les grandes mosquées organisent
+les prières de l'Aïd."""
+
+CONNAISSANCES["ramadan seul"] = """🌙 RAMADAN SEUL
+Contactez BEM-RUDN ou les
+étudiants de la communauté."""
+
+CONNAISSANCES["ramadan jeune etudes"] = """🌙 JEÛNER PENDANT ÉTUDES
+Oui, en veillant à votre santé
+et à votre organisation."""
+
+CONNAISSANCES["ramadan malade"] = """🏥 MALADE RAMADAN
+Consultez un médecin
+si nécessaire."""
+
+CONNAISSANCES["halal produits acheter"] = """🛒 PRODUITS HALAL
+Marchés, boucheries et
+magasins spécialisés."""
+
+CONNAISSANCES["communaute musulmane"] = """🕌 COMMUNAUTÉ MUSULMANE
+Contactez les étudiants musulmans
+et BEM-RUDN."""
+
+CONNAISSANCES["musulmans rudn"] = """🕌 MUSULMANS RUDN
+Oui, ils sont nombreux
+sur le campus."""
+
+CONNAISSANCES["salle priere"] = """🕌 SALLE PRIÈRE
+Demandez les informations à
+BEM-RUDN."""
+
+CONNAISSANCES["coran acheter"] = """📖 ACHETER CORAN
+Librairies religieuses
+et mosquées."""
+
+CONNAISSANCES["islam moscou"] = """🕌 ISLAM MOSCOU
+Contactez les mosquées et
+associations étudiantes."""
+
+CONNAISSANCES["horaires priere"] = """🕌 HORAIRES PRIÈRE
+Utilisez une application mobile
+ou consultez les mosquées."""
+
+CONNAISSANCES["religion pratiquer"] = """🕌 PRATIQUER RELIGION
+Respectez les lois locales et
+les règlements universitaires."""
+
+CONNAISSANCES["amis musulmans"] = """🕌 AMIS MUSULMANS
+Contactez les associations
+étudiantes et BEM-RUDN."""
+
+CONNAISSANCES["mosquee perdu"] = """❓ PERDU MOSQUÉE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["mosquee qui contacter"] = """📞 QUI CONTACTER
+Contactez BEM-RUDN pour
+être orienté."""
+
+CONNAISSANCES["mosquee aide"] = """🆘 AIDE
+BEM-RUDN est là pour
+vous aider."""
+
+CONNAISSANCES["mosquee arrivee"] = """🆕 ARRIVÉE
+BEM-RUDN peut vous présenter
+à la communauté étudiante."""
+
+CONNAISSANCES["mosquee infos fiables"] = """📞 INFOS FIABLES
+BEM-RUDN, université et
+mosquées reconnues."""
+
+# ==================== COURSES / VIE QUOTIDIENNE (30 Q&R) ====================
+CONNAISSANCES["courses ou faire"] = """🛒 FAIRE COURSES
+Supermarchés proches du campus :
+Perekrestok, Pyaterochka, Magnit, Auchan."""
+
+CONNAISSANCES["courses supermarche"] = """🛒 SUPERMARCHÉ
+Perekrestok, Pyaterochka, Magnit,
+Auchan ou Spar."""
+
+CONNAISSANCES["courses nourriture"] = """🛒 ACHETER NOURRITURE
+Supermarchés et marchés de Moscou."""
+
+CONNAISSANCES["courses riz"] = """🍚 ACHETER RIZ
+Supermarchés ou magasins africains."""
+
+CONNAISSANCES["courses produits africains"] = """🌍 PRODUITS AFRICAINS
+Demandez aux étudiants africains
+ou à BEM-RUDN."""
+
+CONNAISSANCES["vetements acheter"] = """👕 ACHETER VÊTEMENTS
+Centres commerciaux ou
+magasins spécialisés."""
+
+CONNAISSANCES["manteau hiver acheter"] = """🧥 MANTEAU HIVER
+Centres commerciaux avant l'hiver."""
+
+CONNAISSANCES["vetements hiver quand"] = """❄️ VÊTEMENTS HIVER
+Dès l'automne."""
+
+CONNAISSANCES["manteau quel"] = """🧥 QUEL MANTEAU
+Un manteau adapté aux
+températures négatives."""
+
+CONNAISSANCES["bottes hiver"] = """👢 BOTTES HIVER
+Oui, pour l'hiver."""
+
+CONNAISSANCES["gants hiver"] = """🧤 GANTS HIVER
+Oui, fortement recommandés."""
+
+CONNAISSANCES["bonnet hiver"] = """🧢 BONNET HIVER
+Oui, surtout en hiver."""
+
+CONNAISSANCES["telephone acheter"] = """📱 ACHETER TÉLÉPHONE
+Magasins d'électronique officiels."""
+
+CONNAISSANCES["ordinateur acheter"] = """💻 ACHETER ORDINATEUR
+Magasins spécialisés."""
+
+CONNAISSANCES["telephone reparer"] = """🔧 RÉPARER TÉLÉPHONE
+Centres de réparation agréés."""
+
+CONNAISSANCES["imprimer document"] = """🖨️ IMPRIMER DOCUMENT
+Centres d'impression ou
+près des facultés."""
+
+CONNAISSANCES["photocopies faire"] = """📄 PHOTOCOPIES
+Centres d'impression."""
+
+CONNAISSANCES["photos identite"] = """📸 PHOTOS IDENTITÉ
+Studios photo ou
+centres commerciaux."""
+
+CONNAISSANCES["valise acheter"] = """🧳 ACHETER VALISE
+Centres commerciaux."""
+
+CONNAISSANCES["fournitures scolaires"] = """📚 FOURNITURES SCOLAIRES
+Librairies et magasins spécialisés."""
+
+CONNAISSANCES["colis recevoir"] = """📦 RECEVOIR COLIS
+Points relais ou services
+de livraison."""
+
+CONNAISSANCES["colis suivre"] = """📦 SUIVRE COLIS
+Avec le numéro de suivi."""
+
+CONNAISSANCES["colis recuperer"] = """📦 RÉCUPÉRER COLIS
+Au point relais indiqué."""
+
+CONNAISSANCES["commander en ligne"] = """🛍️ COMMANDER EN LIGNE
+Plateformes de commerce en ligne
+(Ozon, Wildberries)."""
+
+CONNAISSANCES["carte bancaire magasin"] = """💳 CARTE BANCAIRE MAGASIN
+Oui, dans la plupart des magasins."""
+
+CONNAISSANCES["changer argent"] = """💱 CHANGER ARGENT
+Dans les banques autorisées."""
+
+CONNAISSANCES["wifi trouver"] = """📶 TROUVER WI-FI
+Université, dortoirs et
+certains lieux publics."""
+
+CONNAISSANCES["survivre hiver"] = """❄️ SURVIVRE HIVER
+Achetez vêtements adaptés
+et évitez le froid prolongé."""
+
+CONNAISSANCES["arrivee conseils pratiques"] = """🆕 ARRIVÉE CONSEILS
+Contactez BEM-RUDN pour
+des conseils pratiques."""
+
+CONNAISSANCES["perdu orientation"] = """❓ PERDU
+Contactez BEM-RUDN,
+nous vous orienterons."""
+
+# ==================== URGENCES (30 Q&R) ====================
+CONNAISSANCES["urgence urgence"] = """🚨 URGENCE
+Contactez immédiatement BEM-RUDN
+puis les secours si nécessaire.
+📞 +79912435421"""
+
+CONNAISSANCES["urgence aide"] = """🆘 AIDE
+Expliquez votre problème.
+BEM-RUDN vous orientera.
+📞 +79912435421"""
+
+CONNAISSANCES["urgence danger"] = """🚨 EN DANGER
+Appelez immédiatement le 112."""
+
+CONNAISSANCES["urgence malade"] = """🏥 MALADE
+Contactez le centre médical
+et BEM-RUDN."""
+
+CONNAISSANCES["urgence hospitalise"] = """🏥 HOSPITALISÉ
+Prévenez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["urgence ami hospitalise"] = """🏥 AMI HOSPITALISÉ
+Prévenez BEM-RUDN rapidement."""
+
+CONNAISSANCES["urgence accident"] = """🚑 ACCIDENT
+Appelez le 112 ou le 103."""
+
+CONNAISSANCES["urgence saigne"] = """🩸 SAIGNE
+Appelez immédiatement les secours (112)."""
+
+CONNAISSANCES["urgence pas respirer"] = """😤 PEUX PAS RESPIRER
+Appelez immédiatement le 112."""
+
+CONNAISSANCES["urgence perte connaissance"] = """💤 PERTE CONNAISSANCE
+Les témoins doivent appeler le 112."""
+
+CONNAISSANCES["urgence passeport perdu"] = """🛂 PASSEPORT PERDU
+Contactez BEM-RUDN, la police
+et votre ambassade."""
+
+CONNAISSANCES["urgence visa perdu"] = """🛂 VISA PERDU
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["urgence carte migratoire perdue"] = """⚠️ CARTE MIGRATOIRE PERDUE
+Contactez rapidement le service migration."""
+
+CONNAISSANCES["urgence telephone vole"] = """📱 TÉLÉPHONE VOLÉ
+Bloquez la SIM et contactez la police."""
+
+CONNAISSANCES["urgence ordinateur vole"] = """💻 ORDINATEUR VOLÉ
+Déclarez le vol et prévenez BEM-RUDN."""
+
+CONNAISSANCES["urgence agression"] = """🚨 AGRESSÉ
+Contactez immédiatement la police (102)
+et BEM-RUDN."""
+
+CONNAISSANCES["urgence bloque aeroport"] = """🛬 BLOQUÉ AÉROPORT
+Contactez BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["urgence perdu moscou"] = """🗺️ PERDU MOSCOU
+Contactez BEM-RUDN et
+partagez votre position."""
+
+CONNAISSANCES["urgence plus argent"] = """💰 PLUS D'ARGENT
+Contactez BEM-RUDN rapidement."""
+
+CONNAISSANCES["urgence plus logement"] = """🏠 PLUS DE LOGEMENT
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["urgence incendie"] = """🔥 INCENDIE
+Appelez le 101 ou le 112."""
+
+CONNAISSANCES["urgence voir incendie"] = """🔥 VOIR INCENDIE
+Évacuez la zone et
+appelez les secours."""
+
+CONNAISSANCES["urgence police arrete"] = """👮 POLICE ARRÊTE
+Restez calme et contactez BEM-RUDN."""
+
+CONNAISSANCES["urgence commissariat"] = """👮 AU COMMISSARIAT
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["urgence menace"] = """🚨 MENACÉ
+Appelez le 112."""
+
+CONNAISSANCES["urgence tous documents perdus"] = """⚠️ TOUS DOCUMENTS PERDUS
+Contactez BEM-RUDN immédiatement."""
+
+CONNAISSANCES["urgence visa expire aujourdhui"] = """🚨 VISA EXPIRE AUJOURD'HUI
+Contactez BEM-RUDN et
+le service migration."""
+
+CONNAISSANCES["urgence ne sais pas"] = """❓ NE SAIS PAS QUOI FAIRE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["urgence seul"] = """😔 SEUL
+Contactez BEM-RUDN ou
+un membre du bureau."""
+
+CONNAISSANCES["urgence qui contacter"] = """📞 QUI CONTACTER URGENCE
+Toujours BEM-RUDN en premier.
+📞 +79912435421"""
+
+# ==================== CONTACTS / BUREAU / RÈGLES (40 Q&R) ====================
+CONNAISSANCES["bem contact premier"] = """📞 QUI CONTACTER EN PREMIER
+Toujours BEM-RUDN en premier.
+📞 +79912435421"""
+
+CONNAISSANCES["bem probleme visa"] = """🛂 PROBLÈME VISA
+Contactez BEM-RUDN puis
+le service migration."""
+
+CONNAISSANCES["bem probleme dortoir"] = """🏠 PROBLÈME DORTOIR
+Contactez BEM-RUDN puis
+l'administration du dortoir."""
+
+CONNAISSANCES["bem probleme etudes"] = """🎓 PROBLÈME ÉTUDES
+Contactez BEM-RUDN puis
+votre faculté."""
+
+CONNAISSANCES["bem probleme financier"] = """💰 PROBLÈME FINANCIER
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["bem malade"] = """🏥 MALADE
+Contactez le centre médical
+et BEM-RUDN."""
+
+CONNAISSANCES["bem hopital"] = """🏥 HÔPITAL
+Prévenez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["bem passeport perdu"] = """🛂 PASSEPORT PERDU
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["bem visa perdu"] = """🛂 VISA PERDU
+Contactez immédiatement BEM-RUDN."""
+
+CONNAISSANCES["bem carte migratoire perdue"] = """⚠️ CARTE MIGRATOIRE PERDUE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["president qui"] = """👑 PRÉSIDENT
+Keita Dade — Président BEM-RUDN."""
+
+CONNAISSANCES["president numero"] = """📞 PRÉSIDENT NUMÉRO
++79912697921"""
+
+CONNAISSANCES["vice president qui"] = """👑 VICE-PRÉSIDENT
+Sacko Lassine."""
+
+CONNAISSANCES["vice president numero"] = """📞 VICE-PRÉSIDENT NUMÉRO
++79912435421"""
+
+CONNAISSANCES["vice president telegram"] = """📲 VICE-PRÉSIDENT TELEGRAM
+@Lassine223"""
+
+CONNAISSANCES["administration qui"] = """📋 ADMINISTRATION
+Dembelé Modibo."""
+
+CONNAISSANCES["administration adjoint"] = """📋 ADJOINT ADMINISTRATION
+Sangaré Ousmane."""
+
+CONNAISSANCES["organisation qui"] = """📅 ORGANISATION
+Traoré Astan B."""
+
+CONNAISSANCES["organisation adjointe"] = """📅 ADJOINTE ORGANISATION
+Doumbia Awa."""
+
+CONNAISSANCES["communication qui"] = """📢 COMMUNICATION
+Doumbia Coumba A."""
+
+CONNAISSANCES["communication adjointe"] = """📢 ADJOINTE COMMUNICATION
+Keita Fanta S."""
+
+CONNAISSANCES["finance qui"] = """💰 FINANCE
+Thiero Hadja M."""
+
+CONNAISSANCES["finance adjoint"] = """💰 ADJOINT FINANCE
+Djiguiba Ousmane."""
+
+CONNAISSANCES["culture qui"] = """🎭 CULTURE
+Diarra Moussa K."""
+
+CONNAISSANCES["culture adjoint"] = """🎭 ADJOINT CULTURE
+Touré Mohamed A."""
+
+CONNAISSANCES["education qui"] = """📚 ÉDUCATION
+Fané Abdoulaye."""
+
+CONNAISSANCES["education adjoint"] = """📚 ADJOINT ÉDUCATION
+Sidibé Habou."""
+
+CONNAISSANCES["sport qui"] = """⚽ SPORT
+Sangaré Issiaka."""
+
+CONNAISSANCES["sport adjoint"] = """⚽ ADJOINT SPORT
+Togola Boubacar A."""
+
+CONNAISSANCES["bem nouvel etudiant"] = """🆕 NOUVEL ÉTUDIANT
+Contactez BEM-RUDN pour
+être accompagné."""
+
+CONNAISSANCES["bem arrive demain"] = """🛬 ARRIVE DEMAIN
+Prévenez BEM-RUDN avant
+votre arrivée."""
+
+CONNAISSANCES["bem perdu"] = """❓ PERDU
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["bem ne sais pas"] = """❓ NE SAIS PAS QUOI FAIRE
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["bem aide urgente"] = """🚨 AIDE URGENTE
+Contactez immédiatement BEM-RUDN.
+📞 +79912435421"""
+
+CONNAISSANCES["bem qui contacter urgence"] = """📞 QUI CONTACTER URGENCE
+BEM-RUDN puis services
+d'urgence si nécessaire."""
+
+CONNAISSANCES["bem mission"] = """🎯 MISSION BEM
+Aider, orienter et accompagner les
+étudiants maliens de la RUDN."""
+
+CONNAISSANCES["bem pourquoi contacter"] = """❓ POURQUOI CONTACTER BEM
+Pour une aide rapide et être
+orienté vers le bon service."""
+
+CONNAISSANCES["bem peut aider"] = """✅ BEM PEUT AIDER
+Oui, dans la plupart des démarches
+étudiantes et urgences."""
+
+CONNAISSANCES["bem regle principale"] = """📌 RÈGLE PRINCIPALE
+En cas de problème, contactez
+toujours BEM-RUDN en premier."""
+
+CONNAISSANCES["bem comment contacter"] = """📞 COMMENT CONTACTER BEM
+Via les responsables du bureau
+ou le bot officiel @BEM_RUDN_bot."""
