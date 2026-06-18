@@ -1,5 +1,5 @@
 from telegram import Update
-from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
+from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters, CallbackQueryHandler
 from rapidfuzz import fuzz
 
 from config import BOT_TOKEN, MEMBRES_BUREAU, FUZZY_THRESHOLD
@@ -289,6 +289,10 @@ async def gerer_dispo(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"✅ {membre['nom']} — Disponible : {horaires}")
         return True
     if message == "dispo":
+        await menu_dispo(update, context)
+        return True
+    
+    if message == "dispo":
         result = fetchone("SELECT disponibilite, horaires FROM membres WHERE nom=?", (membre["nom"],))
         if result:
             etat, horaires = result
@@ -364,6 +368,7 @@ def main():
     app.add_handler(CommandHandler("panel", panel))
     app.add_handler(CommandHandler("broadcast", broadcast))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, texte))
+    app.add_handler(CallbackQueryHandler(handle_callback))
     print("✅ BEM-RUDN 2026-2027 en ligne !")
     app.run_polling()
 
@@ -456,3 +461,79 @@ async def notifier_membre_disponible(update, context, question):
         "📞 Contactez directement le Vice-Président :\n"
         "📞 +79912435421\n📲 @Lassine223"
     )
+
+# ==================== MENU DISPONIBILITÉS INTERACTIF ====================
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+
+JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+HEURES = ["Matin (8h-12h)", "Après-midi (12h-18h)", "Soir (18h-22h)", "Journée (8h-18h)"]
+
+async def menu_dispo(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Affiche le menu interactif des disponibilités"""
+    utilisateur = update.effective_user
+    membre = None
+    for tel, infos in MEMBRES_BUREAU.items():
+        if utilisateur.username and utilisateur.username.lower() == infos.get("telegram", "").lower().replace("@", ""):
+            membre = infos
+            break
+    
+    if not membre:
+        await update.message.reply_text("❌ Cette commande est réservée aux membres du bureau.")
+        return
+    
+    keyboard = []
+    for i in range(0, len(JOURS), 2):
+        row = [InlineKeyboardButton(JOURS[j], callback_data=f"jour_{JOURS[j]}") for j in range(i, min(i+2, len(JOURS)))]
+        keyboard.append(row)
+    
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await update.message.reply_text(
+        f"📅 {membre['nom']}, choisissez un jour de disponibilité :",
+        reply_markup=reply_markup
+    )
+
+
+async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Gère les clics sur les boutons"""
+    query = update.callback_query
+    await query.answer()
+    data = query.data
+    
+    if data.startswith("jour_"):
+        jour = data.replace("jour_", "")
+        context.user_data["jour_choisi"] = jour
+        
+        keyboard = []
+        for h in HEURES:
+            keyboard.append([InlineKeyboardButton(h, callback_data=f"heure_{h}")])
+        keyboard.append([InlineKeyboardButton("❌ Absent ce jour", callback_data="absent_jour")])
+        
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        await query.edit_message_text(
+            f"📅 Jour : {jour}\nChoisissez vos horaires :",
+            reply_markup=reply_markup
+        )
+    
+    elif data.startswith("heure_"):
+        heure = data.replace("heure_", "")
+        jour = context.user_data.get("jour_choisi", "")
+        utilisateur = query.from_user
+        
+        membre = None
+        for tel, infos in MEMBRES_BUREAU.items():
+            if utilisateur.username and utilisateur.username.lower() == infos.get("telegram", "").lower().replace("@", ""):
+                membre = infos
+                break
+        
+        if membre:
+            execute(
+                "UPDATE membres SET disponibilite='disponible', horaires=? WHERE nom=?",
+                (f"{jour} {heure}", membre["nom"])
+            )
+        
+        await query.edit_message_text(f"✅ Disponibilité enregistrée :\n📅 {jour}\n🕐 {heure}")
+    
+    elif data == "absent_jour":
+        jour = context.user_data.get("jour_choisi", "")
+        await query.edit_message_text(f"✅ Marqué absent le {jour}")
+
