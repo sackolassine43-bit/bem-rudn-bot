@@ -401,3 +401,47 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ==================== SIGNALER UNE ERREUR ====================
+async def signaler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if len(context.args) == 0:
+        await update.message.reply_text("Usage : /signaler description de l'erreur")
+        return
+    message = " ".join(context.args)
+    utilisateur = update.effective_user
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    execute(
+        "INSERT INTO signalements (user_id, message, date_creation) VALUES (?, ?, ?)",
+        (utilisateur.id, message, now)
+    )
+    await update.message.reply_text("✅ Signalement enregistré. Merci ! L'équipe BEM-RUDN va vérifier.")
+
+
+# ==================== RÉPONDRE À UN TICKET ====================
+async def repondre_ticket(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not est_admin(update):
+        return
+    if len(context.args) < 2:
+        await update.message.reply_text("Usage : /repondre numero_ticket message")
+        return
+    try:
+        ticket_id = int(context.args[0])
+        reponse = " ".join(context.args[1:])
+        ticket = fetchone("SELECT user_id, probleme FROM tickets WHERE id=?", (ticket_id,))
+        if not ticket:
+            await update.message.reply_text("Ticket introuvable.")
+            return
+        user_id, probleme = ticket
+        await context.bot.send_message(
+            chat_id=user_id,
+            text=f"📨 Réponse BEM-RUDN à votre question :\n\n{reponse}"
+        )
+        execute("UPDATE tickets SET statut='résolu' WHERE id=?", (ticket_id,))
+        await update.message.reply_text(f"✅ Réponse envoyée au ticket #{ticket_id}")
+    except:
+        await update.message.reply_text("Erreur. Usage : /repondre 5 votre message")
+
+
+# LIGNE À AJOUTER DANS main() AVANT app.run_polling():
+# app.add_handler(CommandHandler("signaler", signaler))
+# app.add_handler(CommandHandler("repondre", repondre_ticket))
