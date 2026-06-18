@@ -5223,3 +5223,76 @@ avant le départ."""
 CONNAISSANCES["sim conseil"] = """💡 CONSEIL SIM
 Gardez toujours Internet actif
 sur votre téléphone."""
+
+# ==================== BUDGET / ARGENT (20 Q&R) ====================
+CONNAISSANCES["cout vie moscou"] = """💰 COÛT VIE MOSCOU
+Cela dépend du mode de vie
+de chaque étudiant."""
+
+CONNAISSANCES["budget mensuel"] = """💰 BUDGET MENSUEL
+Préparez un budget pour :
+logement, nourriture, transport, téléphone."""
+
+CONNAISSANCES["economiser argent"] = """💰 ÉCONOMISER
+Planifiez vos dépenses et
+évitez les achats inutiles."""
+
+CONNAISSANCES["plus argent"] = """⚠️ PLUS ARGENT
+Contactez rapidement BEM-RUDN."""
+
+CONNAISSANCES["gerer budget"] = """💰 GÉRER BUDGET
+Notez vos dépenses chaque mois."""
+
+CONNAISSANCES["courses moins cheres"] = """🛒 COURSES MOINS CHÈRES
+Comparez les prix entre
+les supermarchés."""
+
+CONNAISSANCES["reduire transport"] = """🚇 RÉDUIRE TRANSPORT
+Utilisez la carte Troïka."""
+
+CONNAISSANCES["reduire internet"] = """📶 RÉDUIRE INTERNET
+Utilisez le Wi-Fi lorsque
+c'est possible."""
+
+CONNAISSANCES["plusieurs comptes"] = """💳 PLUSIEURS COMPTES
+Oui, selon les règles des banques."""
+
+CONNAISSANCES["argent liquide"] = """💵 ARGENT LIQUIDE
+Oui, une petite réserve
+peut être utile."""
+
+CONNAISSANCES["payer carte"] = """💳 PAYER CARTE
+Oui, dans la plupart
+des commerces."""
+
+CONNAISSANCES["perte carte"] = """⚠️ PERTE CARTE
+Bloquez-la immédiatement."""
+
+CONNAISSANCES["eviter depenses"] = """💰 ÉVITER DÉPENSES
+Faites un budget avant
+chaque mois."""
+
+CONNAISSANCES["envoyer argent mali"] = """💸 ENVOYER ARGENT MALI
+Vérifiez les solutions disponibles
+avant chaque transfert."""
+
+CONNAISSANCES["recevoir argent mali"] = """💸 RECEVOIR ARGENT MALI
+Vérifiez les solutions disponibles
+avant chaque transfert."""
+
+CONNAISSANCES["fonds urgence"] = """💰 FONDS URGENCE
+Oui, c'est fortement recommandé."""
+
+CONNAISSANCES["combien economiser"] = """💰 ÉCONOMISER
+Essayez de mettre de côté
+une partie de vos revenus."""
+
+CONNAISSANCES["acheter ordinateur"] = """💻 ACHETER ORDINATEUR
+Comparez les prix avant l'achat."""
+
+CONNAISSANCES["acheter telephone"] = """📱 ACHETER TÉLÉPHONE
+Vérifiez les promotions disponibles."""
+
+CONNAISSANCES["budget conseil"] = """💡 CONSEIL BUDGET
+Dépensez moins que ce
+que vous recevez."""
