@@ -4943,3 +4943,64 @@ déjà obtenu leur permis."""
 CONNAISSANCES["conduire conseil"] = """💡 CONSEIL CONDUITE
 Respectez toujours le code
 de la route."""
+
+# ==================== APRÈS ÉTUDES / INSTALLATION (15 Q&R) ====================
+CONNAISSANCES["rester russie apres"] = """🇷🇺 RESTER RUSSIE
+Vérifiez les options légales
+disponibles selon votre situation."""
+
+CONNAISSANCES["emploi apres diplome"] = """💼 EMPLOI APRÈS DIPLÔME
+Commencez les démarches
+avant la fin des études."""
+
+CONNAISSANCES["titre sejour apres"] = """📋 TITRE SÉJOUR
+Vérifiez les procédures applicables
+au moment de votre demande."""
+
+CONNAISSANCES["vivre russie apres"] = """🇷🇺 VIVRE RUSSIE APRÈS
+Oui, sous réserve de respecter
+les conditions légales."""
+
+CONNAISSANCES["creer entreprise russie"] = """🏢 CRÉER ENTREPRISE
+Informez-vous sur les
+démarches administratives."""
+
+CONNAISSANCES["installer definitivement"] = """🏠 INSTALLATION DÉFINITIVE
+Renseignez-vous sur les différentes
+possibilités de résidence."""
+
+CONNAISSANCES["faire venir famille"] = """👨‍👩‍👧‍👦 FAIRE VENIR FAMILLE
+Vérifiez les conditions
+administratives applicables."""
+
+CONNAISSANCES["etudes terminees"] = """🎓 ÉTUDES TERMINÉES
+Récupérez tous vos
+documents universitaires."""
+
+CONNAISSANCES["documents conserver apres"] = """📄 DOCUMENTS À CONSERVER
+Diplôme, relevés, attestations
+et documents migratoires."""
+
+CONNAISSANCES["apres qui conseiller"] = """📞 CONSEIL APRÈS ÉTUDES
+BEM-RUDN et les services
+compétents."""
+
+CONNAISSANCES["apres retourner mali"] = """🇲🇱 RETOURNER MALI
+Préparez votre projet professionnel
+et vos documents."""
+
+CONNAISSANCES["apres indecis"] = """❓ INDÉCIS
+Étudiez les avantages et
+contraintes de chaque option."""
+
+CONNAISSANCES["apres conseil"] = """💡 CONSEIL APRÈS
+Préparez votre avenir professionnel
+avant la fin des études."""
+
+CONNAISSANCES["apres ne sais pas"] = """❓ APRÈS ÉTUDES
+Contactez BEM-RUDN pour
+obtenir des conseils."""
+
+CONNAISSANCES["apres priorite"] = """🎯 PRIORITÉ APRÈS
+Régulariser votre situation
+administrative et professionnelle."""
