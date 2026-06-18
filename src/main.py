@@ -336,13 +336,8 @@ async def texte(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text(reponse)
             return
     
-    # 7. Assistance humaine
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    execute("INSERT INTO tickets (user_id, probleme, statut, date_creation) VALUES (?, ?, 'ouvert', ?)", (utilisateur.id, message, now))
-    await update.message.reply_text(
-        "❌ Je n'ai pas trouvé de réponse.\n\n📨 Votre question a été transmise au BEM-RUDN.\n"
-        "⏳ Un membre du bureau vous répondra.\n\n📞 Urgence : +79912435421\n📲 @Lassine223"
-    )
+    # 7. Assistance humaine → notifier membre disponible
+    await notifier_membre_disponible(update, context, message)
 
 
 def main():
@@ -403,3 +398,61 @@ async def notifier_membre_disponible(context, user_id, question):
     except:
         pass
     return False
+
+# ==================== NOTIFICATION MEMBRE DISPONIBLE ====================
+async def notifier_membre_disponible(update, context, question):
+    """Envoie la question au premier membre du bureau disponible"""
+    membres_dispos = fetchall(
+        "SELECT nom, telegram_id FROM membres WHERE disponibilite='disponible' LIMIT 1"
+    )
+    
+    if membres_dispos:
+        nom, telegram_id = membres_dispos[0]
+        if telegram_id:
+            try:
+                await context.bot.send_message(
+                    chat_id=telegram_id,
+                    text=f"📨 Question d'un étudiant :\n\n{question}\n\n📌 Répondre : /repondre"
+                )
+                await update.message.reply_text(
+                    "📨 Votre question a été transmise à un membre disponible du bureau.\n"
+                    "⏳ Vous recevrez une réponse bientôt."
+                )
+                return
+            except:
+                pass
+    
+    # Fallback : envoyer au VP
+    await update.message.reply_text(
+        "❌ Aucun membre du bureau n'est disponible actuellement.\n\n"
+        "📞 Contactez directement le Vice-Président :\n"
+        "📞 +79912435421\n📲 @Lassine223"
+    )
+
+# ==================== NOTIFICATION MEMBRE DISPONIBLE ====================
+async def notifier_membre_disponible(update, context, question):
+    membres_dispos = fetchall(
+        "SELECT nom, telegram_id FROM membres WHERE disponibilite='disponible' LIMIT 1"
+    )
+    
+    if membres_dispos:
+        nom, telegram_id = membres_dispos[0]
+        if telegram_id:
+            try:
+                await context.bot.send_message(
+                    chat_id=telegram_id,
+                    text=f"📨 Question d'un étudiant :\n\n{question}\n\n📌 Répondre : /repondre"
+                )
+                await update.message.reply_text(
+                    "📨 Votre question a été transmise à un membre disponible du bureau.\n"
+                    "⏳ Vous recevrez une réponse bientôt."
+                )
+                return
+            except:
+                pass
+    
+    await update.message.reply_text(
+        "❌ Aucun membre du bureau n'est disponible actuellement.\n\n"
+        "📞 Contactez directement le Vice-Président :\n"
+        "📞 +79912435421\n📲 @Lassine223"
+    )
