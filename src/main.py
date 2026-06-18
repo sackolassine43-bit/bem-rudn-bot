@@ -36,48 +36,54 @@ def fuzzy_search(query, connaissances, threshold=55):
     return None
 
 
+def chercher_contact(message):
+    """Cherche un membre du bureau par son nom - PRIORITÉ ABSOLUE"""
+    message_lower = message.lower()
+    
+    # 1. Correspondance exacte
+    for tel, infos in MEMBRES_BUREAU.items():
+        if infos["nom"].lower() in message_lower:
+            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
+    
+    # 2. Correspondance sans accents
+    message_clean = ''.join(c for c in unicodedata.normalize('NFD', message_lower) if unicodedata.category(c) != 'Mn')
+    for tel, infos in MEMBRES_BUREAU.items():
+        nom_clean = ''.join(c for c in unicodedata.normalize('NFD', infos["nom"].lower()) if unicodedata.category(c) != 'Mn')
+        if nom_clean in message_clean:
+            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
+    
+    # 3. Correspondance par prénom seul
+    for tel, infos in MEMBRES_BUREAU.items():
+        prenom = infos["nom"].split()[0].lower()
+        prenom_clean = ''.join(c for c in unicodedata.normalize('NFD', prenom) if unicodedata.category(c) != 'Mn')
+        if prenom_clean in message_clean:
+            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
+    
+    return None
+
+
 # ==================== COMMANDES ====================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     utilisateur = update.effective_user
-    execute(
-        "INSERT OR IGNORE INTO utilisateurs (telegram_id, nom, username, date_inscription) VALUES (?, ?, ?, datetime('now'))",
-        (utilisateur.id, utilisateur.full_name, utilisateur.username),
-    )
+    execute("INSERT OR IGNORE INTO utilisateurs (telegram_id, nom, username, date_inscription) VALUES (?, ?, ?, datetime('now'))", (utilisateur.id, utilisateur.full_name, utilisateur.username))
     await update.message.reply_text(
-        "🇲🇱 BEM-RUDN 2026-2027\n"
-        "Bureau des Étudiants Maliens de RUDN\n"
-        "Unité - Solidarité - Excellence\n\n"
+        "🇲🇱 BEM-RUDN 2026-2027\nBureau des Étudiants Maliens de RUDN\nUnité - Solidarité - Excellence\n\n"
         "👋 Bienvenue ! Je suis votre assistant.\n\n"
         "✍️ Écrivez simplement votre question :\n"
-        "• visa\n• dortoir\n• banque\n• SIM\n• admission\n"
-        "• aéroport\n• médical\n• contact...\n\n"
+        "• visa\n• dortoir\n• banque\n• SIM\n• admission\n• aéroport\n• médical\n• contact...\n\n"
         "📌 Commandes utiles :\n"
-        "/start - Accueil\n"
-        "/aide - Toutes les commandes\n"
-        "/parcours - Les 7 étapes\n"
-        "/dispo - Bureau disponible\n"
-        "/arrivee - Guide arrivant\n"
-        "/nouveau - Premier jour\n"
-        "/urgence - Numéros d'urgence\n\n"
-        "🇲🇱 Le Mali, une seule famille !"
+        "/start - Accueil\n/aide - Toutes les commandes\n/parcours - Les 7 étapes\n"
+        "/dispo - Bureau disponible\n/arrivee - Guide arrivant\n/nouveau - Premier jour\n"
+        "/urgence - Numéros d'urgence\n\n🇲🇱 Le Mali, une seule famille !"
     )
 
 
 async def aide(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "📌 COMMANDES ÉTUDIANTS\n"
-        "/start - Accueil\n"
-        "/aide - Cette liste\n"
-        "/parcours - Voir les 7 étapes\n"
-        "/dispo - Disponibilités bureau\n"
-        "/arrivee - Guide nouvel arrivant\n"
-        "/nouveau - Guide premier jour\n"
-        "/urgence - Contacts urgence\n"
-        "/membres - Liste du bureau\n"
-        "/documents - Documents par niveau\n"
-        "/faq - Tous les sujets\n"
-        "/recherche mot - Chercher\n"
-        "/signaler - Signaler une erreur"
+        "📌 COMMANDES ÉTUDIANTS\n/start - Accueil\n/aide - Cette liste\n/parcours - Voir les 7 étapes\n"
+        "/dispo - Disponibilités bureau\n/arrivee - Guide nouvel arrivant\n/nouveau - Guide premier jour\n"
+        "/urgence - Contacts urgence\n/membres - Liste du bureau\n/documents - Documents par niveau\n"
+        "/faq - Tous les sujets\n/recherche mot - Chercher\n/signaler - Signaler une erreur"
     )
 
 
@@ -108,7 +114,6 @@ async def parcours(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def etape_fait(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message = update.message.text.lower().strip()
     utilisateur = update.effective_user
-    
     if message.startswith("étape ") and "fait" in message:
         try:
             num = int(message.replace("étape ", "").replace(" fait", "").strip())
@@ -117,9 +122,7 @@ async def etape_fait(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 execute("UPDATE etudiants SET etape=?, date_modification=datetime('now') WHERE telegram_id=?", (num, utilisateur.id))
                 await update.message.reply_text(f"✅ Étape {num} validée : {get_etape(num)}")
                 return True
-        except:
-            pass
-    
+        except: pass
     if message.startswith("bloqué étape "):
         try:
             num = int(message.replace("bloqué étape ", "").strip())
@@ -127,51 +130,33 @@ async def etape_fait(update: Update, context: ContextTypes.DEFAULT_TYPE):
             execute("INSERT INTO tickets (user_id, probleme, statut, date_creation) VALUES (?, ?, 'bloqué', ?)", (utilisateur.id, f"Étudiant bloqué à l'étape {num}", now))
             await update.message.reply_text(f"🔴 ALERTE — Bloqué à l'étape {num}.\nUn responsable BEM-RUDN va vous contacter.\n📞 Urgence : +79912435421")
             return True
-        except:
-            pass
+        except: pass
     return None
 
 
 async def arriver_guide(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🛬 GUIDE NOUVEL ARRIVANT\n\n"
-        "1️⃣ Aéroport → Campus RUDN\n"
-        "   Aeroexpress + métro ou Yandex Go\n\n"
-        "2️⃣ Dortoir provisoire\n"
-        "   15 rue Miklukho-Maklaya, Bât.1, Salle 2\n\n"
-        "3️⃣ MFC RUDN (RdC, 9h-18h)\n"
-        "   Enregistrement migration\n\n"
-        "4️⃣ Centre médical\n"
-        "   10 rue Miklukho-Maklaya\n\n"
-        "5️⃣ Carte SIM + Banque\n\n"
-        "6️⃣ Carte étudiante\n\n"
-        "📞 Urgence : +79912435421\n"
-        "📲 @Lassine223"
+        "🛬 GUIDE NOUVEL ARRIVANT\n\n1️⃣ Aéroport → Campus RUDN\n   Aeroexpress + métro ou Yandex Go\n\n"
+        "2️⃣ Dortoir provisoire\n   15 rue Miklukho-Maklaya, Bât.1, Salle 2\n\n"
+        "3️⃣ MFC RUDN (RdC, 9h-18h)\n   Enregistrement migration\n\n"
+        "4️⃣ Centre médical\n   10 rue Miklukho-Maklaya\n\n5️⃣ Carte SIM + Banque\n\n6️⃣ Carte étudiante\n\n"
+        "📞 Urgence : +79912435421\n📲 @Lassine223"
     )
 
 
 async def nouveau_guide(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🆕 PREMIER JOUR À RUDN\n\n"
-        "1. Dortoir — Installer vos affaires\n"
-        "2. MFC — Enregistrement migration\n"
-        "3. SNILS — Au MFC (gratuit)\n"
-        "4. Gosuslugi — Créer compte\n"
-        "5. Biométrie — Banque agréée\n"
-        "6. SIM — MTS, Beeline, MegaFon\n"
-        "7. Banque — Sberbank, carte MIR\n"
-        "8. Carte étudiante — Bâtiment Principal\n\n"
+        "🆕 PREMIER JOUR À RUDN\n\n1. Dortoir — Installer vos affaires\n2. MFC — Enregistrement migration\n"
+        "3. SNILS — Au MFC (gratuit)\n4. Gosuslugi — Créer compte\n5. Biométrie — Banque agréée\n"
+        "6. SIM — MTS, Beeline, MegaFon\n7. Banque — Sberbank, carte MIR\n8. Carte étudiante — Bâtiment Principal\n\n"
         "📞 Besoin d'aide ? +79912435421"
     )
 
 
 async def urgence_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🚨 URGENCES\n\n"
-        "112 — Général\n103 — Ambulance\n102 — Police\n101 — Pompiers\n\n"
-        "🇲🇱 Ambassade Mali : +7 495 951 06 55\n"
-        "📞 BEM-RUDN : +79912435421\n"
-        "📲 @Lassine223"
+        "🚨 URGENCES\n\n112 — Général\n103 — Ambulance\n102 — Police\n101 — Pompiers\n\n"
+        "🇲🇱 Ambassade Mali : +7 495 951 06 55\n📞 BEM-RUDN : +79912435421\n📲 @Lassine223"
     )
 
 
@@ -180,12 +165,12 @@ async def signaler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Usage : /signaler description")
         return
     message = " ".join(context.args)
-    utilisateur = update.effective_user
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    execute("INSERT INTO signalements (user_id, message, date_creation) VALUES (?, ?, ?)", (utilisateur.id, message, now))
+    execute("INSERT INTO signalements (user_id, message, date_creation) VALUES (?, ?, ?)", (update.effective_user.id, message, now))
     await update.message.reply_text("✅ Signalement enregistré. Merci !")
 
 
+# ==================== ADMIN ====================
 async def historique(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not est_admin(update): return
     from admin import historique_admin
@@ -271,11 +256,11 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
         try:
             await context.bot.send_message(chat_id=u[0], text="📢 BEM-RUDN\n\n" + message)
             count += 1
-        except:
-            pass
+        except: pass
     await update.message.reply_text(f"Message envoyé à {count} utilisateurs.")
 
 
+# ==================== DISPONIBILITÉS ====================
 async def gerer_dispo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     utilisateur = update.effective_user
     message = update.message.text.lower().strip()
@@ -298,7 +283,7 @@ async def gerer_dispo(update: Update, context: ContextTypes.DEFAULT_TYPE):
         execute("UPDATE membres SET disponibilite='disponible', horaires='9h-18h' WHERE nom=?", (membre["nom"],))
         await update.message.reply_text(f"✅ {membre['nom']} — Disponible toute la journée")
         return True
-    if message.startswith("dispo "):
+    if message.startswith("dispo ") and not message.startswith("dispo journée"):
         horaires = message.replace("dispo ", "").strip()
         execute("UPDATE membres SET disponibilite='disponible', horaires=? WHERE nom=?", (horaires, membre["nom"]))
         await update.message.reply_text(f"✅ {membre['nom']} — Disponible : {horaires}")
@@ -312,59 +297,51 @@ async def gerer_dispo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return None
 
 
-def chercher_contact(message):
-    message = message.lower()
-    for tel, infos in MEMBRES_BUREAU.items():
-        if infos["nom"].lower() in message:
-            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
-    message_clean = ''.join(c for c in unicodedata.normalize('NFD', message) if unicodedata.category(c) != 'Mn')
-    for tel, infos in MEMBRES_BUREAU.items():
-        nom_clean = ''.join(c for c in unicodedata.normalize('NFD', infos["nom"].lower()) if unicodedata.category(c) != 'Mn')
-        if nom_clean in message_clean:
-            return f"👤 {infos['nom']} — {infos['poste']} {infos['pole']}\n📞 {tel}"
-    return None
-
-
+# ==================== MESSAGES TEXTE ====================
 async def texte(update: Update, context: ContextTypes.DEFAULT_TYPE):
     utilisateur = update.effective_user
     message = update.message.text
     enregistrer_message(utilisateur.id, utilisateur.full_name, message)
     
+    # 1. PRIORITÉ ABSOLUE : Disponibilité membre
     dispo_result = await gerer_dispo(update, context)
     if dispo_result: return
     
-    etape_result = await etape_fait(update, context)
-    if etape_result: return
-    
-    if est_urgence(message):
-        enregistrer_urgence(utilisateur.id, message)
-        await update.message.reply_text(message_urgence())
-        return
-    
+    # 2. PRIORITÉ ABSOLUE : Contact par nom
     contact = chercher_contact(message)
     if contact:
         await update.message.reply_text(contact)
         return
     
+    # 3. Étape fait/bloqué
+    etape_result = await etape_fait(update, context)
+    if etape_result: return
+    
+    # 4. Urgence
+    if est_urgence(message):
+        enregistrer_urgence(utilisateur.id, message)
+        await update.message.reply_text(message_urgence())
+        return
+    
+    # 5. Fuzzy search
     cle = fuzzy_search(message, CONNAISSANCES, 55)
     if cle:
         await update.message.reply_text(CONNAISSANCES[cle])
         return
     
+    # 6. Recherche exacte
     message_min = message.lower()
     for mot_cle, reponse in CONNAISSANCES.items():
         if mot_cle in message_min:
             await update.message.reply_text(reponse)
             return
     
+    # 7. Assistance humaine
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     execute("INSERT INTO tickets (user_id, probleme, statut, date_creation) VALUES (?, ?, 'ouvert', ?)", (utilisateur.id, message, now))
     await update.message.reply_text(
-        "❌ Je n'ai pas trouvé de réponse.\n\n"
-        "📨 Votre question a été transmise au BEM-RUDN.\n"
-        "⏳ Un membre du bureau vous répondra.\n\n"
-        "📞 Urgence : +79912435421\n"
-        "📲 @Lassine223"
+        "❌ Je n'ai pas trouvé de réponse.\n\n📨 Votre question a été transmise au BEM-RUDN.\n"
+        "⏳ Un membre du bureau vous répondra.\n\n📞 Urgence : +79912435421\n📲 @Lassine223"
     )
 
 
