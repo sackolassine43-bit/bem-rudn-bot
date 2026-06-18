@@ -4887,3 +4887,59 @@ compétents."""
 CONNAISSANCES["voyage conseil"] = """💡 CONSEIL VOYAGE
 Vérifiez toujours vos documents
 avant de voyager."""
+
+# ==================== PERMIS / CONDUITE (15 Q&R) ====================
+CONNAISSANCES["conduire russie"] = """🚗 CONDUIRE RUSSIE
+Oui, sous réserve de respecter
+la réglementation en vigueur."""
+
+CONNAISSANCES["permis malien russie"] = """🚗 PERMIS MALIEN
+Vérifiez sa validité pour
+votre situation en Russie."""
+
+CONNAISSANCES["permis etranger russie"] = """🚗 PERMIS ÉTRANGER
+Cela dépend de votre statut
+et des règles applicables."""
+
+CONNAISSANCES["permis russe obtenir"] = """🚗 PERMIS RUSSE
+Inscrivez-vous dans une
+auto-école agréée."""
+
+CONNAISSANCES["permis russe cout"] = """💰 COÛT PERMIS
+Le coût varie selon l'auto-école."""
+
+CONNAISSANCES["permis russe duree"] = """⏳ DURÉE FORMATION
+Cela dépend du programme choisi."""
+
+CONNAISSANCES["permis russe examen"] = """📝 EXAMEN PERMIS
+Oui, examen théorique et pratique
+généralement requis."""
+
+CONNAISSANCES["permis russe examen langue"] = """🗣️ EXAMEN PERMIS RUSSE
+Vérifiez les options disponibles
+dans votre région."""
+
+CONNAISSANCES["acheter voiture russie"] = """🚗 ACHETER VOITURE
+Oui, si vous respectez les
+formalités nécessaires."""
+
+CONNAISSANCES["louer voiture russie"] = """🚗 LOUER VOITURE
+Oui, avec les documents requis."""
+
+CONNAISSANCES["amende routiere"] = """⚠️ AMENDE ROUTIÈRE
+Vérifiez le motif et respectez
+les délais de paiement."""
+
+CONNAISSANCES["permis perdu"] = """⚠️ PERMIS PERDU
+Contactez les autorités compétentes."""
+
+CONNAISSANCES["apprendre conduire"] = """🚗 APPRENDRE CONDUIRE
+Inscrivez-vous dans une auto-école."""
+
+CONNAISSANCES["conduire qui conseiller"] = """📞 CONSEIL CONDUITE
+BEM-RUDN ou étudiants ayant
+déjà obtenu leur permis."""
+
+CONNAISSANCES["conduire conseil"] = """💡 CONSEIL CONDUITE
+Respectez toujours le code
+de la route."""
