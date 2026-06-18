@@ -4735,3 +4735,78 @@ Contactez immédiatement BEM-RUDN."""
 CONNAISSANCES["arnaque regle num 1"] = """📌 RÈGLE ARNAQUE N°1
 Ne jamais envoyer d'argent
 sans vérification."""
+
+# ==================== LOGEMENT HORS DORTOIR (20 Q&R) ====================
+CONNAISSANCES["quitter dortoir"] = """🏠 QUITTER DORTOIR
+Oui, mais informez les
+services concernés."""
+
+CONNAISSANCES["louer appartement"] = """🏠 LOUER APPARTEMENT
+Oui, avec un contrat légal."""
+
+CONNAISSANCES["trouver appartement"] = """🔍 TROUVER APPARTEMENT
+Plateformes fiables et
+recommandations."""
+
+CONNAISSANCES["appartement cout moscou"] = """💰 COÛT APPARTEMENT MOSCOU
+Le prix dépend du quartier
+et du logement."""
+
+CONNAISSANCES["vivre avec amis"] = """👥 VIVRE AVEC AMIS
+Oui, selon les conditions
+du propriétaire."""
+
+CONNAISSANCES["colocation"] = """🏠 COLOCATION
+Oui, c'est fréquent chez
+les étudiants."""
+
+CONNAISSANCES["appartement documents"] = """📄 DOCUMENTS APPARTEMENT
+Passeport, visa et parfois
+preuve de revenus."""
+
+CONNAISSANCES["appartement contrat"] = """📄 CONTRAT APPARTEMENT
+Oui, toujours signer un contrat."""
+
+CONNAISSANCES["appartement sans contrat"] = """⚠️ SANS CONTRAT
+Non, c'est déconseillé."""
+
+CONNAISSANCES["appartement avance"] = """⚠️ AVANCE APPARTEMENT
+Vérifiez le logement
+avant tout paiement."""
+
+CONNAISSANCES["appartement eviter arnaques"] = """🏠 ÉVITER ARNAQUES APPARTEMENT
+Ne payez jamais sans avoir
+visité le logement."""
+
+CONNAISSANCES["appartement enregistrer adresse"] = """📍 ENREGISTRER ADRESSE
+Oui, selon les règles migratoires."""
+
+CONNAISSANCES["appartement changer adresse"] = """📍 CHANGER ADRESSE
+Informez rapidement les
+services concernés."""
+
+CONNAISSANCES["appartement loin rudn"] = """🏠 LOIN RUDN
+Oui, mais vérifiez les
+temps de trajet."""
+
+CONNAISSANCES["appartement quel quartier"] = """📍 QUEL QUARTIER
+Selon votre budget et
+vos besoins."""
+
+CONNAISSANCES["appartement seul"] = """🏠 VIVRE SEUL
+Cherchez un studio ou
+appartement individuel."""
+
+CONNAISSANCES["appartement probleme proprietaire"] = """⚠️ PROBLÈME PROPRIÉTAIRE
+Conservez les preuves et
+demandez conseil."""
+
+CONNAISSANCES["appartement augmentation loyer"] = """⚠️ AUGMENTATION LOYER
+Vérifiez votre contrat."""
+
+CONNAISSANCES["appartement contrat perdu"] = """⚠️ CONTRAT PERDU
+Demandez une copie
+au propriétaire."""
+
+CONNAISSANCES["appartement qui aider"] = """📞 AIDE APPARTEMENT
+BEM-RUDN peut vous orienter."""
