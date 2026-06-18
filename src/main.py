@@ -375,3 +375,31 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ==================== NOTIFICATION MEMBRE DISPONIBLE ====================
+async def notifier_membre_disponible(context, user_id, question):
+    """Envoie la question à un membre du bureau disponible"""
+    membres_dispos = fetchall(
+        "SELECT nom, telephone, telegram_id FROM membres WHERE disponibilite='disponible' LIMIT 1"
+    )
+    
+    if membres_dispos:
+        nom, tel, telegram_id = membres_dispos[0]
+        try:
+            await context.bot.send_message(
+                chat_id=telegram_id or user_id,
+                text=f"📨 Nouvelle question d'un étudiant :\n\n{question}\n\n/répondre à cet étudiant"
+            )
+            return True
+        except:
+            pass
+    
+    # Si personne dispo → envoyer au VP
+    try:
+        await context.bot.send_message(
+            chat_id=user_id,
+            text=f"📨 Question sans réponse (aucun membre disponible) :\n\n{question}"
+        )
+    except:
+        pass
+    return False
