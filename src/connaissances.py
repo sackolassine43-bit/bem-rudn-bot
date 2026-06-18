@@ -3876,3 +3876,78 @@ Contactez BEM-RUDN."""
 CONNAISSANCES["mfc premiere regle"] = """📌 MFC RÈGLE
 Conservez toujours des copies
 de vos documents."""
+
+# ==================== COMMUNAUTÉ / BÉNÉVOLAT (20 Q&R) ====================
+CONNAISSANCES["rencontrer etudiants"] = """👥 RENCONTRER ÉTUDIANTS
+Participez aux activités du BEM-RUDN
+et aux événements universitaires."""
+
+CONNAISSANCES["nouveau connait personne"] = """🆕 NOUVEAU SEUL
+Contactez BEM-RUDN, nous vous
+aiderons à vous intégrer."""
+
+CONNAISSANCES["evenements nouveaux"] = """🎉 ÉVÉNEMENTS NOUVEAUX
+Oui, plusieurs activités d'accueil
+organisées chaque année."""
+
+CONNAISSANCES["rejoindre groupes"] = """👥 REJOINDRE GROUPES
+Demandez les liens officiels
+à BEM-RUDN."""
+
+CONNAISSANCES["cherche maliens"] = """🇲🇱 CHERCHE MALIENS
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["cherche africains"] = """🌍 CHERCHE AFRICAINS
+Participez aux activités des
+associations étudiantes."""
+
+CONNAISSANCES["activites culturelles"] = """🎭 ACTIVITÉS CULTURELLES
+Suivez les annonces du BEM-RUDN."""
+
+CONNAISSANCES["aime sport"] = """⚽ AIME SPORT
+Contactez le responsable Sport :
+Sangaré Issiaka."""
+
+CONNAISSANCES["aime culture"] = """🎭 AIME CULTURE
+Contactez le responsable Culture :
+Diarra Moussa K."""
+
+CONNAISSANCES["aime organisation"] = """📅 AIME ORGANISATION
+Contactez le responsable Organisation :
+Traoré Astan B."""
+
+CONNAISSANCES["devenir benevole"] = """🤝 BÉNÉVOLE
+Oui, contactez BEM-RUDN."""
+
+CONNAISSANCES["rejoindre bureau"] = """👥 REJOINDRE BUREAU
+Oui, selon les procédures
+de l'association."""
+
+CONNAISSANCES["informe evenements"] = """📢 INFOS ÉVÉNEMENTS
+Consultez les groupes Telegram
+et annonces officielles."""
+
+CONNAISSANCES["tournois sportifs"] = """⚽ TOURNOIS SPORTIFS
+Oui, selon le calendrier
+universitaire."""
+
+CONNAISSANCES["soirees culturelles"] = """🎉 SOIRÉES CULTURELLES
+Oui, plusieurs activités organisées
+durant l'année."""
+
+CONNAISSANCES["proposer projet"] = """💡 PROPOSER PROJET
+Présentez votre idée
+au BEM-RUDN."""
+
+CONNAISSANCES["devenir representant"] = """👥 DEVENIR REPRÉSENTANT
+Renseignez-vous auprès du bureau."""
+
+CONNAISSANCES["aider nouveaux"] = """🤝 AIDER NOUVEAUX
+Contactez BEM-RUDN."""
+
+CONNAISSANCES["idee activite"] = """💡 IDÉE ACTIVITÉ
+Présentez-la au bureau."""
+
+CONNAISSANCES["role bem"] = """🎯 RÔLE BEM-RUDN
+Représenter, accompagner et soutenir
+les étudiants maliens."""
