@@ -1085,3 +1085,7 @@ CONNAISSANCES["budget"] = """💵 BUDGET ÉTUDIANT
 Prévoyez les dépenses pour :
 Logement, Transport, Téléphone
 Alimentation, Documents administratifs"""
+CONNAISSANCES["conseil argent"] = """📌 CONSEIL BEM-RUDN
+Ne payez jamais une personne inconnue.
+Ne partagez jamais vos codes bancaires.
+En cas de doute, contactez le bureau."""
