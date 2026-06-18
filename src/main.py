@@ -278,12 +278,33 @@ async def notifier_membre_disponible(update: Update, context, question):
     membres_dispos = fetchall("SELECT nom, username FROM membres WHERE disponibilite='disponible' LIMIT 1")
     if membres_dispos:
         nom, username = membres_dispos[0]
-        if username:
+        # Essayer via username Telegram
+        if username and username.startswith("@"):
             try:
-                await context.bot.send_message(chat_id=username, text=f"📨 Question :\n\n{question}\n\n📌 /repondre")
-                await update.message.reply_text(f"📨 Transmis à {nom}. Patientez.")
+                await context.bot.send_message(
+                    chat_id=username,
+                    text=f"📨 Question d'un étudiant :\n\n{question}\n\n📌 Répondre : /repondre"
+                )
+                await update.message.reply_text(
+                    f"📨 Votre question a été transmise à {nom} (membre disponible).\n⏳ Patientez."
+                )
                 return
-            except: pass
+            except:
+                pass
+    
+    # Fallback : envoyer au VP
+    try:
+        await context.bot.send_message(
+            chat_id="@Lassine223",
+            text=f"📨 Question sans réponse :\n\n{question}\n\n(Aucun membre joignable)"
+        )
+        await update.message.reply_text(
+            "📨 Question transmise au Vice-Président.\n⏳ Patientez.\n\n📞 +79912435421"
+        )
+        return
+    except:
+        pass
+    
     await update.message.reply_text("❌ Aucun membre disponible.\n📞 +79912435421")
 
 
